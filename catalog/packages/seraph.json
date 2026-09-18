@@ -1,0 +1,81 @@
+{
+  "manifestVersion": 1,
+  "id": "seraph",
+  "slug": "seraph",
+  "type": "weave-mod",
+  "name": "Seraph",
+  "summary": "An upstream-discontinued Hypixel statistics mod for Weave.",
+  "description": "An upstream-discontinued Hypixel statistics mod for Weave.",
+  "authors": [
+    {
+      "name": "exejar",
+      "url": "https://github.com/exejar"
+    }
+  ],
+  "source": {
+    "repository": "https://github.com/exejar/Seraph",
+    "archived": false,
+    "license": null,
+    "licenseUrl": null,
+    "latestCommit": {
+      "sha": "38a398c96ea24e93a945d5745c43d62d3e828e04",
+      "date": "2023-06-29T21:58:38-04:00"
+    },
+    "automaticRedistributionPermitted": "unknown",
+    "notes": ""
+  },
+  "localizations": {
+    "en": {
+      "name": "Seraph",
+      "summary": "An upstream-discontinued Hypixel statistics mod for Weave.",
+      "description": "An upstream-discontinued Hypixel statistics mod for Weave.",
+      "warnings": [
+        "No clear upstream license was found. Moonrise does not redistribute this binary."
+      ],
+      "changelog": ""
+    },
+    "ru": {
+      "name": "Seraph",
+      "summary": "Прекращённый автором мод статистики Hypixel для Weave.",
+      "description": "Прекращённый автором мод статистики Hypixel для Weave.",
+      "warnings": [
+        "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл."
+      ],
+      "changelog": ""
+    }
+  },
+  "supportedMinecraftVersions": [],
+  "supportedClientVersions": [],
+  "compatibilityNotes": "Upstream identifies Weave and Hypixel but does not declare Minecraft or loader versions.",
+  "riskLevel": "experimental",
+  "installPolicy": "source-only",
+  "restricted": false,
+  "featured": false,
+  "recommended": false,
+  "distribution": {
+    "mode": "source-only",
+    "url": "https://github.com/exejar/Seraph",
+    "reason": ""
+  },
+  "releases": [],
+  "warnings": [
+    {
+      "code": "missing-license",
+      "en": "No clear upstream license was found. Moonrise does not redistribute this binary.",
+      "ru": "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл."
+    }
+  ],
+  "inspection": {
+    "manifestType": "weave.mod.json",
+    "entryPoints": [
+      "club.maxstats.seraph.Main"
+    ],
+    "observedFileName": null,
+    "observedSha256": null,
+    "observedSize": null,
+    "notes": ""
+  },
+  "todos": [
+    "No upstream release asset exists; keep source-only until the author publishes one and clarifies licensing."
+  ]
+}

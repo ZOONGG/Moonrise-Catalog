@@ -1,0 +1,81 @@
+{
+  "manifestVersion": 1,
+  "id": "level-head-improved",
+  "slug": "level-head-improved",
+  "type": "java-agent",
+  "name": "LevelHeadImproved",
+  "summary": "A Java agent committed in Lunar Client Qt; no separate public source project was found.",
+  "description": "A Java agent committed in Lunar Client Qt; no separate public source project was found.",
+  "authors": [
+    {
+      "name": "Youded-byte",
+      "url": "https://github.com/Youded-byte"
+    }
+  ],
+  "source": {
+    "repository": "https://github.com/Youded-byte/lunar-client-qt",
+    "archived": false,
+    "license": null,
+    "licenseUrl": null,
+    "latestCommit": {
+      "sha": "8a5a8f9a12a9d620301cf0428154ef8551e0650b",
+      "date": "2024-02-27T21:47:12+02:00"
+    },
+    "automaticRedistributionPermitted": "unknown",
+    "notes": ""
+  },
+  "localizations": {
+    "en": {
+      "name": "LevelHeadImproved",
+      "summary": "A Java agent committed in Lunar Client Qt; no separate public source project was found.",
+      "description": "A Java agent committed in Lunar Client Qt; no separate public source project was found.",
+      "warnings": [
+        "No clear upstream license was found. Moonrise does not redistribute this binary."
+      ],
+      "changelog": ""
+    },
+    "ru": {
+      "name": "LevelHeadImproved",
+      "summary": "Java-агент, добавленный в Lunar Client Qt; отдельный публичный исходный проект не найден.",
+      "description": "Java-агент, добавленный в Lunar Client Qt; отдельный публичный исходный проект не найден.",
+      "warnings": [
+        "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл."
+      ],
+      "changelog": ""
+    }
+  },
+  "supportedMinecraftVersions": [],
+  "supportedClientVersions": [],
+  "compatibilityNotes": "Bundled by Lunar Client Qt; no independent compatibility statement was found.",
+  "riskLevel": "unknown",
+  "installPolicy": "external-download",
+  "restricted": false,
+  "featured": false,
+  "recommended": false,
+  "distribution": {
+    "mode": "external-page",
+    "url": "https://github.com/Youded-byte/lunar-client-qt/blob/master/java/agents/LevelHeadImproved.jar",
+    "reason": ""
+  },
+  "releases": [],
+  "warnings": [
+    {
+      "code": "missing-license",
+      "en": "No clear upstream license was found. Moonrise does not redistribute this binary.",
+      "ru": "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл."
+    }
+  ],
+  "inspection": {
+    "manifestType": "java-agent",
+    "entryPoints": [
+      "me.youded.levelheadimproved.Agent"
+    ],
+    "observedFileName": "LevelHeadImproved.jar",
+    "observedSha256": "8e47c38456313ebe83ce6e046a9f5a2f1dc64d552c89335644b6731716208926",
+    "observedSize": 4427,
+    "notes": ""
+  },
+  "todos": [
+    "Identify the corresponding source repository and an explicit component license before enabling automatic installation."
+  ]
+}

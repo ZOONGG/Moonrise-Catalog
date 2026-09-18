@@ -1,0 +1,98 @@
+{
+  "manifestVersion": 1,
+  "id": "atw-levelhead",
+  "slug": "atw-levelhead",
+  "type": "weave-mod",
+  "name": "ATW LevelHead",
+  "summary": "Adds Hypixel LevelHead tags, BedWars tab statistics, chat lookups, and a threat overview.",
+  "description": "Adds Hypixel LevelHead tags, BedWars tab statistics, chat lookups, and a threat overview.",
+  "authors": [
+    {
+      "name": "alextyhwang",
+      "url": "https://github.com/alextyhwang"
+    }
+  ],
+  "source": {
+    "repository": "https://github.com/alextyhwang/ATWs-Levelhead",
+    "archived": false,
+    "license": null,
+    "licenseUrl": null,
+    "latestCommit": {
+      "sha": "6647d2b2664578c5dc292819c50c712340f92366",
+      "date": "2026-06-18T18:15:19-04:00"
+    },
+    "automaticRedistributionPermitted": "unknown",
+    "notes": ""
+  },
+  "localizations": {
+    "en": {
+      "name": "ATW LevelHead",
+      "summary": "Adds Hypixel LevelHead tags, BedWars tab statistics, chat lookups, and a threat overview.",
+      "description": "Adds Hypixel LevelHead tags, BedWars tab statistics, chat lookups, and a threat overview.",
+      "warnings": [
+        "No clear upstream license was found. Moonrise does not redistribute this binary."
+      ],
+      "changelog": "Upstream release."
+    },
+    "ru": {
+      "name": "ATW LevelHead",
+      "summary": "Добавляет теги Hypixel LevelHead, статистику BedWars в tab, запросы из чата и обзор угроз.",
+      "description": "Добавляет теги Hypixel LevelHead, статистику BedWars в tab, запросы из чата и обзор угроз.",
+      "warnings": [
+        "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл."
+      ],
+      "changelog": "Релиз вышестоящего проекта."
+    }
+  },
+  "supportedMinecraftVersions": [
+    "1.8.9"
+  ],
+  "supportedClientVersions": [
+    "Lunar Client"
+  ],
+  "compatibilityNotes": "README explicitly states Lunar Client Minecraft 1.8.9.",
+  "riskLevel": "server-dependent",
+  "installPolicy": "external-download",
+  "restricted": false,
+  "featured": false,
+  "recommended": false,
+  "distribution": {
+    "mode": "external-page",
+    "url": "https://github.com/alextyhwang/ATWs-Levelhead/releases/tag/0.2.2",
+    "reason": ""
+  },
+  "releases": [
+    {
+      "version": "0.2.2",
+      "publishedAt": "2026-06-18T22:15:47Z",
+      "changelog": {
+        "en": "Upstream release.",
+        "ru": "Релиз вышестоящего проекта."
+      },
+      "asset": {
+        "url": "https://github.com/alextyhwang/ATWs-Levelhead/releases/download/0.2.2/ATWLevelHead-0.2.2.jar",
+        "fileName": "ATWLevelHead-0.2.2.jar",
+        "fileSize": 86316,
+        "sha256": "8e17f5b15fcde9ba4b7fabb1496dd0a32ae51c761d83dd809733f0bd669abda9"
+      }
+    }
+  ],
+  "warnings": [
+    {
+      "code": "missing-license",
+      "en": "No clear upstream license was found. Moonrise does not redistribute this binary.",
+      "ru": "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл."
+    }
+  ],
+  "inspection": {
+    "manifestType": "weave.mod.json",
+    "entryPoints": [
+      "com.atw.levelhead.ATWLevelHead"
+    ],
+    "observedFileName": null,
+    "observedSha256": null,
+    "observedSize": null,
+    "notes": ""
+  },
+  "todos": []
+}

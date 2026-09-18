@@ -1,0 +1,86 @@
+{
+  "manifestVersion": 1,
+  "id": "weave-slow-mining",
+  "slug": "weave-slow-mining",
+  "type": "weave-mod",
+  "name": "WeaveSlowMining",
+  "summary": "Lets the user slow or configure the mining and swing animation.",
+  "description": "Lets the user slow or configure the mining and swing animation.",
+  "authors": [
+    {
+      "name": "Tryflle",
+      "url": "https://github.com/Tryflle"
+    }
+  ],
+  "source": {
+    "repository": "https://github.com/Tryflle/WeaveSlowMining",
+    "archived": false,
+    "license": "GPL-3.0-only",
+    "licenseUrl": "https://github.com/Tryflle/WeaveSlowMining/blob/main/LICENSE",
+    "latestCommit": {
+      "sha": "c5386dff829599a80a31415b99abfd15d1506bda",
+      "date": "2023-07-30T13:58:22-04:00"
+    },
+    "automaticRedistributionPermitted": true,
+    "notes": ""
+  },
+  "localizations": {
+    "en": {
+      "name": "WeaveSlowMining",
+      "summary": "Lets the user slow or configure the mining and swing animation.",
+      "description": "Lets the user slow or configure the mining and swing animation.",
+      "warnings": [],
+      "changelog": "Upstream release."
+    },
+    "ru": {
+      "name": "WeaveSlowMining",
+      "summary": "Позволяет замедлять или настраивать анимацию добычи и взмаха.",
+      "description": "Позволяет замедлять или настраивать анимацию добычи и взмаха.",
+      "warnings": [],
+      "changelog": "Релиз вышестоящего проекта."
+    }
+  },
+  "supportedMinecraftVersions": [
+    "1.8.9"
+  ],
+  "supportedClientVersions": [],
+  "compatibilityNotes": "The project uses the Weave 1.8.9 development configuration.",
+  "riskLevel": "normal",
+  "installPolicy": "one-click",
+  "restricted": false,
+  "featured": false,
+  "recommended": false,
+  "distribution": {
+    "mode": "github-release",
+    "url": "https://github.com/Tryflle/WeaveSlowMining/releases",
+    "reason": ""
+  },
+  "releases": [
+    {
+      "version": "2.0",
+      "publishedAt": "2023-07-30T17:55:36Z",
+      "changelog": {
+        "en": "Upstream release.",
+        "ru": "Релиз вышестоящего проекта."
+      },
+      "asset": {
+        "url": "https://github.com/Tryflle/WeaveSlowMining/releases/download/2.0/WeaveSlowMining-2.0.jar",
+        "fileName": "WeaveSlowMining-2.0.jar",
+        "fileSize": 5101,
+        "sha256": "4a639da4b3a464483871f6e40c1ab0aa3125ad4b1f9f0f09e4f121de995ee4e9"
+      }
+    }
+  ],
+  "warnings": [],
+  "inspection": {
+    "manifestType": "weave.mod.json",
+    "entryPoints": [
+      "me.tryfle.miningspeed.Main"
+    ],
+    "observedFileName": null,
+    "observedSha256": null,
+    "observedSize": null,
+    "notes": ""
+  },
+  "todos": []
+}

@@ -1,0 +1,96 @@
+{
+  "manifestVersion": 1,
+  "id": "level-head-nicks",
+  "slug": "level-head-nicks",
+  "type": "java-agent",
+  "name": "LevelHeadNicks",
+  "summary": "Sets the displayed LevelHead level for nicked players from an agent option.",
+  "description": "Sets the displayed LevelHead level for nicked players from an agent option.",
+  "authors": [
+    {
+      "name": "Nilsen84",
+      "url": "https://github.com/Nilsen84"
+    }
+  ],
+  "source": {
+    "repository": "https://github.com/Nilsen84/lunar-client-agents",
+    "archived": false,
+    "license": "GPL-3.0-only",
+    "licenseUrl": "https://github.com/Nilsen84/lunar-client-agents/blob/master/LICENSE",
+    "latestCommit": {
+      "sha": "9169a0dd9959cb41f21ebd6ede3b26e3c6fd16ce",
+      "date": "2022-07-20T19:44:24+02:00"
+    },
+    "automaticRedistributionPermitted": true,
+    "notes": ""
+  },
+  "localizations": {
+    "en": {
+      "name": "LevelHeadNicks",
+      "summary": "Sets the displayed LevelHead level for nicked players from an agent option.",
+      "description": "Sets the displayed LevelHead level for nicked players from an agent option.",
+      "warnings": [
+        "This changes displayed player information and may conflict with server or network rules."
+      ],
+      "changelog": "Release v1.2.0."
+    },
+    "ru": {
+      "name": "LevelHeadNicks",
+      "summary": "Задаёт отображаемый уровень LevelHead для игроков с ником через параметр агента.",
+      "description": "Задаёт отображаемый уровень LevelHead для игроков с ником через параметр агента.",
+      "warnings": [
+        "Пакет изменяет отображаемую информацию об игроках и может противоречить правилам сервера или сети."
+      ],
+      "changelog": "Релиз v1.2.0."
+    }
+  },
+  "supportedMinecraftVersions": [],
+  "supportedClientVersions": [
+    "Lunar Client"
+  ],
+  "compatibilityNotes": "Designed for Lunar Client via a Java premain agent; the upstream repository does not declare a stable Lunar build range.",
+  "riskLevel": "server-dependent",
+  "installPolicy": "confirmation-required",
+  "restricted": false,
+  "featured": false,
+  "recommended": false,
+  "distribution": {
+    "mode": "github-release",
+    "url": "https://github.com/Nilsen84/lunar-client-agents/releases",
+    "reason": ""
+  },
+  "releases": [
+    {
+      "version": "1.2.0",
+      "publishedAt": "2022-07-20T17:45:58Z",
+      "changelog": {
+        "en": "Release v1.2.0.",
+        "ru": "Релиз v1.2.0."
+      },
+      "asset": {
+        "url": "https://github.com/Nilsen84/lunar-client-agents/releases/download/v1.2.0/LevelHeadNicks.jar",
+        "fileName": "LevelHeadNicks.jar",
+        "fileSize": 178778,
+        "sha256": "b5f185ac2aaf876e9291be671e2b8066d8187d3c9f2b1f65df79ffc73035a195"
+      }
+    }
+  ],
+  "warnings": [
+    {
+      "code": "display-modification",
+      "en": "This changes displayed player information and may conflict with server or network rules.",
+      "ru": "Пакет изменяет отображаемую информацию об игроках и может противоречить правилам сервера или сети."
+    }
+  ],
+  "inspection": {
+    "manifestType": "java-agent",
+    "entryPoints": [
+      "me.onils.levelheadnicks.Agent"
+    ],
+    "observedFileName": null,
+    "observedSha256": null,
+    "observedSize": null,
+    "notes": ""
+  },
+  "todos": []
+}

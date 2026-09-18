@@ -1,0 +1,107 @@
+{
+  "manifestVersion": 1,
+  "id": "unrestricted",
+  "slug": "unrestricted",
+  "type": "weave-mod",
+  "name": "Unrestricted",
+  "summary": "Re-enables restricted Lunar features, staff mods, texture packs, and reach/polling displays.",
+  "description": "Re-enables restricted Lunar features, staff mods, texture packs, and reach/polling displays.",
+  "authors": [
+    {
+      "name": "Youded-byte",
+      "url": "https://github.com/Youded-byte"
+    }
+  ],
+  "source": {
+    "repository": "https://github.com/Youded-byte/unrestricted",
+    "archived": false,
+    "license": null,
+    "licenseUrl": null,
+    "latestCommit": {
+      "sha": "252ef96ccd8c6b0d16a7c09001ffb9866b0409f6",
+      "date": "2023-11-29T01:59:28+02:00"
+    },
+    "automaticRedistributionPermitted": "unknown",
+    "notes": ""
+  },
+  "localizations": {
+    "en": {
+      "name": "Unrestricted",
+      "summary": "Re-enables restricted Lunar features, staff mods, texture packs, and reach/polling displays.",
+      "description": "Re-enables restricted Lunar features, staff mods, texture packs, and reach/polling displays.",
+      "warnings": [
+        "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+        "No clear upstream license was found. Moonrise does not redistribute this binary."
+      ],
+      "changelog": "Upstream release."
+    },
+    "ru": {
+      "name": "Unrestricted",
+      "summary": "Повторно включает ограниченные функции Lunar, служебные моды, текстурпаки и отображение дистанции/частоты опроса.",
+      "description": "Повторно включает ограниченные функции Lunar, служебные моды, текстурпаки и отображение дистанции/частоты опроса.",
+      "warnings": [
+        "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера.",
+        "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл."
+      ],
+      "changelog": "Релиз вышестоящего проекта."
+    }
+  },
+  "supportedMinecraftVersions": [
+    "1.8.9"
+  ],
+  "supportedClientVersions": [],
+  "compatibilityNotes": "The source uses Weave/Lunar hooks; the local manifest does not declare a compiled Minecraft version.",
+  "riskLevel": "unfair-advantage",
+  "installPolicy": "external-download",
+  "restricted": true,
+  "featured": false,
+  "recommended": false,
+  "distribution": {
+    "mode": "external-page",
+    "url": "https://github.com/Youded-byte/unrestricted/releases/tag/v1.0",
+    "reason": ""
+  },
+  "releases": [
+    {
+      "version": "1.0",
+      "publishedAt": "2023-11-29T00:06:42Z",
+      "changelog": {
+        "en": "Upstream release.",
+        "ru": "Релиз вышестоящего проекта."
+      },
+      "asset": {
+        "url": "https://github.com/Youded-byte/unrestricted/releases/download/v1.0/unrestricted.jar",
+        "fileName": "unrestricted.jar",
+        "fileSize": 10565,
+        "sha256": "c9c9dc9e75e37291e2992ca7fbd0ff6eb851b811391d9c938dec14ab73315c05"
+      }
+    }
+  ],
+  "warnings": [
+    {
+      "code": "server-rules",
+      "en": "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+      "ru": "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера."
+    },
+    {
+      "code": "missing-license",
+      "en": "No clear upstream license was found. Moonrise does not redistribute this binary.",
+      "ru": "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл."
+    }
+  ],
+  "inspection": {
+    "manifestType": "weave.mod.json",
+    "entryPoints": [
+      "me.youded.unrestricted.hooks.StaffEnableHook",
+      "me.youded.unrestricted.hooks.BlacklistEnableHook",
+      "me.youded.unrestricted.hooks.ReachUnrestrictHook",
+      "me.youded.unrestricted.hooks.PollingrateUnrestrictHook",
+      "me.youded.unrestricted.hooks.TexturePackUnrestrictHook"
+    ],
+    "observedFileName": null,
+    "observedSha256": null,
+    "observedSize": null,
+    "notes": ""
+  },
+  "todos": []
+}

@@ -1,0 +1,96 @@
+{
+  "manifestVersion": 1,
+  "id": "lunar-accurate-reach-display",
+  "slug": "lunar-accurate-reach-display",
+  "type": "java-agent",
+  "name": "LunarAccurateReachDisplay",
+  "summary": "Removes the 3.0 display cap and optional decimal rounding in Lunar's reach display.",
+  "description": "Removes the 3.0 display cap and optional decimal rounding in Lunar's reach display.",
+  "authors": [
+    {
+      "name": "Youded-byte",
+      "url": "https://github.com/Youded-byte"
+    }
+  ],
+  "source": {
+    "repository": "https://github.com/Youded-byte/youded-lunar-client-agents",
+    "archived": false,
+    "license": "GPL-2.0-only",
+    "licenseUrl": "https://github.com/Youded-byte/youded-lunar-client-agents/blob/main/LICENSE",
+    "latestCommit": {
+      "sha": "2a6453c0de29849eaca48dff4eb45d407ebb9941",
+      "date": "2022-05-18T20:59:25+02:00"
+    },
+    "automaticRedistributionPermitted": true,
+    "notes": ""
+  },
+  "localizations": {
+    "en": {
+      "name": "LunarAccurateReachDisplay",
+      "summary": "Removes the 3.0 display cap and optional decimal rounding in Lunar's reach display.",
+      "description": "Removes the 3.0 display cap and optional decimal rounding in Lunar's reach display.",
+      "warnings": [
+        "Upstream describes display changes, not a change to actual reach."
+      ],
+      "changelog": "Release v1.1."
+    },
+    "ru": {
+      "name": "LunarAccurateReachDisplay",
+      "summary": "Убирает ограничение отображения 3.0 и необязательное округление в индикаторе дистанции Lunar.",
+      "description": "Убирает ограничение отображения 3.0 и необязательное округление в индикаторе дистанции Lunar.",
+      "warnings": [
+        "Автор описывает изменение отображения, а не фактической дистанции удара."
+      ],
+      "changelog": "Релиз v1.1."
+    }
+  },
+  "supportedMinecraftVersions": [],
+  "supportedClientVersions": [
+    "Lunar Client"
+  ],
+  "compatibilityNotes": "Designed for Lunar Client via a Java premain agent; no stable Lunar build range is declared.",
+  "riskLevel": "server-dependent",
+  "installPolicy": "confirmation-required",
+  "restricted": false,
+  "featured": false,
+  "recommended": false,
+  "distribution": {
+    "mode": "github-release",
+    "url": "https://github.com/Youded-byte/youded-lunar-client-agents/releases",
+    "reason": ""
+  },
+  "releases": [
+    {
+      "version": "1.1",
+      "publishedAt": "2022-05-18T18:58:42Z",
+      "changelog": {
+        "en": "Release v1.1.",
+        "ru": "Релиз v1.1."
+      },
+      "asset": {
+        "url": "https://github.com/Youded-byte/youded-lunar-client-agents/releases/download/v1.1/LunarAccurateReachDisplay.jar",
+        "fileName": "LunarAccurateReachDisplay.jar",
+        "fileSize": 4011,
+        "sha256": "4200452ad80ad065ac32fe0e2a8a58c3975e6bad64b1589842e436bb59b08025"
+      }
+    }
+  ],
+  "warnings": [
+    {
+      "code": "display-only",
+      "en": "Upstream describes display changes, not a change to actual reach.",
+      "ru": "Автор описывает изменение отображения, а не фактической дистанции удара."
+    }
+  ],
+  "inspection": {
+    "manifestType": "java-agent",
+    "entryPoints": [
+      "me.youded.LunarAccurateReachDisplay.Agent"
+    ],
+    "observedFileName": null,
+    "observedSha256": null,
+    "observedSize": null,
+    "notes": ""
+  },
+  "todos": []
+}

@@ -1,0 +1,84 @@
+{
+  "manifestVersion": 1,
+  "id": "never-hurt-cam",
+  "slug": "never-hurt-cam",
+  "type": "java-agent",
+  "name": "NeverHurtCam",
+  "summary": "Removes hurt-camera shake across multiple Minecraft launch environments.",
+  "description": "Removes hurt-camera shake across multiple Minecraft launch environments.",
+  "authors": [
+    {
+      "name": "Youded-byte",
+      "url": "https://github.com/Youded-byte"
+    }
+  ],
+  "source": {
+    "repository": "https://github.com/Youded-byte/NeverHurtCam",
+    "archived": false,
+    "license": "GPL-2.0-only",
+    "licenseUrl": "https://github.com/Youded-byte/NeverHurtCam/blob/main/LICENSE",
+    "latestCommit": {
+      "sha": "637a229db506c2addb206071de43c34a7b18b131",
+      "date": "2022-08-11T21:23:29+03:00"
+    },
+    "automaticRedistributionPermitted": true,
+    "notes": ""
+  },
+  "localizations": {
+    "en": {
+      "name": "NeverHurtCam",
+      "summary": "Removes hurt-camera shake across multiple Minecraft launch environments.",
+      "description": "Removes hurt-camera shake across multiple Minecraft launch environments.",
+      "warnings": [],
+      "changelog": "Upstream release."
+    },
+    "ru": {
+      "name": "NeverHurtCam",
+      "summary": "Убирает тряску камеры при уроне в нескольких средах запуска Minecraft.",
+      "description": "Убирает тряску камеры при уроне в нескольких средах запуска Minecraft.",
+      "warnings": [],
+      "changelog": "Релиз вышестоящего проекта."
+    }
+  },
+  "supportedMinecraftVersions": [],
+  "supportedClientVersions": [],
+  "compatibilityNotes": "Upstream describes Fabric, Forge, vanilla, and other clients but does not enumerate tested versions.",
+  "riskLevel": "normal",
+  "installPolicy": "one-click",
+  "restricted": false,
+  "featured": false,
+  "recommended": false,
+  "distribution": {
+    "mode": "github-release",
+    "url": "https://github.com/Youded-byte/NeverHurtCam/releases",
+    "reason": ""
+  },
+  "releases": [
+    {
+      "version": "1.0",
+      "publishedAt": "2022-06-10T18:31:16Z",
+      "changelog": {
+        "en": "Upstream release.",
+        "ru": "Релиз вышестоящего проекта."
+      },
+      "asset": {
+        "url": "https://github.com/Youded-byte/NeverHurtCam/releases/download/v1.0/NeverHurtCam.jar",
+        "fileName": "NeverHurtCam.jar",
+        "fileSize": 1189366,
+        "sha256": "02425d363fd7d5a814a6ab7e7e7fc51329528ad7e1b1ad1be71f703e1c1a457c"
+      }
+    }
+  ],
+  "warnings": [],
+  "inspection": {
+    "manifestType": "java-agent",
+    "entryPoints": [
+      "me.youded.neverhurtcam.Agent"
+    ],
+    "observedFileName": null,
+    "observedSha256": null,
+    "observedSize": null,
+    "notes": ""
+  },
+  "todos": []
+}

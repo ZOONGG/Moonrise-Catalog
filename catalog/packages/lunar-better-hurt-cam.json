@@ -1,0 +1,86 @@
+{
+  "manifestVersion": 1,
+  "id": "lunar-better-hurt-cam",
+  "slug": "lunar-better-hurt-cam",
+  "type": "java-agent",
+  "name": "LunarBetterHurtCam",
+  "summary": "Changes how strongly the camera moves when the player is hurt.",
+  "description": "Changes how strongly the camera moves when the player is hurt.",
+  "authors": [
+    {
+      "name": "Youded-byte",
+      "url": "https://github.com/Youded-byte"
+    }
+  ],
+  "source": {
+    "repository": "https://github.com/Youded-byte/LunarBetterHurtCam",
+    "archived": true,
+    "license": "GPL-2.0-only",
+    "licenseUrl": "https://github.com/Youded-byte/LunarBetterHurtCam/blob/main/LICENSE",
+    "latestCommit": {
+      "sha": "e5fbc972c70969909aa4e145e2c2e16718dcb10a",
+      "date": "2022-06-10T16:52:04+02:00"
+    },
+    "automaticRedistributionPermitted": true,
+    "notes": ""
+  },
+  "localizations": {
+    "en": {
+      "name": "LunarBetterHurtCam",
+      "summary": "Changes how strongly the camera moves when the player is hurt.",
+      "description": "Changes how strongly the camera moves when the player is hurt.",
+      "warnings": [],
+      "changelog": "Adds support for newer Minecraft versions."
+    },
+    "ru": {
+      "name": "LunarBetterHurtCam",
+      "summary": "Изменяет силу движения камеры при получении урона.",
+      "description": "Изменяет силу движения камеры при получении урона.",
+      "warnings": [],
+      "changelog": "Добавлена поддержка более новых версий Minecraft."
+    }
+  },
+  "supportedMinecraftVersions": [],
+  "supportedClientVersions": [
+    "Lunar Client"
+  ],
+  "compatibilityNotes": "Upstream release notes state support for newer Minecraft versions but do not enumerate them.",
+  "riskLevel": "normal",
+  "installPolicy": "one-click",
+  "restricted": false,
+  "featured": false,
+  "recommended": false,
+  "distribution": {
+    "mode": "github-release",
+    "url": "https://github.com/Youded-byte/LunarBetterHurtCam/releases",
+    "reason": ""
+  },
+  "releases": [
+    {
+      "version": "1.1",
+      "publishedAt": "2022-06-10T18:27:58Z",
+      "changelog": {
+        "en": "Adds support for newer Minecraft versions.",
+        "ru": "Добавлена поддержка более новых версий Minecraft."
+      },
+      "asset": {
+        "url": "https://github.com/Youded-byte/LunarBetterHurtCam/releases/download/v1.1/LunarBetterHurtCam-with-dependencies.jar",
+        "fileName": "LunarBetterHurtCam-with-dependencies.jar",
+        "fileSize": 174592,
+        "sha256": "3055f431d1159fb43e285efd90446ee3f521ee61b785f19bc7f461ec1cd47e90"
+      }
+    }
+  ],
+  "warnings": [],
+  "inspection": {
+    "manifestType": "java-agent",
+    "entryPoints": [
+      "me.youded.LunarBetterHurtCam.Agent"
+    ],
+    "observedFileName": null,
+    "observedSha256": null,
+    "observedSize": null,
+    "notes": ""
+  },
+  "todos": []
+}

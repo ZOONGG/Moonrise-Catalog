@@ -1,0 +1,86 @@
+{
+  "manifestVersion": 1,
+  "id": "oofmod",
+  "slug": "oofmod",
+  "type": "weave-mod",
+  "name": "OofMod",
+  "summary": "Plays a configured sound effect when the player kills another player.",
+  "description": "Plays a configured sound effect when the player kills another player.",
+  "authors": [
+    {
+      "name": "thaYt",
+      "url": "https://github.com/thaYt"
+    }
+  ],
+  "source": {
+    "repository": "https://github.com/thaYt/oofmod",
+    "archived": false,
+    "license": "GPL-3.0-only",
+    "licenseUrl": "https://github.com/thaYt/oofmod/blob/master/LICENSE",
+    "latestCommit": {
+      "sha": "35069f6b2524ac5459419efa990ec64de61c67c9",
+      "date": "2023-08-05T23:15:19-04:00"
+    },
+    "automaticRedistributionPermitted": true,
+    "notes": ""
+  },
+  "localizations": {
+    "en": {
+      "name": "OofMod",
+      "summary": "Plays a configured sound effect when the player kills another player.",
+      "description": "Plays a configured sound effect when the player kills another player.",
+      "warnings": [],
+      "changelog": "Upstream release."
+    },
+    "ru": {
+      "name": "OofMod",
+      "summary": "Воспроизводит выбранный звук, когда игрок убивает другого игрока.",
+      "description": "Воспроизводит выбранный звук, когда игрок убивает другого игрока.",
+      "warnings": [],
+      "changelog": "Релиз вышестоящего проекта."
+    }
+  },
+  "supportedMinecraftVersions": [
+    "1.8.9"
+  ],
+  "supportedClientVersions": [],
+  "compatibilityNotes": "The source targets the Weave 1.8.9 development environment.",
+  "riskLevel": "normal",
+  "installPolicy": "one-click",
+  "restricted": false,
+  "featured": false,
+  "recommended": false,
+  "distribution": {
+    "mode": "github-release",
+    "url": "https://github.com/thaYt/oofmod/releases",
+    "reason": ""
+  },
+  "releases": [
+    {
+      "version": "1.0",
+      "publishedAt": "2023-08-06T03:10:48Z",
+      "changelog": {
+        "en": "Upstream release.",
+        "ru": "Релиз вышестоящего проекта."
+      },
+      "asset": {
+        "url": "https://github.com/thaYt/oofmod/releases/download/v1.0/OofMod-1.0.jar",
+        "fileName": "OofMod-1.0.jar",
+        "fileSize": 731031,
+        "sha256": "4a37dc80524fa1637bf87c1bc56949d353b397c05de4afeef71d083f0efd0133"
+      }
+    }
+  ],
+  "warnings": [],
+  "inspection": {
+    "manifestType": "weave.mod.json",
+    "entryPoints": [
+      "me.thayt.oofmod.OofMod"
+    ],
+    "observedFileName": null,
+    "observedSha256": null,
+    "observedSize": null,
+    "notes": ""
+  },
+  "todos": []
+}

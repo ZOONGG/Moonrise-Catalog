@@ -1,0 +1,90 @@
+{
+  "manifestVersion": 1,
+  "id": "celestial",
+  "slug": "celestial",
+  "type": "weave-mod",
+  "name": "Celestial",
+  "summary": "Adds Hypixel BedWars statistics, hover statistics, keybinds, and settings to Lunar Client through Weave.",
+  "description": "Adds Hypixel BedWars statistics, hover statistics, keybinds, and settings to Lunar Client through Weave.",
+  "authors": [
+    {
+      "name": "Candicey",
+      "url": "https://gitlab.com/Candicey"
+    },
+    {
+      "name": "Monmcgt",
+      "url": "https://github.com/Monmcgt"
+    }
+  ],
+  "source": {
+    "repository": "https://gitlab.com/Candicey/lunar-agent",
+    "archived": false,
+    "license": "GPL-3.0-only",
+    "licenseUrl": "https://gitlab.com/Candicey/lunar-agent/blob/master/LICENSE",
+    "latestCommit": {
+      "sha": "cb0eb3514b9083c8da808ba2ba846328e6a0e307",
+      "date": "2023-04-04T21:57:57+07:00"
+    },
+    "automaticRedistributionPermitted": true,
+    "notes": "The GitHub LunarAgent-Weave repository points to this GitLab source; its v0.1.0 release supplies the inspected JAR."
+  },
+  "localizations": {
+    "en": {
+      "name": "Celestial",
+      "summary": "Adds Hypixel BedWars statistics, hover statistics, keybinds, and settings to Lunar Client through Weave.",
+      "description": "Adds Hypixel BedWars statistics, hover statistics, keybinds, and settings to Lunar Client through Weave.",
+      "warnings": [],
+      "changelog": "Upstream release."
+    },
+    "ru": {
+      "name": "Celestial",
+      "summary": "Добавляет статистику Hypixel BedWars, статистику при наведении, клавиши и настройки в Lunar Client через Weave.",
+      "description": "Добавляет статистику Hypixel BedWars, статистику при наведении, клавиши и настройки в Lunar Client через Weave.",
+      "warnings": [],
+      "changelog": "Релиз вышестоящего проекта."
+    }
+  },
+  "supportedMinecraftVersions": [],
+  "supportedClientVersions": [
+    "Lunar Client"
+  ],
+  "compatibilityNotes": "Upstream describes Lunar Client through Weave but does not declare an exact Minecraft version.",
+  "riskLevel": "server-dependent",
+  "installPolicy": "one-click",
+  "restricted": false,
+  "featured": false,
+  "recommended": false,
+  "distribution": {
+    "mode": "github-release",
+    "url": "https://github.com/Monmcgt/LunarAgent-Weave/releases/tag/v0.1.0",
+    "reason": ""
+  },
+  "releases": [
+    {
+      "version": "0.1.0",
+      "publishedAt": "2023-03-22T20:29:54Z",
+      "changelog": {
+        "en": "Upstream release.",
+        "ru": "Релиз вышестоящего проекта."
+      },
+      "asset": {
+        "url": "https://github.com/Monmcgt/LunarAgent-Weave/releases/download/v0.1.0/Lunar-Agent-0.1.0.jar",
+        "fileName": "Lunar-Agent-0.1.0.jar",
+        "fileSize": 402792,
+        "sha256": "d7ea08fddecaa37a3d85fe6157a2ff1a25485cc9930ac68d498bcefecbc4aa8d"
+      }
+    }
+  ],
+  "warnings": [],
+  "inspection": {
+    "manifestType": "weave.mod.json",
+    "entryPoints": [
+      "com.gitlab.candicey.celestial.CelestialMain"
+    ],
+    "observedFileName": null,
+    "observedSha256": null,
+    "observedSize": null,
+    "notes": ""
+  },
+  "todos": []
+}

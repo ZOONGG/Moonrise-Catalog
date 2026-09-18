@@ -1,0 +1,96 @@
+{
+  "manifestVersion": 1,
+  "id": "nick-hider-limitless",
+  "slug": "nick-hider-limitless",
+  "type": "java-agent",
+  "name": "NickHiderLimitless",
+  "summary": "Allows arbitrary NickHider names and removes in-game name restrictions.",
+  "description": "Allows arbitrary NickHider names and removes in-game name restrictions.",
+  "authors": [
+    {
+      "name": "Youded-byte",
+      "url": "https://github.com/Youded-byte"
+    }
+  ],
+  "source": {
+    "repository": "https://github.com/Youded-byte/youded-lunar-client-agents",
+    "archived": false,
+    "license": "GPL-2.0-only",
+    "licenseUrl": "https://github.com/Youded-byte/youded-lunar-client-agents/blob/main/LICENSE",
+    "latestCommit": {
+      "sha": "2a6453c0de29849eaca48dff4eb45d407ebb9941",
+      "date": "2022-05-18T20:59:25+02:00"
+    },
+    "automaticRedistributionPermitted": true,
+    "notes": ""
+  },
+  "localizations": {
+    "en": {
+      "name": "NickHiderLimitless",
+      "summary": "Allows arbitrary NickHider names and removes in-game name restrictions.",
+      "description": "Allows arbitrary NickHider names and removes in-game name restrictions.",
+      "warnings": [
+        "This changes locally displayed identity text; follow server rules."
+      ],
+      "changelog": "Release v1.1."
+    },
+    "ru": {
+      "name": "NickHiderLimitless",
+      "summary": "Разрешает произвольные имена NickHider и снимает внутриигровые ограничения имён.",
+      "description": "Разрешает произвольные имена NickHider и снимает внутриигровые ограничения имён.",
+      "warnings": [
+        "Пакет меняет локально отображаемый текст имени; соблюдайте правила сервера."
+      ],
+      "changelog": "Релиз v1.1."
+    }
+  },
+  "supportedMinecraftVersions": [],
+  "supportedClientVersions": [
+    "Lunar Client"
+  ],
+  "compatibilityNotes": "Designed for Lunar Client via a Java premain agent; no stable Lunar build range is declared.",
+  "riskLevel": "server-dependent",
+  "installPolicy": "confirmation-required",
+  "restricted": false,
+  "featured": false,
+  "recommended": false,
+  "distribution": {
+    "mode": "github-release",
+    "url": "https://github.com/Youded-byte/youded-lunar-client-agents/releases",
+    "reason": ""
+  },
+  "releases": [
+    {
+      "version": "1.1",
+      "publishedAt": "2022-05-18T18:58:42Z",
+      "changelog": {
+        "en": "Release v1.1.",
+        "ru": "Релиз v1.1."
+      },
+      "asset": {
+        "url": "https://github.com/Youded-byte/youded-lunar-client-agents/releases/download/v1.1/NickHiderLimitless.jar",
+        "fileName": "NickHiderLimitless.jar",
+        "fileSize": 3575,
+        "sha256": "3d2558990fb823106810498e3cb3e46f16619c4748f69c4956ab661273ea3586"
+      }
+    }
+  ],
+  "warnings": [
+    {
+      "code": "identity-display",
+      "en": "This changes locally displayed identity text; follow server rules.",
+      "ru": "Пакет меняет локально отображаемый текст имени; соблюдайте правила сервера."
+    }
+  ],
+  "inspection": {
+    "manifestType": "java-agent",
+    "entryPoints": [
+      "me.youded.nickhiderlimitless.Agent"
+    ],
+    "observedFileName": null,
+    "observedSha256": null,
+    "observedSize": null,
+    "notes": ""
+  },
+  "todos": []
+}

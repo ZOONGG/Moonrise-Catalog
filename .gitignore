@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+catalog/index.json.sig
+catalog/index.json.pub
+dist/catalog/index.json.sig
+dist/catalog/index.json.pub
+download-cache/
+*.jar

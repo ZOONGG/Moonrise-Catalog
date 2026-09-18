@@ -1,0 +1,86 @@
+{
+  "manifestVersion": 1,
+  "id": "remove-plus",
+  "slug": "remove-plus",
+  "type": "java-agent",
+  "name": "RemovePlus",
+  "summary": "Removes the Lunar+ marker from the client icon.",
+  "description": "Removes the Lunar+ marker from the client icon.",
+  "authors": [
+    {
+      "name": "Nilsen84",
+      "url": "https://github.com/Nilsen84"
+    }
+  ],
+  "source": {
+    "repository": "https://github.com/Nilsen84/lunar-client-agents",
+    "archived": false,
+    "license": "GPL-3.0-only",
+    "licenseUrl": "https://github.com/Nilsen84/lunar-client-agents/blob/master/LICENSE",
+    "latestCommit": {
+      "sha": "9169a0dd9959cb41f21ebd6ede3b26e3c6fd16ce",
+      "date": "2022-07-20T19:44:24+02:00"
+    },
+    "automaticRedistributionPermitted": true,
+    "notes": ""
+  },
+  "localizations": {
+    "en": {
+      "name": "RemovePlus",
+      "summary": "Removes the Lunar+ marker from the client icon.",
+      "description": "Removes the Lunar+ marker from the client icon.",
+      "warnings": [],
+      "changelog": "Release v1.2.0."
+    },
+    "ru": {
+      "name": "RemovePlus",
+      "summary": "Удаляет отметку Lunar+ со значка клиента.",
+      "description": "Удаляет отметку Lunar+ со значка клиента.",
+      "warnings": [],
+      "changelog": "Релиз v1.2.0."
+    }
+  },
+  "supportedMinecraftVersions": [],
+  "supportedClientVersions": [
+    "Lunar Client"
+  ],
+  "compatibilityNotes": "Designed for Lunar Client via a Java premain agent; the upstream repository does not declare a stable Lunar build range.",
+  "riskLevel": "normal",
+  "installPolicy": "one-click",
+  "restricted": false,
+  "featured": false,
+  "recommended": false,
+  "distribution": {
+    "mode": "github-release",
+    "url": "https://github.com/Nilsen84/lunar-client-agents/releases",
+    "reason": ""
+  },
+  "releases": [
+    {
+      "version": "1.2.0",
+      "publishedAt": "2022-07-20T17:45:58Z",
+      "changelog": {
+        "en": "Release v1.2.0.",
+        "ru": "Релиз v1.2.0."
+      },
+      "asset": {
+        "url": "https://github.com/Nilsen84/lunar-client-agents/releases/download/v1.2.0/RemovePlus.jar",
+        "fileName": "RemovePlus.jar",
+        "fileSize": 178167,
+        "sha256": "b2191e0b2a39940178287344a2a5a135e357bffd62de7c3facb6c1cfcc18853e"
+      }
+    }
+  ],
+  "warnings": [],
+  "inspection": {
+    "manifestType": "java-agent",
+    "entryPoints": [
+      "me.onils.removeplus.Agent"
+    ],
+    "observedFileName": null,
+    "observedSha256": null,
+    "observedSize": null,
+    "notes": ""
+  },
+  "todos": []
+}

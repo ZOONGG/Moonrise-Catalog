@@ -1,0 +1,3674 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-26T20:11:52Z",
+  "signatureStatus": "unsignedDevelopment",
+  "packages": [
+    {
+      "id": "anti-shuffle",
+      "slug": "anti-shuffle",
+      "type": "weaveMod",
+      "name": "AntiShuffle",
+      "summary": "Required source was named as a Weave community project but is no longer publicly accessible.",
+      "description": "Required source was named as a Weave community project but is no longer publicly accessible.",
+      "localizations": {
+        "en": {
+          "name": "AntiShuffle",
+          "summary": "Required source was named as a Weave community project but is no longer publicly accessible.",
+          "description": "Required source was named as a Weave community project but is no longer publicly accessible.",
+          "warnings": [
+            "The upstream repository returned 404; no metadata or binary could be verified."
+          ],
+          "changelog": ""
+        },
+        "ru": {
+          "name": "AntiShuffle",
+          "summary": "Указанный в задании проект сообщества Weave больше не доступен публично.",
+          "description": "Указанный в задании проект сообщества Weave больше не доступен публично.",
+          "warnings": [
+            "Репозиторий автора вернул 404; метаданные и бинарный файл проверить не удалось."
+          ],
+          "changelog": ""
+        }
+      },
+      "authors": [
+        {
+          "name": "ballmc",
+          "url": "https://github.com/ballmc"
+        }
+      ],
+      "homepage": "https://github.com/ballmc/AntiShuffle",
+      "repository": "https://github.com/ballmc/AntiShuffle",
+      "license": null,
+      "tags": [],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/weave-mod.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [],
+      "supportedClientVersions": [],
+      "archived": false,
+      "riskLevel": "unknown",
+      "installPolicy": "unavailable",
+      "restricted": false,
+      "featured": false,
+      "recommended": false,
+      "releases": [],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [
+        {
+          "code": "missing-repository",
+          "message": "The upstream repository returned 404; no metadata or binary could be verified.",
+          "localizedMessage": {
+            "en": "The upstream repository returned 404; no metadata or binary could be verified.",
+            "ru": "Репозиторий автора вернул 404; метаданные и бинарный файл проверить не удалось."
+          }
+        }
+      ],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "atw-levelhead",
+      "slug": "atw-levelhead",
+      "type": "weaveMod",
+      "name": "ATW LevelHead",
+      "summary": "Adds Hypixel LevelHead tags, BedWars tab statistics, chat lookups, and a threat overview.",
+      "description": "Adds Hypixel LevelHead tags, BedWars tab statistics, chat lookups, and a threat overview.",
+      "localizations": {
+        "en": {
+          "name": "ATW LevelHead",
+          "summary": "Adds Hypixel LevelHead tags, BedWars tab statistics, chat lookups, and a threat overview.",
+          "description": "Adds Hypixel LevelHead tags, BedWars tab statistics, chat lookups, and a threat overview.",
+          "warnings": [
+            "No clear upstream license was found. Moonrise does not redistribute this binary."
+          ],
+          "changelog": "Upstream release."
+        },
+        "ru": {
+          "name": "ATW LevelHead",
+          "summary": "Добавляет теги Hypixel LevelHead, статистику BedWars в tab, запросы из чата и обзор угроз.",
+          "description": "Добавляет теги Hypixel LevelHead, статистику BedWars в tab, запросы из чата и обзор угроз.",
+          "warnings": [
+            "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл."
+          ],
+          "changelog": "Релиз вышестоящего проекта."
+        }
+      },
+      "authors": [
+        {
+          "name": "alextyhwang",
+          "url": "https://github.com/alextyhwang"
+        }
+      ],
+      "homepage": "https://github.com/alextyhwang/ATWs-Levelhead/releases/tag/0.2.2",
+      "repository": "https://github.com/alextyhwang/ATWs-Levelhead",
+      "license": null,
+      "tags": [],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/weave-mod.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [
+        "1.8.9"
+      ],
+      "supportedClientVersions": [
+        "Lunar Client"
+      ],
+      "archived": false,
+      "riskLevel": "serverDependent",
+      "installPolicy": "externalDownload",
+      "restricted": false,
+      "featured": false,
+      "recommended": false,
+      "releases": [
+        {
+          "version": "0.2.2",
+          "publishedAt": "2026-06-18T22:15:47Z",
+          "changelog": "Upstream release.",
+          "localizedChangelog": {
+            "en": "Upstream release.",
+            "ru": "Релиз вышестоящего проекта."
+          },
+          "artifact": {
+            "downloadMode": "externalPage",
+            "assetUrl": "https://github.com/alextyhwang/ATWs-Levelhead/releases/download/0.2.2/ATWLevelHead-0.2.2.jar",
+            "upstreamReleaseUrl": "https://github.com/alextyhwang/ATWs-Levelhead/releases/tag/0.2.2",
+            "fileName": "ATWLevelHead-0.2.2.jar",
+            "fileSize": 86316,
+            "sha256": "8e17f5b15fcde9ba4b7fabb1496dd0a32ae51c761d83dd809733f0bd669abda9",
+            "javaVersion": null,
+            "weaveLoaderRange": null,
+            "minecraftVersions": [
+              "1.8.9"
+            ]
+          },
+          "dependencies": [],
+          "conflicts": []
+        }
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [
+        {
+          "code": "missing-license",
+          "message": "No clear upstream license was found. Moonrise does not redistribute this binary.",
+          "localizedMessage": {
+            "en": "No clear upstream license was found. Moonrise does not redistribute this binary.",
+            "ru": "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл."
+          }
+        }
+      ],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "celestial",
+      "slug": "celestial",
+      "type": "weaveMod",
+      "name": "Celestial",
+      "summary": "Adds Hypixel BedWars statistics, hover statistics, keybinds, and settings to Lunar Client through Weave.",
+      "description": "Adds Hypixel BedWars statistics, hover statistics, keybinds, and settings to Lunar Client through Weave.",
+      "localizations": {
+        "en": {
+          "name": "Celestial",
+          "summary": "Adds Hypixel BedWars statistics, hover statistics, keybinds, and settings to Lunar Client through Weave.",
+          "description": "Adds Hypixel BedWars statistics, hover statistics, keybinds, and settings to Lunar Client through Weave.",
+          "warnings": [],
+          "changelog": "Upstream release."
+        },
+        "ru": {
+          "name": "Celestial",
+          "summary": "Добавляет статистику Hypixel BedWars, статистику при наведении, клавиши и настройки в Lunar Client через Weave.",
+          "description": "Добавляет статистику Hypixel BedWars, статистику при наведении, клавиши и настройки в Lunar Client через Weave.",
+          "warnings": [],
+          "changelog": "Релиз вышестоящего проекта."
+        }
+      },
+      "authors": [
+        {
+          "name": "Candicey",
+          "url": "https://gitlab.com/Candicey"
+        },
+        {
+          "name": "Monmcgt",
+          "url": "https://github.com/Monmcgt"
+        }
+      ],
+      "homepage": "https://github.com/Monmcgt/LunarAgent-Weave/releases/tag/v0.1.0",
+      "repository": "https://gitlab.com/Candicey/lunar-agent",
+      "license": {
+        "name": "GPL-3.0-only",
+        "url": "https://gitlab.com/Candicey/lunar-agent/blob/master/LICENSE"
+      },
+      "tags": [],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/weave-mod.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [],
+      "supportedClientVersions": [
+        "Lunar Client"
+      ],
+      "archived": false,
+      "riskLevel": "serverDependent",
+      "installPolicy": "oneClick",
+      "restricted": false,
+      "featured": false,
+      "recommended": false,
+      "releases": [
+        {
+          "version": "0.1.0",
+          "publishedAt": "2023-03-22T20:29:54Z",
+          "changelog": "Upstream release.",
+          "localizedChangelog": {
+            "en": "Upstream release.",
+            "ru": "Релиз вышестоящего проекта."
+          },
+          "artifact": {
+            "downloadMode": "githubRelease",
+            "assetUrl": "https://github.com/Monmcgt/LunarAgent-Weave/releases/download/v0.1.0/Lunar-Agent-0.1.0.jar",
+            "upstreamReleaseUrl": "https://github.com/Monmcgt/LunarAgent-Weave/releases/tag/v0.1.0",
+            "fileName": "Lunar-Agent-0.1.0.jar",
+            "fileSize": 402792,
+            "sha256": "d7ea08fddecaa37a3d85fe6157a2ff1a25485cc9930ac68d498bcefecbc4aa8d",
+            "javaVersion": null,
+            "weaveLoaderRange": null,
+            "minecraftVersions": []
+          },
+          "dependencies": [],
+          "conflicts": []
+        }
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "cracked-account",
+      "slug": "cracked-account",
+      "type": "javaAgent",
+      "name": "CrackedAccount",
+      "summary": "Changes Lunar Client account behavior for single-player and offline-mode servers.",
+      "description": "Changes Lunar Client account behavior for single-player and offline-mode servers.",
+      "localizations": {
+        "en": {
+          "name": "CrackedAccount",
+          "summary": "Changes Lunar Client account behavior for single-player and offline-mode servers.",
+          "description": "Changes Lunar Client account behavior for single-player and offline-mode servers.",
+          "warnings": [
+            "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+            "Moonrise never supplies, reads, or modifies Lunar account credentials; authentication remains in the official Lunar Launcher."
+          ],
+          "changelog": "Release v1.2.0."
+        },
+        "ru": {
+          "name": "CrackedAccount",
+          "summary": "Изменяет поведение учётной записи Lunar Client для одиночной игры и серверов в offline mode.",
+          "description": "Изменяет поведение учётной записи Lunar Client для одиночной игры и серверов в offline mode.",
+          "warnings": [
+            "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера.",
+            "Moonrise не передаёт, не читает и не изменяет данные учётной записи Lunar; аутентификация остаётся в официальном Lunar Launcher."
+          ],
+          "changelog": "Релиз v1.2.0."
+        }
+      },
+      "authors": [
+        {
+          "name": "Nilsen84",
+          "url": "https://github.com/Nilsen84"
+        }
+      ],
+      "homepage": "https://github.com/Nilsen84/lunar-client-agents/releases",
+      "repository": "https://github.com/Nilsen84/lunar-client-agents",
+      "license": {
+        "name": "GPL-3.0-only",
+        "url": "https://github.com/Nilsen84/lunar-client-agents/blob/master/LICENSE"
+      },
+      "tags": [
+        "restricted"
+      ],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/restricted.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [],
+      "supportedClientVersions": [
+        "Lunar Client"
+      ],
+      "archived": false,
+      "riskLevel": "serverDependent",
+      "installPolicy": "confirmationRequired",
+      "restricted": true,
+      "featured": false,
+      "recommended": false,
+      "releases": [
+        {
+          "version": "1.2.0",
+          "publishedAt": "2022-07-20T17:45:58Z",
+          "changelog": "Release v1.2.0.",
+          "localizedChangelog": {
+            "en": "Release v1.2.0.",
+            "ru": "Релиз v1.2.0."
+          },
+          "artifact": {
+            "downloadMode": "githubRelease",
+            "assetUrl": "https://github.com/Nilsen84/lunar-client-agents/releases/download/v1.2.0/CrackedAccount.jar",
+            "upstreamReleaseUrl": "https://github.com/Nilsen84/lunar-client-agents/releases",
+            "fileName": "CrackedAccount.jar",
+            "fileSize": 182017,
+            "sha256": "70daeaddc1d7ceafa95f0f1e1043b2cf10881b294ba443543296963445645b82",
+            "javaVersion": null,
+            "weaveLoaderRange": null,
+            "minecraftVersions": []
+          },
+          "dependencies": [],
+          "conflicts": []
+        }
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [
+        {
+          "code": "server-rules",
+          "message": "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+          "localizedMessage": {
+            "en": "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+            "ru": "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера."
+          }
+        },
+        {
+          "code": "authentication-boundary",
+          "message": "Moonrise never supplies, reads, or modifies Lunar account credentials; authentication remains in the official Lunar Launcher.",
+          "localizedMessage": {
+            "en": "Moonrise never supplies, reads, or modifies Lunar account credentials; authentication remains in the official Lunar Launcher.",
+            "ru": "Moonrise не передаёт, не читает и не изменяет данные учётной записи Lunar; аутентификация остаётся в официальном Lunar Launcher."
+          }
+        }
+      ],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "custom-auto-gg",
+      "slug": "custom-auto-gg",
+      "type": "javaAgent",
+      "name": "CustomAutoGG",
+      "summary": "Replaces Lunar Client's AutoGG chat message with an agent option supplied by the user.",
+      "description": "Replaces Lunar Client's AutoGG chat message with an agent option supplied by the user.",
+      "localizations": {
+        "en": {
+          "name": "CustomAutoGG",
+          "summary": "Replaces Lunar Client's AutoGG chat message with an agent option supplied by the user.",
+          "description": "Replaces Lunar Client's AutoGG chat message with an agent option supplied by the user.",
+          "warnings": [],
+          "changelog": "Release v1.2.0."
+        },
+        "ru": {
+          "name": "CustomAutoGG",
+          "summary": "Заменяет сообщение AutoGG в Lunar Client на текст из параметра агента.",
+          "description": "Заменяет сообщение AutoGG в Lunar Client на текст из параметра агента.",
+          "warnings": [],
+          "changelog": "Релиз v1.2.0."
+        }
+      },
+      "authors": [
+        {
+          "name": "Nilsen84",
+          "url": "https://github.com/Nilsen84"
+        }
+      ],
+      "homepage": "https://github.com/Nilsen84/lunar-client-agents/releases",
+      "repository": "https://github.com/Nilsen84/lunar-client-agents",
+      "license": {
+        "name": "GPL-3.0-only",
+        "url": "https://github.com/Nilsen84/lunar-client-agents/blob/master/LICENSE"
+      },
+      "tags": [],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/java-agent.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [],
+      "supportedClientVersions": [
+        "Lunar Client"
+      ],
+      "archived": false,
+      "riskLevel": "normal",
+      "installPolicy": "oneClick",
+      "restricted": false,
+      "featured": false,
+      "recommended": false,
+      "releases": [
+        {
+          "version": "1.2.0",
+          "publishedAt": "2022-07-20T17:45:58Z",
+          "changelog": "Release v1.2.0.",
+          "localizedChangelog": {
+            "en": "Release v1.2.0.",
+            "ru": "Релиз v1.2.0."
+          },
+          "artifact": {
+            "downloadMode": "githubRelease",
+            "assetUrl": "https://github.com/Nilsen84/lunar-client-agents/releases/download/v1.2.0/CustomAutoGG.jar",
+            "upstreamReleaseUrl": "https://github.com/Nilsen84/lunar-client-agents/releases",
+            "fileName": "CustomAutoGG.jar",
+            "fileSize": 177718,
+            "sha256": "d6db746986aeb17bee3d9a4cdf48c5579b0d5a7e7474e95f718601665e5a21dd",
+            "javaVersion": null,
+            "weaveLoaderRange": null,
+            "minecraftVersions": []
+          },
+          "dependencies": [],
+          "conflicts": []
+        }
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "custom-level-head",
+      "slug": "custom-level-head",
+      "type": "javaAgent",
+      "name": "CustomLevelHead",
+      "summary": "Replaces the LevelHead label text with a value supplied through the agent option.",
+      "description": "Replaces the LevelHead label text with a value supplied through the agent option.",
+      "localizations": {
+        "en": {
+          "name": "CustomLevelHead",
+          "summary": "Replaces the LevelHead label text with a value supplied through the agent option.",
+          "description": "Replaces the LevelHead label text with a value supplied through the agent option.",
+          "warnings": [],
+          "changelog": "Release v1.2.0."
+        },
+        "ru": {
+          "name": "CustomLevelHead",
+          "summary": "Заменяет текст метки LevelHead значением из параметра агента.",
+          "description": "Заменяет текст метки LevelHead значением из параметра агента.",
+          "warnings": [],
+          "changelog": "Релиз v1.2.0."
+        }
+      },
+      "authors": [
+        {
+          "name": "Nilsen84",
+          "url": "https://github.com/Nilsen84"
+        }
+      ],
+      "homepage": "https://github.com/Nilsen84/lunar-client-agents/releases",
+      "repository": "https://github.com/Nilsen84/lunar-client-agents",
+      "license": {
+        "name": "GPL-3.0-only",
+        "url": "https://github.com/Nilsen84/lunar-client-agents/blob/master/LICENSE"
+      },
+      "tags": [],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/java-agent.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [],
+      "supportedClientVersions": [
+        "Lunar Client"
+      ],
+      "archived": false,
+      "riskLevel": "normal",
+      "installPolicy": "oneClick",
+      "restricted": false,
+      "featured": false,
+      "recommended": false,
+      "releases": [
+        {
+          "version": "1.2.0",
+          "publishedAt": "2022-07-20T17:45:58Z",
+          "changelog": "Release v1.2.0.",
+          "localizedChangelog": {
+            "en": "Release v1.2.0.",
+            "ru": "Релиз v1.2.0."
+          },
+          "artifact": {
+            "downloadMode": "githubRelease",
+            "assetUrl": "https://github.com/Nilsen84/lunar-client-agents/releases/download/v1.2.0/CustomLevelHead.jar",
+            "upstreamReleaseUrl": "https://github.com/Nilsen84/lunar-client-agents/releases",
+            "fileName": "CustomLevelHead.jar",
+            "fileSize": 177606,
+            "sha256": "465fabf60b61ec2a6d1554e51d72db5ad9bb3ab54c9a0f237968323f7ef37927",
+            "javaVersion": null,
+            "weaveLoaderRange": null,
+            "minecraftVersions": []
+          },
+          "dependencies": [],
+          "conflicts": []
+        }
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "fast-place",
+      "slug": "fast-place",
+      "type": "javaAgent",
+      "name": "FastPlace",
+      "summary": "Sets the block-placement delay to zero so an action can occur every tick.",
+      "description": "Sets the block-placement delay to zero so an action can occur every tick.",
+      "localizations": {
+        "en": {
+          "name": "FastPlace",
+          "summary": "Sets the block-placement delay to zero so an action can occur every tick.",
+          "description": "Sets the block-placement delay to zero so an action can occur every tick.",
+          "warnings": [
+            "This behavior may provide an unfair advantage and may be prohibited by server rules."
+          ],
+          "changelog": "Upstream release."
+        },
+        "ru": {
+          "name": "FastPlace",
+          "summary": "Устанавливает задержку размещения блоков в ноль, позволяя действовать каждый тик.",
+          "description": "Устанавливает задержку размещения блоков в ноль, позволяя действовать каждый тик.",
+          "warnings": [
+            "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера."
+          ],
+          "changelog": "Релиз вышестоящего проекта."
+        }
+      },
+      "authors": [
+        {
+          "name": "Youded-byte",
+          "url": "https://github.com/Youded-byte"
+        }
+      ],
+      "homepage": "https://github.com/Youded-byte/FastPlace-Agent/releases",
+      "repository": "https://github.com/Youded-byte/FastPlace-Agent",
+      "license": {
+        "name": "GPL-2.0-only",
+        "url": "https://github.com/Youded-byte/FastPlace-Agent/blob/main/LICENSE"
+      },
+      "tags": [
+        "restricted"
+      ],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/restricted.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [],
+      "supportedClientVersions": [
+        "Lunar Client"
+      ],
+      "archived": false,
+      "riskLevel": "unfairAdvantage",
+      "installPolicy": "confirmationRequired",
+      "restricted": true,
+      "featured": false,
+      "recommended": false,
+      "releases": [
+        {
+          "version": "1.0.0",
+          "publishedAt": "2022-03-07T09:25:20Z",
+          "changelog": "Upstream release.",
+          "localizedChangelog": {
+            "en": "Upstream release.",
+            "ru": "Релиз вышестоящего проекта."
+          },
+          "artifact": {
+            "downloadMode": "githubRelease",
+            "assetUrl": "https://github.com/Youded-byte/FastPlace-Agent/releases/download/v1.0.0/FastPlace-Dependencies.jar",
+            "upstreamReleaseUrl": "https://github.com/Youded-byte/FastPlace-Agent/releases",
+            "fileName": "FastPlace-Dependencies.jar",
+            "fileSize": 174814,
+            "sha256": "d13c9406a3dbee273f1bbdb6fd4a70cd0c285078179b308a649dff87ac858b87",
+            "javaVersion": null,
+            "weaveLoaderRange": null,
+            "minecraftVersions": []
+          },
+          "dependencies": [],
+          "conflicts": []
+        }
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [
+        {
+          "code": "server-rules",
+          "message": "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+          "localizedMessage": {
+            "en": "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+            "ru": "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера."
+          }
+        }
+      ],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "fractal-weave",
+      "slug": "fractal-weave",
+      "type": "weaveMod",
+      "name": "Fractal Weave",
+      "summary": "An upstream-described open-source Lunar cheat client built as a Weave mod.",
+      "description": "An upstream-described open-source Lunar cheat client built as a Weave mod.",
+      "localizations": {
+        "en": {
+          "name": "Fractal Weave",
+          "summary": "An upstream-described open-source Lunar cheat client built as a Weave mod.",
+          "description": "An upstream-described open-source Lunar cheat client built as a Weave mod.",
+          "warnings": [
+            "Upstream describes this as a cheat, ghost, hacked, or mainly blatant client. Server rules may prohibit it; Moonrise does not bundle it.",
+            "The repository license is non-commercial and does not state a clear version in its text."
+          ],
+          "changelog": "Upstream release."
+        },
+        "ru": {
+          "name": "Fractal Weave",
+          "summary": "Описанный автором открытый чит-клиент Lunar в форме мода Weave.",
+          "description": "Описанный автором открытый чит-клиент Lunar в форме мода Weave.",
+          "warnings": [
+            "Вышестоящий проект описывает это как чит-, ghost-, hacked- или преимущественно blatant-клиент. Правила сервера могут запрещать его; Moonrise не включает его в поставку.",
+            "Лицензия репозитория запрещает коммерческое использование и не указывает ясную версию в тексте."
+          ],
+          "changelog": "Релиз вышестоящего проекта."
+        }
+      },
+      "authors": [
+        {
+          "name": "Hzqkii",
+          "url": "https://github.com/Hzqkii"
+        }
+      ],
+      "homepage": "https://github.com/Hzqkii/Fractal-Weave/releases/tag/1.2",
+      "repository": "https://github.com/Hzqkii/Fractal-Weave",
+      "license": {
+        "name": "CC BY-NC-SA (version not stated)",
+        "url": "https://github.com/Hzqkii/Fractal-Weave/blob/main/LICENSE"
+      },
+      "tags": [
+        "restricted"
+      ],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/restricted.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [
+        "1.8.9"
+      ],
+      "supportedClientVersions": [],
+      "archived": false,
+      "riskLevel": "cheatClient",
+      "installPolicy": "externalDownload",
+      "restricted": true,
+      "featured": false,
+      "recommended": false,
+      "releases": [
+        {
+          "version": "1.2",
+          "publishedAt": "2023-09-18T08:59:32Z",
+          "changelog": "Upstream release.",
+          "localizedChangelog": {
+            "en": "Upstream release.",
+            "ru": "Релиз вышестоящего проекта."
+          },
+          "artifact": {
+            "downloadMode": "externalPage",
+            "assetUrl": "https://github.com/Hzqkii/Fractal-Weave/releases/download/1.2/fractal-weave-1.2.jar",
+            "upstreamReleaseUrl": "https://github.com/Hzqkii/Fractal-Weave/releases/tag/1.2",
+            "fileName": "fractal-weave-1.2.jar",
+            "fileSize": 3525099,
+            "sha256": "f05c74fec2305e64e58ccb1fed7d6b7b31be2444876c59bf7ba7eff7e404a6b4",
+            "javaVersion": null,
+            "weaveLoaderRange": null,
+            "minecraftVersions": [
+              "1.8.9"
+            ]
+          },
+          "dependencies": [],
+          "conflicts": []
+        }
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [
+        {
+          "code": "restricted-client",
+          "message": "Upstream describes this as a cheat, ghost, hacked, or mainly blatant client. Server rules may prohibit it; Moonrise does not bundle it.",
+          "localizedMessage": {
+            "en": "Upstream describes this as a cheat, ghost, hacked, or mainly blatant client. Server rules may prohibit it; Moonrise does not bundle it.",
+            "ru": "Вышестоящий проект описывает это как чит-, ghost-, hacked- или преимущественно blatant-клиент. Правила сервера могут запрещать его; Moonrise не включает его в поставку."
+          }
+        },
+        {
+          "code": "noncommercial-license",
+          "message": "The repository license is non-commercial and does not state a clear version in its text.",
+          "localizedMessage": {
+            "en": "The repository license is non-commercial and does not state a clear version in its text.",
+            "ru": "Лицензия репозитория запрещает коммерческое использование и не указывает ясную версию в тексте."
+          }
+        }
+      ],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "hit-delay-fix",
+      "slug": "hit-delay-fix",
+      "type": "javaAgent",
+      "name": "HitDelayFix",
+      "summary": "Removes the random 1.8 sword-swing cooldown described by upstream.",
+      "description": "Removes the random 1.8 sword-swing cooldown described by upstream.",
+      "localizations": {
+        "en": {
+          "name": "HitDelayFix",
+          "summary": "Removes the random 1.8 sword-swing cooldown described by upstream.",
+          "description": "Removes the random 1.8 sword-swing cooldown described by upstream.",
+          "warnings": [
+            "This behavior may provide an unfair advantage and may be prohibited by server rules."
+          ],
+          "changelog": "Release v1.2.0."
+        },
+        "ru": {
+          "name": "HitDelayFix",
+          "summary": "Убирает описанную автором случайную задержку взмаха меча в 1.8.",
+          "description": "Убирает описанную автором случайную задержку взмаха меча в 1.8.",
+          "warnings": [
+            "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера."
+          ],
+          "changelog": "Релиз v1.2.0."
+        }
+      },
+      "authors": [
+        {
+          "name": "Nilsen84",
+          "url": "https://github.com/Nilsen84"
+        }
+      ],
+      "homepage": "https://github.com/Nilsen84/lunar-client-agents/releases",
+      "repository": "https://github.com/Nilsen84/lunar-client-agents",
+      "license": {
+        "name": "GPL-3.0-only",
+        "url": "https://github.com/Nilsen84/lunar-client-agents/blob/master/LICENSE"
+      },
+      "tags": [
+        "restricted"
+      ],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/restricted.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [],
+      "supportedClientVersions": [
+        "Lunar Client"
+      ],
+      "archived": false,
+      "riskLevel": "unfairAdvantage",
+      "installPolicy": "confirmationRequired",
+      "restricted": true,
+      "featured": false,
+      "recommended": false,
+      "releases": [
+        {
+          "version": "1.2.0",
+          "publishedAt": "2022-07-20T17:45:58Z",
+          "changelog": "Release v1.2.0.",
+          "localizedChangelog": {
+            "en": "Release v1.2.0.",
+            "ru": "Релиз v1.2.0."
+          },
+          "artifact": {
+            "downloadMode": "githubRelease",
+            "assetUrl": "https://github.com/Nilsen84/lunar-client-agents/releases/download/v1.2.0/HitDelayFix.jar",
+            "upstreamReleaseUrl": "https://github.com/Nilsen84/lunar-client-agents/releases",
+            "fileName": "HitDelayFix.jar",
+            "fileSize": 178099,
+            "sha256": "e80567038ccec6c988f84b9fa39c0b9af14c374deb793201caf1d0765aa0b64e",
+            "javaVersion": null,
+            "weaveLoaderRange": null,
+            "minecraftVersions": []
+          },
+          "dependencies": [],
+          "conflicts": []
+        }
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [
+        {
+          "code": "server-rules",
+          "message": "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+          "localizedMessage": {
+            "en": "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+            "ru": "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера."
+          }
+        }
+      ],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "level-head-improved",
+      "slug": "level-head-improved",
+      "type": "javaAgent",
+      "name": "LevelHeadImproved",
+      "summary": "A Java agent committed in Lunar Client Qt; no separate public source project was found.",
+      "description": "A Java agent committed in Lunar Client Qt; no separate public source project was found.",
+      "localizations": {
+        "en": {
+          "name": "LevelHeadImproved",
+          "summary": "A Java agent committed in Lunar Client Qt; no separate public source project was found.",
+          "description": "A Java agent committed in Lunar Client Qt; no separate public source project was found.",
+          "warnings": [
+            "No clear upstream license was found. Moonrise does not redistribute this binary."
+          ],
+          "changelog": ""
+        },
+        "ru": {
+          "name": "LevelHeadImproved",
+          "summary": "Java-агент, добавленный в Lunar Client Qt; отдельный публичный исходный проект не найден.",
+          "description": "Java-агент, добавленный в Lunar Client Qt; отдельный публичный исходный проект не найден.",
+          "warnings": [
+            "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл."
+          ],
+          "changelog": ""
+        }
+      },
+      "authors": [
+        {
+          "name": "Youded-byte",
+          "url": "https://github.com/Youded-byte"
+        }
+      ],
+      "homepage": "https://github.com/Youded-byte/lunar-client-qt/blob/master/java/agents/LevelHeadImproved.jar",
+      "repository": "https://github.com/Youded-byte/lunar-client-qt",
+      "license": null,
+      "tags": [],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/java-agent.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [],
+      "supportedClientVersions": [],
+      "archived": false,
+      "riskLevel": "unknown",
+      "installPolicy": "externalDownload",
+      "restricted": false,
+      "featured": false,
+      "recommended": false,
+      "releases": [],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [
+        {
+          "code": "missing-license",
+          "message": "No clear upstream license was found. Moonrise does not redistribute this binary.",
+          "localizedMessage": {
+            "en": "No clear upstream license was found. Moonrise does not redistribute this binary.",
+            "ru": "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл."
+          }
+        }
+      ],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "level-head-nicks",
+      "slug": "level-head-nicks",
+      "type": "javaAgent",
+      "name": "LevelHeadNicks",
+      "summary": "Sets the displayed LevelHead level for nicked players from an agent option.",
+      "description": "Sets the displayed LevelHead level for nicked players from an agent option.",
+      "localizations": {
+        "en": {
+          "name": "LevelHeadNicks",
+          "summary": "Sets the displayed LevelHead level for nicked players from an agent option.",
+          "description": "Sets the displayed LevelHead level for nicked players from an agent option.",
+          "warnings": [
+            "This changes displayed player information and may conflict with server or network rules."
+          ],
+          "changelog": "Release v1.2.0."
+        },
+        "ru": {
+          "name": "LevelHeadNicks",
+          "summary": "Задаёт отображаемый уровень LevelHead для игроков с ником через параметр агента.",
+          "description": "Задаёт отображаемый уровень LevelHead для игроков с ником через параметр агента.",
+          "warnings": [
+            "Пакет изменяет отображаемую информацию об игроках и может противоречить правилам сервера или сети."
+          ],
+          "changelog": "Релиз v1.2.0."
+        }
+      },
+      "authors": [
+        {
+          "name": "Nilsen84",
+          "url": "https://github.com/Nilsen84"
+        }
+      ],
+      "homepage": "https://github.com/Nilsen84/lunar-client-agents/releases",
+      "repository": "https://github.com/Nilsen84/lunar-client-agents",
+      "license": {
+        "name": "GPL-3.0-only",
+        "url": "https://github.com/Nilsen84/lunar-client-agents/blob/master/LICENSE"
+      },
+      "tags": [],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/java-agent.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [],
+      "supportedClientVersions": [
+        "Lunar Client"
+      ],
+      "archived": false,
+      "riskLevel": "serverDependent",
+      "installPolicy": "confirmationRequired",
+      "restricted": false,
+      "featured": false,
+      "recommended": false,
+      "releases": [
+        {
+          "version": "1.2.0",
+          "publishedAt": "2022-07-20T17:45:58Z",
+          "changelog": "Release v1.2.0.",
+          "localizedChangelog": {
+            "en": "Release v1.2.0.",
+            "ru": "Релиз v1.2.0."
+          },
+          "artifact": {
+            "downloadMode": "githubRelease",
+            "assetUrl": "https://github.com/Nilsen84/lunar-client-agents/releases/download/v1.2.0/LevelHeadNicks.jar",
+            "upstreamReleaseUrl": "https://github.com/Nilsen84/lunar-client-agents/releases",
+            "fileName": "LevelHeadNicks.jar",
+            "fileSize": 178778,
+            "sha256": "b5f185ac2aaf876e9291be671e2b8066d8187d3c9f2b1f65df79ffc73035a195",
+            "javaVersion": null,
+            "weaveLoaderRange": null,
+            "minecraftVersions": []
+          },
+          "dependencies": [],
+          "conflicts": []
+        }
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [
+        {
+          "code": "display-modification",
+          "message": "This changes displayed player information and may conflict with server or network rules.",
+          "localizedMessage": {
+            "en": "This changes displayed player information and may conflict with server or network rules.",
+            "ru": "Пакет изменяет отображаемую информацию об игроках и может противоречить правилам сервера или сети."
+          }
+        }
+      ],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "local-bedwars-helper-patched",
+      "slug": "local-bedwars-helper-patched",
+      "type": "weaveMod",
+      "name": "BedWars Helper (local patched artifact)",
+      "summary": "A locally inspected patched BedWars Helper JAR with no authorized public source for these exact bytes.",
+      "description": "A locally inspected patched BedWars Helper JAR with no authorized public source for these exact bytes.",
+      "localizations": {
+        "en": {
+          "name": "BedWars Helper (local patched artifact)",
+          "summary": "A locally inspected patched BedWars Helper JAR with no authorized public source for these exact bytes.",
+          "description": "A locally inspected patched BedWars Helper JAR with no authorized public source for these exact bytes.",
+          "warnings": [
+            "This locally inspected artifact is not published or uploaded by the catalog."
+          ],
+          "changelog": ""
+        },
+        "ru": {
+          "name": "BedWars Helper (local patched artifact)",
+          "summary": "Локально проверенный патч BedWars Helper без авторизованного публичного источника именно этих байтов.",
+          "description": "Локально проверенный патч BedWars Helper без авторизованного публичного источника именно этих байтов.",
+          "warnings": [
+            "Этот локально проверенный артефакт не публикуется и не загружается каталогом."
+          ],
+          "changelog": ""
+        }
+      },
+      "authors": [
+        {
+          "name": "Unknown upstream author",
+          "url": null
+        }
+      ],
+      "homepage": null,
+      "repository": null,
+      "license": null,
+      "tags": [],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/weave-mod.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [
+        "1.8.9"
+      ],
+      "supportedClientVersions": [],
+      "archived": false,
+      "riskLevel": "unknown",
+      "installPolicy": "unavailable",
+      "restricted": false,
+      "featured": false,
+      "recommended": false,
+      "releases": [],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [
+        {
+          "code": "local-artifact",
+          "message": "This locally inspected artifact is not published or uploaded by the catalog.",
+          "localizedMessage": {
+            "en": "This locally inspected artifact is not published or uploaded by the catalog.",
+            "ru": "Этот локально проверенный артефакт не публикуется и не загружается каталогом."
+          }
+        }
+      ],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "local-stormy-patched",
+      "slug": "local-stormy-patched",
+      "type": "weaveMod",
+      "name": "Stormy (local patched artifact)",
+      "summary": "A locally patched Stormy JAR whose bytes differ from the archived upstream release.",
+      "description": "A locally patched Stormy JAR whose bytes differ from the archived upstream release.",
+      "localizations": {
+        "en": {
+          "name": "Stormy (local patched artifact)",
+          "summary": "A locally patched Stormy JAR whose bytes differ from the archived upstream release.",
+          "description": "A locally patched Stormy JAR whose bytes differ from the archived upstream release.",
+          "warnings": [
+            "Upstream describes this as a cheat, ghost, hacked, or mainly blatant client. Server rules may prohibit it; Moonrise does not bundle it.",
+            "This locally inspected artifact is not published or uploaded by the catalog."
+          ],
+          "changelog": ""
+        },
+        "ru": {
+          "name": "Stormy (local patched artifact)",
+          "summary": "Локально пропатченный JAR Stormy, байты которого отличаются от архивного релиза автора.",
+          "description": "Локально пропатченный JAR Stormy, байты которого отличаются от архивного релиза автора.",
+          "warnings": [
+            "Вышестоящий проект описывает это как чит-, ghost-, hacked- или преимущественно blatant-клиент. Правила сервера могут запрещать его; Moonrise не включает его в поставку.",
+            "Этот локально проверенный артефакт не публикуется и не загружается каталогом."
+          ],
+          "changelog": ""
+        }
+      },
+      "authors": [
+        {
+          "name": "Tryflle",
+          "url": "https://github.com/Tryflle"
+        }
+      ],
+      "homepage": "https://github.com/Tryflle/stormy/releases",
+      "repository": "https://github.com/Tryflle/stormy",
+      "license": null,
+      "tags": [
+        "restricted"
+      ],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/restricted.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [
+        "1.8.9"
+      ],
+      "supportedClientVersions": [],
+      "archived": true,
+      "riskLevel": "cheatClient",
+      "installPolicy": "unavailable",
+      "restricted": true,
+      "featured": false,
+      "recommended": false,
+      "releases": [],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [
+        {
+          "code": "restricted-client",
+          "message": "Upstream describes this as a cheat, ghost, hacked, or mainly blatant client. Server rules may prohibit it; Moonrise does not bundle it.",
+          "localizedMessage": {
+            "en": "Upstream describes this as a cheat, ghost, hacked, or mainly blatant client. Server rules may prohibit it; Moonrise does not bundle it.",
+            "ru": "Вышестоящий проект описывает это как чит-, ghost-, hacked- или преимущественно blatant-клиент. Правила сервера могут запрещать его; Moonrise не включает его в поставку."
+          }
+        },
+        {
+          "code": "local-artifact",
+          "message": "This locally inspected artifact is not published or uploaded by the catalog.",
+          "localizedMessage": {
+            "en": "This locally inspected artifact is not published or uploaded by the catalog.",
+            "ru": "Этот локально проверенный артефакт не публикуется и не загружается каталогом."
+          }
+        }
+      ],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "local-unrestricted-patched",
+      "slug": "local-unrestricted-patched",
+      "type": "weaveMod",
+      "name": "Unrestricted (local patched artifact)",
+      "summary": "A locally patched Unrestricted JAR with a native-freelook bridge and no authorized release for these bytes.",
+      "description": "A locally patched Unrestricted JAR with a native-freelook bridge and no authorized release for these bytes.",
+      "localizations": {
+        "en": {
+          "name": "Unrestricted (local patched artifact)",
+          "summary": "A locally patched Unrestricted JAR with a native-freelook bridge and no authorized release for these bytes.",
+          "description": "A locally patched Unrestricted JAR with a native-freelook bridge and no authorized release for these bytes.",
+          "warnings": [
+            "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+            "This locally inspected artifact is not published or uploaded by the catalog."
+          ],
+          "changelog": ""
+        },
+        "ru": {
+          "name": "Unrestricted (local patched artifact)",
+          "summary": "Локально пропатченный JAR Unrestricted с мостом native freelook без авторизованного релиза этих байтов.",
+          "description": "Локально пропатченный JAR Unrestricted с мостом native freelook без авторизованного релиза этих байтов.",
+          "warnings": [
+            "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера.",
+            "Этот локально проверенный артефакт не публикуется и не загружается каталогом."
+          ],
+          "changelog": ""
+        }
+      },
+      "authors": [
+        {
+          "name": "Youded-byte",
+          "url": "https://github.com/Youded-byte"
+        }
+      ],
+      "homepage": "https://github.com/Youded-byte/unrestricted/releases",
+      "repository": "https://github.com/Youded-byte/unrestricted",
+      "license": null,
+      "tags": [
+        "restricted"
+      ],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/restricted.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [
+        "1.8.9"
+      ],
+      "supportedClientVersions": [],
+      "archived": false,
+      "riskLevel": "unfairAdvantage",
+      "installPolicy": "unavailable",
+      "restricted": true,
+      "featured": false,
+      "recommended": false,
+      "releases": [],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [
+        {
+          "code": "server-rules",
+          "message": "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+          "localizedMessage": {
+            "en": "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+            "ru": "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера."
+          }
+        },
+        {
+          "code": "local-artifact",
+          "message": "This locally inspected artifact is not published or uploaded by the catalog.",
+          "localizedMessage": {
+            "en": "This locally inspected artifact is not published or uploaded by the catalog.",
+            "ru": "Этот локально проверенный артефакт не публикуется и не загружается каталогом."
+          }
+        }
+      ],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "lunar-accurate-reach-display",
+      "slug": "lunar-accurate-reach-display",
+      "type": "javaAgent",
+      "name": "LunarAccurateReachDisplay",
+      "summary": "Removes the 3.0 display cap and optional decimal rounding in Lunar's reach display.",
+      "description": "Removes the 3.0 display cap and optional decimal rounding in Lunar's reach display.",
+      "localizations": {
+        "en": {
+          "name": "LunarAccurateReachDisplay",
+          "summary": "Removes the 3.0 display cap and optional decimal rounding in Lunar's reach display.",
+          "description": "Removes the 3.0 display cap and optional decimal rounding in Lunar's reach display.",
+          "warnings": [
+            "Upstream describes display changes, not a change to actual reach."
+          ],
+          "changelog": "Release v1.1."
+        },
+        "ru": {
+          "name": "LunarAccurateReachDisplay",
+          "summary": "Убирает ограничение отображения 3.0 и необязательное округление в индикаторе дистанции Lunar.",
+          "description": "Убирает ограничение отображения 3.0 и необязательное округление в индикаторе дистанции Lunar.",
+          "warnings": [
+            "Автор описывает изменение отображения, а не фактической дистанции удара."
+          ],
+          "changelog": "Релиз v1.1."
+        }
+      },
+      "authors": [
+        {
+          "name": "Youded-byte",
+          "url": "https://github.com/Youded-byte"
+        }
+      ],
+      "homepage": "https://github.com/Youded-byte/youded-lunar-client-agents/releases",
+      "repository": "https://github.com/Youded-byte/youded-lunar-client-agents",
+      "license": {
+        "name": "GPL-2.0-only",
+        "url": "https://github.com/Youded-byte/youded-lunar-client-agents/blob/main/LICENSE"
+      },
+      "tags": [],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/java-agent.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [],
+      "supportedClientVersions": [
+        "Lunar Client"
+      ],
+      "archived": false,
+      "riskLevel": "serverDependent",
+      "installPolicy": "confirmationRequired",
+      "restricted": false,
+      "featured": false,
+      "recommended": false,
+      "releases": [
+        {
+          "version": "1.1",
+          "publishedAt": "2022-05-18T18:58:42Z",
+          "changelog": "Release v1.1.",
+          "localizedChangelog": {
+            "en": "Release v1.1.",
+            "ru": "Релиз v1.1."
+          },
+          "artifact": {
+            "downloadMode": "githubRelease",
+            "assetUrl": "https://github.com/Youded-byte/youded-lunar-client-agents/releases/download/v1.1/LunarAccurateReachDisplay.jar",
+            "upstreamReleaseUrl": "https://github.com/Youded-byte/youded-lunar-client-agents/releases",
+            "fileName": "LunarAccurateReachDisplay.jar",
+            "fileSize": 4011,
+            "sha256": "4200452ad80ad065ac32fe0e2a8a58c3975e6bad64b1589842e436bb59b08025",
+            "javaVersion": null,
+            "weaveLoaderRange": null,
+            "minecraftVersions": []
+          },
+          "dependencies": [],
+          "conflicts": []
+        }
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [
+        {
+          "code": "display-only",
+          "message": "Upstream describes display changes, not a change to actual reach.",
+          "localizedMessage": {
+            "en": "Upstream describes display changes, not a change to actual reach.",
+            "ru": "Автор описывает изменение отображения, а не фактической дистанции удара."
+          }
+        }
+      ],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "lunar-agent-legacy",
+      "slug": "lunar-agent-legacy",
+      "type": "javaAgent",
+      "name": "Lunar-Agent",
+      "summary": "A source-only Lunar Client agent with BedWars tools, AutoDodge, ESP, and tracers.",
+      "description": "A source-only Lunar Client agent with BedWars tools, AutoDodge, ESP, and tracers.",
+      "localizations": {
+        "en": {
+          "name": "Lunar-Agent",
+          "summary": "A source-only Lunar Client agent with BedWars tools, AutoDodge, ESP, and tracers.",
+          "description": "A source-only Lunar Client agent with BedWars tools, AutoDodge, ESP, and tracers.",
+          "warnings": [
+            "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+            "No clear upstream license was found. Moonrise does not redistribute this binary.",
+            "Upstream explicitly lists ESP, tracers, and a bannable AutoDodge feature."
+          ],
+          "changelog": ""
+        },
+        "ru": {
+          "name": "Lunar-Agent",
+          "summary": "Java-агент Lunar Client только в исходниках с инструментами BedWars, AutoDodge, ESP и tracers.",
+          "description": "Java-агент Lunar Client только в исходниках с инструментами BedWars, AutoDodge, ESP и tracers.",
+          "warnings": [
+            "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера.",
+            "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл.",
+            "Автор прямо указывает ESP, tracers и банящийся AutoDodge."
+          ],
+          "changelog": ""
+        }
+      },
+      "authors": [
+        {
+          "name": "Monmcgt",
+          "url": "https://github.com/Monmcgt"
+        }
+      ],
+      "homepage": "https://github.com/Monmcgt/Lunar-Agent",
+      "repository": "https://github.com/Monmcgt/Lunar-Agent",
+      "license": null,
+      "tags": [
+        "restricted"
+      ],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/restricted.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [
+        "1.8.9"
+      ],
+      "supportedClientVersions": [
+        "Lunar Client 1.8.9-b4db1c9/master"
+      ],
+      "archived": false,
+      "riskLevel": "unfairAdvantage",
+      "installPolicy": "sourceOnly",
+      "restricted": true,
+      "featured": false,
+      "recommended": false,
+      "releases": [],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [
+        {
+          "code": "server-rules",
+          "message": "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+          "localizedMessage": {
+            "en": "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+            "ru": "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера."
+          }
+        },
+        {
+          "code": "missing-license",
+          "message": "No clear upstream license was found. Moonrise does not redistribute this binary.",
+          "localizedMessage": {
+            "en": "No clear upstream license was found. Moonrise does not redistribute this binary.",
+            "ru": "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл."
+          }
+        },
+        {
+          "code": "esp",
+          "message": "Upstream explicitly lists ESP, tracers, and a bannable AutoDodge feature.",
+          "localizedMessage": {
+            "en": "Upstream explicitly lists ESP, tracers, and a bannable AutoDodge feature.",
+            "ru": "Автор прямо указывает ESP, tracers и банящийся AutoDodge."
+          }
+        }
+      ],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "lunar-better-hurt-cam",
+      "slug": "lunar-better-hurt-cam",
+      "type": "javaAgent",
+      "name": "LunarBetterHurtCam",
+      "summary": "Changes how strongly the camera moves when the player is hurt.",
+      "description": "Changes how strongly the camera moves when the player is hurt.",
+      "localizations": {
+        "en": {
+          "name": "LunarBetterHurtCam",
+          "summary": "Changes how strongly the camera moves when the player is hurt.",
+          "description": "Changes how strongly the camera moves when the player is hurt.",
+          "warnings": [],
+          "changelog": "Adds support for newer Minecraft versions."
+        },
+        "ru": {
+          "name": "LunarBetterHurtCam",
+          "summary": "Изменяет силу движения камеры при получении урона.",
+          "description": "Изменяет силу движения камеры при получении урона.",
+          "warnings": [],
+          "changelog": "Добавлена поддержка более новых версий Minecraft."
+        }
+      },
+      "authors": [
+        {
+          "name": "Youded-byte",
+          "url": "https://github.com/Youded-byte"
+        }
+      ],
+      "homepage": "https://github.com/Youded-byte/LunarBetterHurtCam/releases",
+      "repository": "https://github.com/Youded-byte/LunarBetterHurtCam",
+      "license": {
+        "name": "GPL-2.0-only",
+        "url": "https://github.com/Youded-byte/LunarBetterHurtCam/blob/main/LICENSE"
+      },
+      "tags": [],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/archived.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [],
+      "supportedClientVersions": [
+        "Lunar Client"
+      ],
+      "archived": true,
+      "riskLevel": "normal",
+      "installPolicy": "oneClick",
+      "restricted": false,
+      "featured": false,
+      "recommended": false,
+      "releases": [
+        {
+          "version": "1.1",
+          "publishedAt": "2022-06-10T18:27:58Z",
+          "changelog": "Adds support for newer Minecraft versions.",
+          "localizedChangelog": {
+            "en": "Adds support for newer Minecraft versions.",
+            "ru": "Добавлена поддержка более новых версий Minecraft."
+          },
+          "artifact": {
+            "downloadMode": "githubRelease",
+            "assetUrl": "https://github.com/Youded-byte/LunarBetterHurtCam/releases/download/v1.1/LunarBetterHurtCam-with-dependencies.jar",
+            "upstreamReleaseUrl": "https://github.com/Youded-byte/LunarBetterHurtCam/releases",
+            "fileName": "LunarBetterHurtCam-with-dependencies.jar",
+            "fileSize": 174592,
+            "sha256": "3055f431d1159fb43e285efd90446ee3f521ee61b785f19bc7f461ec1cd47e90",
+            "javaVersion": null,
+            "weaveLoaderRange": null,
+            "minecraftVersions": []
+          },
+          "dependencies": [],
+          "conflicts": []
+        }
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "lunar-enable",
+      "slug": "lunar-enable",
+      "type": "javaAgent",
+      "name": "LunarEnable",
+      "summary": "Re-enables Lunar Client mods that the client or server disabled.",
+      "description": "Re-enables Lunar Client mods that the client or server disabled.",
+      "localizations": {
+        "en": {
+          "name": "LunarEnable",
+          "summary": "Re-enables Lunar Client mods that the client or server disabled.",
+          "description": "Re-enables Lunar Client mods that the client or server disabled.",
+          "warnings": [
+            "This behavior may provide an unfair advantage and may be prohibited by server rules."
+          ],
+          "changelog": "Release v1.2.0."
+        },
+        "ru": {
+          "name": "LunarEnable",
+          "summary": "Повторно включает моды Lunar Client, отключённые клиентом или сервером.",
+          "description": "Повторно включает моды Lunar Client, отключённые клиентом или сервером.",
+          "warnings": [
+            "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера."
+          ],
+          "changelog": "Релиз v1.2.0."
+        }
+      },
+      "authors": [
+        {
+          "name": "Nilsen84",
+          "url": "https://github.com/Nilsen84"
+        }
+      ],
+      "homepage": "https://github.com/Nilsen84/lunar-client-agents/releases",
+      "repository": "https://github.com/Nilsen84/lunar-client-agents",
+      "license": {
+        "name": "GPL-3.0-only",
+        "url": "https://github.com/Nilsen84/lunar-client-agents/blob/master/LICENSE"
+      },
+      "tags": [
+        "restricted"
+      ],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/restricted.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [],
+      "supportedClientVersions": [
+        "Lunar Client"
+      ],
+      "archived": false,
+      "riskLevel": "unfairAdvantage",
+      "installPolicy": "confirmationRequired",
+      "restricted": true,
+      "featured": false,
+      "recommended": false,
+      "releases": [
+        {
+          "version": "1.2.0",
+          "publishedAt": "2022-07-20T17:45:58Z",
+          "changelog": "Release v1.2.0.",
+          "localizedChangelog": {
+            "en": "Release v1.2.0.",
+            "ru": "Релиз v1.2.0."
+          },
+          "artifact": {
+            "downloadMode": "githubRelease",
+            "assetUrl": "https://github.com/Nilsen84/lunar-client-agents/releases/download/v1.2.0/LunarEnable.jar",
+            "upstreamReleaseUrl": "https://github.com/Nilsen84/lunar-client-agents/releases",
+            "fileName": "LunarEnable.jar",
+            "fileSize": 179809,
+            "sha256": "165ff2a25d6756521c5613442a29dc599e3e9ed2f0ef3a58c28b2bdcb38bf888",
+            "javaVersion": null,
+            "weaveLoaderRange": null,
+            "minecraftVersions": []
+          },
+          "dependencies": [],
+          "conflicts": []
+        }
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [
+        {
+          "code": "server-rules",
+          "message": "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+          "localizedMessage": {
+            "en": "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+            "ru": "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера."
+          }
+        }
+      ],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "lunar-packs-fix",
+      "slug": "lunar-packs-fix",
+      "type": "javaAgent",
+      "name": "LunarPacksFix",
+      "summary": "Restores use of Lunar texture overlays according to upstream.",
+      "description": "Restores use of Lunar texture overlays according to upstream.",
+      "localizations": {
+        "en": {
+          "name": "LunarPacksFix",
+          "summary": "Restores use of Lunar texture overlays according to upstream.",
+          "description": "Restores use of Lunar texture overlays according to upstream.",
+          "warnings": [],
+          "changelog": "Release v1.2.0."
+        },
+        "ru": {
+          "name": "LunarPacksFix",
+          "summary": "Восстанавливает использование оверлеев текстур Lunar согласно описанию автора.",
+          "description": "Восстанавливает использование оверлеев текстур Lunar согласно описанию автора.",
+          "warnings": [],
+          "changelog": "Релиз v1.2.0."
+        }
+      },
+      "authors": [
+        {
+          "name": "Nilsen84",
+          "url": "https://github.com/Nilsen84"
+        }
+      ],
+      "homepage": "https://github.com/Nilsen84/lunar-client-agents/releases",
+      "repository": "https://github.com/Nilsen84/lunar-client-agents",
+      "license": {
+        "name": "GPL-3.0-only",
+        "url": "https://github.com/Nilsen84/lunar-client-agents/blob/master/LICENSE"
+      },
+      "tags": [],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/java-agent.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [],
+      "supportedClientVersions": [
+        "Lunar Client"
+      ],
+      "archived": false,
+      "riskLevel": "normal",
+      "installPolicy": "oneClick",
+      "restricted": false,
+      "featured": false,
+      "recommended": false,
+      "releases": [
+        {
+          "version": "1.2.0",
+          "publishedAt": "2022-07-20T17:45:58Z",
+          "changelog": "Release v1.2.0.",
+          "localizedChangelog": {
+            "en": "Release v1.2.0.",
+            "ru": "Релиз v1.2.0."
+          },
+          "artifact": {
+            "downloadMode": "githubRelease",
+            "assetUrl": "https://github.com/Nilsen84/lunar-client-agents/releases/download/v1.2.0/LunarPacksFix.jar",
+            "upstreamReleaseUrl": "https://github.com/Nilsen84/lunar-client-agents/releases",
+            "fileName": "LunarPacksFix.jar",
+            "fileSize": 178130,
+            "sha256": "d0df08099cc79738cee0410d14046751964883b5d60659a51fba841bc954fd38",
+            "javaVersion": null,
+            "weaveLoaderRange": null,
+            "minecraftVersions": []
+          },
+          "dependencies": [],
+          "conflicts": []
+        }
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "lunar-performance",
+      "slug": "lunar-performance",
+      "type": "javaAgent",
+      "name": "LunarPerformance",
+      "summary": "Applies upstream performance patches to Minecraft and surrounding mods.",
+      "description": "Applies upstream performance patches to Minecraft and surrounding mods.",
+      "localizations": {
+        "en": {
+          "name": "LunarPerformance",
+          "summary": "Applies upstream performance patches to Minecraft and surrounding mods.",
+          "description": "Applies upstream performance patches to Minecraft and surrounding mods.",
+          "warnings": [
+            "Bytecode performance patches can be sensitive to Lunar Client updates."
+          ],
+          "changelog": "Release v1.1."
+        },
+        "ru": {
+          "name": "LunarPerformance",
+          "summary": "Применяет патчи производительности автора к Minecraft и связанным модам.",
+          "description": "Применяет патчи производительности автора к Minecraft и связанным модам.",
+          "warnings": [
+            "Патчи байткода для производительности могут зависеть от обновлений Lunar Client."
+          ],
+          "changelog": "Релиз v1.1."
+        }
+      },
+      "authors": [
+        {
+          "name": "Youded-byte",
+          "url": "https://github.com/Youded-byte"
+        }
+      ],
+      "homepage": "https://github.com/Youded-byte/youded-lunar-client-agents/releases",
+      "repository": "https://github.com/Youded-byte/youded-lunar-client-agents",
+      "license": {
+        "name": "GPL-2.0-only",
+        "url": "https://github.com/Youded-byte/youded-lunar-client-agents/blob/main/LICENSE"
+      },
+      "tags": [],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/java-agent.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [],
+      "supportedClientVersions": [
+        "Lunar Client"
+      ],
+      "archived": false,
+      "riskLevel": "experimental",
+      "installPolicy": "confirmationRequired",
+      "restricted": false,
+      "featured": false,
+      "recommended": false,
+      "releases": [
+        {
+          "version": "1.1",
+          "publishedAt": "2022-05-18T18:58:42Z",
+          "changelog": "Release v1.1.",
+          "localizedChangelog": {
+            "en": "Release v1.1.",
+            "ru": "Релиз v1.1."
+          },
+          "artifact": {
+            "downloadMode": "githubRelease",
+            "assetUrl": "https://github.com/Youded-byte/youded-lunar-client-agents/releases/download/v1.1/LunarPerformance.jar",
+            "upstreamReleaseUrl": "https://github.com/Youded-byte/youded-lunar-client-agents/releases",
+            "fileName": "LunarPerformance.jar",
+            "fileSize": 4558,
+            "sha256": "a60e3f4014ec8e6c2b853aada490b6ee27196129e8791a847557f50e388910ae",
+            "javaVersion": null,
+            "weaveLoaderRange": null,
+            "minecraftVersions": []
+          },
+          "dependencies": [],
+          "conflicts": []
+        }
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [
+        {
+          "code": "experimental-patches",
+          "message": "Bytecode performance patches can be sensitive to Lunar Client updates.",
+          "localizedMessage": {
+            "en": "Bytecode performance patches can be sensitive to Lunar Client updates.",
+            "ru": "Патчи байткода для производительности могут зависеть от обновлений Lunar Client."
+          }
+        }
+      ],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "mm-utils",
+      "slug": "mm-utils",
+      "type": "weaveMod",
+      "name": "MMUtils",
+      "summary": "Detects Murder Mystery roles and provides gold and player ESP on Hypixel.",
+      "description": "Detects Murder Mystery roles and provides gold and player ESP on Hypixel.",
+      "localizations": {
+        "en": {
+          "name": "MMUtils",
+          "summary": "Detects Murder Mystery roles and provides gold and player ESP on Hypixel.",
+          "description": "Detects Murder Mystery roles and provides gold and player ESP on Hypixel.",
+          "warnings": [
+            "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+            "No clear upstream license was found. Moonrise does not redistribute this binary.",
+            "Upstream explicitly lists Gold ESP and Player ESP."
+          ],
+          "changelog": "Upstream release."
+        },
+        "ru": {
+          "name": "MMUtils",
+          "summary": "Определяет роли в Murder Mystery и добавляет ESP золота и игроков на Hypixel.",
+          "description": "Определяет роли в Murder Mystery и добавляет ESP золота и игроков на Hypixel.",
+          "warnings": [
+            "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера.",
+            "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл.",
+            "Автор прямо указывает Gold ESP и Player ESP."
+          ],
+          "changelog": "Релиз вышестоящего проекта."
+        }
+      },
+      "authors": [
+        {
+          "name": "imyanice",
+          "url": "https://github.com/imyanice"
+        }
+      ],
+      "homepage": "https://github.com/imyanice/mm-utils/releases/tag/v2.1.0",
+      "repository": "https://github.com/imyanice/mm-utils",
+      "license": null,
+      "tags": [
+        "restricted"
+      ],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/restricted.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [
+        "1.8.9"
+      ],
+      "supportedClientVersions": [
+        "Lunar Client"
+      ],
+      "archived": false,
+      "riskLevel": "unfairAdvantage",
+      "installPolicy": "externalDownload",
+      "restricted": true,
+      "featured": false,
+      "recommended": false,
+      "releases": [
+        {
+          "version": "2.1.0",
+          "publishedAt": "2026-05-20T19:54:44Z",
+          "changelog": "Upstream release.",
+          "localizedChangelog": {
+            "en": "Upstream release.",
+            "ru": "Релиз вышестоящего проекта."
+          },
+          "artifact": {
+            "downloadMode": "externalPage",
+            "assetUrl": "https://github.com/imyanice/mm-utils/releases/download/v2.1.0/MMUtils-2.1.0.jar",
+            "upstreamReleaseUrl": "https://github.com/imyanice/mm-utils/releases/tag/v2.1.0",
+            "fileName": "MMUtils-2.1.0.jar",
+            "fileSize": 16054,
+            "sha256": "6f8c72b4facfa2bac203143969c3c366765f733b816b984816f51368879672bf",
+            "javaVersion": null,
+            "weaveLoaderRange": null,
+            "minecraftVersions": [
+              "1.8.9"
+            ]
+          },
+          "dependencies": [],
+          "conflicts": []
+        }
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [
+        {
+          "code": "server-rules",
+          "message": "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+          "localizedMessage": {
+            "en": "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+            "ru": "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера."
+          }
+        },
+        {
+          "code": "missing-license",
+          "message": "No clear upstream license was found. Moonrise does not redistribute this binary.",
+          "localizedMessage": {
+            "en": "No clear upstream license was found. Moonrise does not redistribute this binary.",
+            "ru": "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл."
+          }
+        },
+        {
+          "code": "esp",
+          "message": "Upstream explicitly lists Gold ESP and Player ESP.",
+          "localizedMessage": {
+            "en": "Upstream explicitly lists Gold ESP and Player ESP.",
+            "ru": "Автор прямо указывает Gold ESP и Player ESP."
+          }
+        }
+      ],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "moonrise-cosmetics-local",
+      "slug": "moonrise-cosmetics-local",
+      "type": "javaAgent",
+      "name": "Moonrise Cosmetics (local draft)",
+      "summary": "A locally built Moonrise Cosmetics Java agent draft with no catalog release URL.",
+      "description": "A locally built Moonrise Cosmetics Java agent draft with no catalog release URL.",
+      "localizations": {
+        "en": {
+          "name": "Moonrise Cosmetics (local draft)",
+          "summary": "A locally built Moonrise Cosmetics Java agent draft with no catalog release URL.",
+          "description": "A locally built Moonrise Cosmetics Java agent draft with no catalog release URL.",
+          "warnings": [
+            "This locally inspected artifact is not published or uploaded by the catalog."
+          ],
+          "changelog": ""
+        },
+        "ru": {
+          "name": "Moonrise Cosmetics (local draft)",
+          "summary": "Локальная черновая сборка Java-агента Moonrise Cosmetics без URL релиза каталога.",
+          "description": "Локальная черновая сборка Java-агента Moonrise Cosmetics без URL релиза каталога.",
+          "warnings": [
+            "Этот локально проверенный артефакт не публикуется и не загружается каталогом."
+          ],
+          "changelog": ""
+        }
+      },
+      "authors": [
+        {
+          "name": "Moonrise contributors",
+          "url": "https://github.com/ZOONGG/Moonrise"
+        }
+      ],
+      "homepage": "https://github.com/ZOONGG/Moonrise/releases",
+      "repository": "https://github.com/ZOONGG/Moonrise",
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/ZOONGG/Moonrise/blob/main/LICENSE"
+      },
+      "tags": [],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/java-agent.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [],
+      "supportedClientVersions": [
+        "Lunar Client"
+      ],
+      "archived": false,
+      "riskLevel": "experimental",
+      "installPolicy": "unavailable",
+      "restricted": false,
+      "featured": false,
+      "recommended": false,
+      "releases": [],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [
+        {
+          "code": "local-artifact",
+          "message": "This locally inspected artifact is not published or uploaded by the catalog.",
+          "localizedMessage": {
+            "en": "This locally inspected artifact is not published or uploaded by the catalog.",
+            "ru": "Этот локально проверенный артефакт не публикуется и не загружается каталогом."
+          }
+        }
+      ],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "natives-prepare",
+      "slug": "natives-prepare",
+      "type": "javaAgent",
+      "name": "NativesPrepare",
+      "summary": "A Lunar Client Qt helper agent used to prepare the native library path before launch.",
+      "description": "A Lunar Client Qt helper agent used to prepare the native library path before launch.",
+      "localizations": {
+        "en": {
+          "name": "NativesPrepare",
+          "summary": "A Lunar Client Qt helper agent used to prepare the native library path before launch.",
+          "description": "A Lunar Client Qt helper agent used to prepare the native library path before launch.",
+          "warnings": [
+            "No clear upstream license was found. Moonrise does not redistribute this binary.",
+            "This is a launcher implementation helper, not a general-purpose user mod."
+          ],
+          "changelog": ""
+        },
+        "ru": {
+          "name": "NativesPrepare",
+          "summary": "Служебный агент Lunar Client Qt для подготовки пути нативных библиотек перед запуском.",
+          "description": "Служебный агент Lunar Client Qt для подготовки пути нативных библиотек перед запуском.",
+          "warnings": [
+            "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл.",
+            "Это служебный компонент лаунчера, а не пользовательский мод общего назначения."
+          ],
+          "changelog": ""
+        }
+      },
+      "authors": [
+        {
+          "name": "Youded-byte",
+          "url": "https://github.com/Youded-byte"
+        }
+      ],
+      "homepage": "https://github.com/Youded-byte/lunar-client-qt/blob/master/java/agents/NativesPrepare.jar",
+      "repository": "https://github.com/Youded-byte/lunar-client-qt",
+      "license": null,
+      "tags": [],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/java-agent.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [],
+      "supportedClientVersions": [],
+      "archived": false,
+      "riskLevel": "experimental",
+      "installPolicy": "unavailable",
+      "restricted": false,
+      "featured": false,
+      "recommended": false,
+      "releases": [],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [
+        {
+          "code": "missing-license",
+          "message": "No clear upstream license was found. Moonrise does not redistribute this binary.",
+          "localizedMessage": {
+            "en": "No clear upstream license was found. Moonrise does not redistribute this binary.",
+            "ru": "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл."
+          }
+        },
+        {
+          "code": "launcher-helper",
+          "message": "This is a launcher implementation helper, not a general-purpose user mod.",
+          "localizedMessage": {
+            "en": "This is a launcher implementation helper, not a general-purpose user mod.",
+            "ru": "Это служебный компонент лаунчера, а не пользовательский мод общего назначения."
+          }
+        }
+      ],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "nemui",
+      "slug": "nemui",
+      "type": "weaveMod",
+      "name": "Nemui",
+      "summary": "A Weave ghost client whose upstream description emphasizes bypassing servers.",
+      "description": "A Weave ghost client whose upstream description emphasizes bypassing servers.",
+      "localizations": {
+        "en": {
+          "name": "Nemui",
+          "summary": "A Weave ghost client whose upstream description emphasizes bypassing servers.",
+          "description": "A Weave ghost client whose upstream description emphasizes bypassing servers.",
+          "warnings": [
+            "Upstream describes this as a cheat, ghost, hacked, or mainly blatant client. Server rules may prohibit it; Moonrise does not bundle it."
+          ],
+          "changelog": "Upstream release."
+        },
+        "ru": {
+          "name": "Nemui",
+          "summary": "Ghost-клиент для Weave, в описании которого автор подчёркивает обход серверных проверок.",
+          "description": "Ghost-клиент для Weave, в описании которого автор подчёркивает обход серверных проверок.",
+          "warnings": [
+            "Вышестоящий проект описывает это как чит-, ghost-, hacked- или преимущественно blatant-клиент. Правила сервера могут запрещать его; Moonrise не включает его в поставку."
+          ],
+          "changelog": "Релиз вышестоящего проекта."
+        }
+      },
+      "authors": [
+        {
+          "name": "SleepyFish-YT",
+          "url": "https://github.com/SleepyFish-YT"
+        }
+      ],
+      "homepage": "https://github.com/SleepyFish-YT/Nemui/releases/tag/v1.5",
+      "repository": "https://github.com/SleepyFish-YT/Nemui",
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/SleepyFish-YT/Nemui/blob/main/LICENSE"
+      },
+      "tags": [
+        "restricted"
+      ],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/restricted.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [
+        "1.8.9"
+      ],
+      "supportedClientVersions": [],
+      "archived": false,
+      "riskLevel": "cheatClient",
+      "installPolicy": "externalDownload",
+      "restricted": true,
+      "featured": false,
+      "recommended": false,
+      "releases": [
+        {
+          "version": "1.5",
+          "publishedAt": "2025-01-24T23:05:48Z",
+          "changelog": "Upstream release.",
+          "localizedChangelog": {
+            "en": "Upstream release.",
+            "ru": "Релиз вышестоящего проекта."
+          },
+          "artifact": {
+            "downloadMode": "externalPage",
+            "assetUrl": "https://github.com/SleepyFish-YT/Nemui/releases/download/v1.5/Nemui-v1.5.jar",
+            "upstreamReleaseUrl": "https://github.com/SleepyFish-YT/Nemui/releases/tag/v1.5",
+            "fileName": "Nemui-v1.5.jar",
+            "fileSize": 593719,
+            "sha256": "ed91773852c7bd94969e3df8138a1b2491d9af01c70c386fe900cd95dc152d14",
+            "javaVersion": null,
+            "weaveLoaderRange": null,
+            "minecraftVersions": [
+              "1.8.9"
+            ]
+          },
+          "dependencies": [],
+          "conflicts": []
+        }
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [
+        {
+          "code": "restricted-client",
+          "message": "Upstream describes this as a cheat, ghost, hacked, or mainly blatant client. Server rules may prohibit it; Moonrise does not bundle it.",
+          "localizedMessage": {
+            "en": "Upstream describes this as a cheat, ghost, hacked, or mainly blatant client. Server rules may prohibit it; Moonrise does not bundle it.",
+            "ru": "Вышестоящий проект описывает это как чит-, ghost-, hacked- или преимущественно blatant-клиент. Правила сервера могут запрещать его; Moonrise не включает его в поставку."
+          }
+        }
+      ],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "never-hurt-cam",
+      "slug": "never-hurt-cam",
+      "type": "javaAgent",
+      "name": "NeverHurtCam",
+      "summary": "Removes hurt-camera shake across multiple Minecraft launch environments.",
+      "description": "Removes hurt-camera shake across multiple Minecraft launch environments.",
+      "localizations": {
+        "en": {
+          "name": "NeverHurtCam",
+          "summary": "Removes hurt-camera shake across multiple Minecraft launch environments.",
+          "description": "Removes hurt-camera shake across multiple Minecraft launch environments.",
+          "warnings": [],
+          "changelog": "Upstream release."
+        },
+        "ru": {
+          "name": "NeverHurtCam",
+          "summary": "Убирает тряску камеры при уроне в нескольких средах запуска Minecraft.",
+          "description": "Убирает тряску камеры при уроне в нескольких средах запуска Minecraft.",
+          "warnings": [],
+          "changelog": "Релиз вышестоящего проекта."
+        }
+      },
+      "authors": [
+        {
+          "name": "Youded-byte",
+          "url": "https://github.com/Youded-byte"
+        }
+      ],
+      "homepage": "https://github.com/Youded-byte/NeverHurtCam/releases",
+      "repository": "https://github.com/Youded-byte/NeverHurtCam",
+      "license": {
+        "name": "GPL-2.0-only",
+        "url": "https://github.com/Youded-byte/NeverHurtCam/blob/main/LICENSE"
+      },
+      "tags": [],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/java-agent.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [],
+      "supportedClientVersions": [],
+      "archived": false,
+      "riskLevel": "normal",
+      "installPolicy": "oneClick",
+      "restricted": false,
+      "featured": false,
+      "recommended": false,
+      "releases": [
+        {
+          "version": "1.0",
+          "publishedAt": "2022-06-10T18:31:16Z",
+          "changelog": "Upstream release.",
+          "localizedChangelog": {
+            "en": "Upstream release.",
+            "ru": "Релиз вышестоящего проекта."
+          },
+          "artifact": {
+            "downloadMode": "githubRelease",
+            "assetUrl": "https://github.com/Youded-byte/NeverHurtCam/releases/download/v1.0/NeverHurtCam.jar",
+            "upstreamReleaseUrl": "https://github.com/Youded-byte/NeverHurtCam/releases",
+            "fileName": "NeverHurtCam.jar",
+            "fileSize": 1189366,
+            "sha256": "02425d363fd7d5a814a6ab7e7e7fc51329528ad7e1b1ad1be71f703e1c1a457c",
+            "javaVersion": null,
+            "weaveLoaderRange": null,
+            "minecraftVersions": []
+          },
+          "dependencies": [],
+          "conflicts": []
+        }
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "nick-hider-limitless",
+      "slug": "nick-hider-limitless",
+      "type": "javaAgent",
+      "name": "NickHiderLimitless",
+      "summary": "Allows arbitrary NickHider names and removes in-game name restrictions.",
+      "description": "Allows arbitrary NickHider names and removes in-game name restrictions.",
+      "localizations": {
+        "en": {
+          "name": "NickHiderLimitless",
+          "summary": "Allows arbitrary NickHider names and removes in-game name restrictions.",
+          "description": "Allows arbitrary NickHider names and removes in-game name restrictions.",
+          "warnings": [
+            "This changes locally displayed identity text; follow server rules."
+          ],
+          "changelog": "Release v1.1."
+        },
+        "ru": {
+          "name": "NickHiderLimitless",
+          "summary": "Разрешает произвольные имена NickHider и снимает внутриигровые ограничения имён.",
+          "description": "Разрешает произвольные имена NickHider и снимает внутриигровые ограничения имён.",
+          "warnings": [
+            "Пакет меняет локально отображаемый текст имени; соблюдайте правила сервера."
+          ],
+          "changelog": "Релиз v1.1."
+        }
+      },
+      "authors": [
+        {
+          "name": "Youded-byte",
+          "url": "https://github.com/Youded-byte"
+        }
+      ],
+      "homepage": "https://github.com/Youded-byte/youded-lunar-client-agents/releases",
+      "repository": "https://github.com/Youded-byte/youded-lunar-client-agents",
+      "license": {
+        "name": "GPL-2.0-only",
+        "url": "https://github.com/Youded-byte/youded-lunar-client-agents/blob/main/LICENSE"
+      },
+      "tags": [],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/java-agent.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [],
+      "supportedClientVersions": [
+        "Lunar Client"
+      ],
+      "archived": false,
+      "riskLevel": "serverDependent",
+      "installPolicy": "confirmationRequired",
+      "restricted": false,
+      "featured": false,
+      "recommended": false,
+      "releases": [
+        {
+          "version": "1.1",
+          "publishedAt": "2022-05-18T18:58:42Z",
+          "changelog": "Release v1.1.",
+          "localizedChangelog": {
+            "en": "Release v1.1.",
+            "ru": "Релиз v1.1."
+          },
+          "artifact": {
+            "downloadMode": "githubRelease",
+            "assetUrl": "https://github.com/Youded-byte/youded-lunar-client-agents/releases/download/v1.1/NickHiderLimitless.jar",
+            "upstreamReleaseUrl": "https://github.com/Youded-byte/youded-lunar-client-agents/releases",
+            "fileName": "NickHiderLimitless.jar",
+            "fileSize": 3575,
+            "sha256": "3d2558990fb823106810498e3cb3e46f16619c4748f69c4956ab661273ea3586",
+            "javaVersion": null,
+            "weaveLoaderRange": null,
+            "minecraftVersions": []
+          },
+          "dependencies": [],
+          "conflicts": []
+        }
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [
+        {
+          "code": "identity-display",
+          "message": "This changes locally displayed identity text; follow server rules.",
+          "localizedMessage": {
+            "en": "This changes locally displayed identity text; follow server rules.",
+            "ru": "Пакет меняет локально отображаемый текст имени; соблюдайте правила сервера."
+          }
+        }
+      ],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "no-pinned-servers",
+      "slug": "no-pinned-servers",
+      "type": "javaAgent",
+      "name": "NoPinnedServers",
+      "summary": "Removes Lunar Client's pinned servers from the server list.",
+      "description": "Removes Lunar Client's pinned servers from the server list.",
+      "localizations": {
+        "en": {
+          "name": "NoPinnedServers",
+          "summary": "Removes Lunar Client's pinned servers from the server list.",
+          "description": "Removes Lunar Client's pinned servers from the server list.",
+          "warnings": [],
+          "changelog": "Release v1.2.0."
+        },
+        "ru": {
+          "name": "NoPinnedServers",
+          "summary": "Удаляет закреплённые серверы Lunar Client из списка серверов.",
+          "description": "Удаляет закреплённые серверы Lunar Client из списка серверов.",
+          "warnings": [],
+          "changelog": "Релиз v1.2.0."
+        }
+      },
+      "authors": [
+        {
+          "name": "Nilsen84",
+          "url": "https://github.com/Nilsen84"
+        }
+      ],
+      "homepage": "https://github.com/Nilsen84/lunar-client-agents/releases",
+      "repository": "https://github.com/Nilsen84/lunar-client-agents",
+      "license": {
+        "name": "GPL-3.0-only",
+        "url": "https://github.com/Nilsen84/lunar-client-agents/blob/master/LICENSE"
+      },
+      "tags": [],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/java-agent.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [],
+      "supportedClientVersions": [
+        "Lunar Client"
+      ],
+      "archived": false,
+      "riskLevel": "normal",
+      "installPolicy": "oneClick",
+      "restricted": false,
+      "featured": false,
+      "recommended": false,
+      "releases": [
+        {
+          "version": "1.2.0",
+          "publishedAt": "2022-07-20T17:45:58Z",
+          "changelog": "Release v1.2.0.",
+          "localizedChangelog": {
+            "en": "Release v1.2.0.",
+            "ru": "Релиз v1.2.0."
+          },
+          "artifact": {
+            "downloadMode": "githubRelease",
+            "assetUrl": "https://github.com/Nilsen84/lunar-client-agents/releases/download/v1.2.0/NoPinnedServers.jar",
+            "upstreamReleaseUrl": "https://github.com/Nilsen84/lunar-client-agents/releases",
+            "fileName": "NoPinnedServers.jar",
+            "fileSize": 178075,
+            "sha256": "cbeed53832bfcd924479bfd8fffd118a90c89702a53ffb12f5e50f334dc69ff8",
+            "javaVersion": null,
+            "weaveLoaderRange": null,
+            "minecraftVersions": []
+          },
+          "dependencies": [],
+          "conflicts": []
+        }
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "oofmod",
+      "slug": "oofmod",
+      "type": "weaveMod",
+      "name": "OofMod",
+      "summary": "Plays a configured sound effect when the player kills another player.",
+      "description": "Plays a configured sound effect when the player kills another player.",
+      "localizations": {
+        "en": {
+          "name": "OofMod",
+          "summary": "Plays a configured sound effect when the player kills another player.",
+          "description": "Plays a configured sound effect when the player kills another player.",
+          "warnings": [],
+          "changelog": "Upstream release."
+        },
+        "ru": {
+          "name": "OofMod",
+          "summary": "Воспроизводит выбранный звук, когда игрок убивает другого игрока.",
+          "description": "Воспроизводит выбранный звук, когда игрок убивает другого игрока.",
+          "warnings": [],
+          "changelog": "Релиз вышестоящего проекта."
+        }
+      },
+      "authors": [
+        {
+          "name": "thaYt",
+          "url": "https://github.com/thaYt"
+        }
+      ],
+      "homepage": "https://github.com/thaYt/oofmod/releases",
+      "repository": "https://github.com/thaYt/oofmod",
+      "license": {
+        "name": "GPL-3.0-only",
+        "url": "https://github.com/thaYt/oofmod/blob/master/LICENSE"
+      },
+      "tags": [],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/weave-mod.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [
+        "1.8.9"
+      ],
+      "supportedClientVersions": [],
+      "archived": false,
+      "riskLevel": "normal",
+      "installPolicy": "oneClick",
+      "restricted": false,
+      "featured": false,
+      "recommended": false,
+      "releases": [
+        {
+          "version": "1.0",
+          "publishedAt": "2023-08-06T03:10:48Z",
+          "changelog": "Upstream release.",
+          "localizedChangelog": {
+            "en": "Upstream release.",
+            "ru": "Релиз вышестоящего проекта."
+          },
+          "artifact": {
+            "downloadMode": "githubRelease",
+            "assetUrl": "https://github.com/thaYt/oofmod/releases/download/v1.0/OofMod-1.0.jar",
+            "upstreamReleaseUrl": "https://github.com/thaYt/oofmod/releases",
+            "fileName": "OofMod-1.0.jar",
+            "fileSize": 731031,
+            "sha256": "4a37dc80524fa1637bf87c1bc56949d353b397c05de4afeef71d083f0efd0133",
+            "javaVersion": null,
+            "weaveLoaderRange": null,
+            "minecraftVersions": [
+              "1.8.9"
+            ]
+          },
+          "dependencies": [],
+          "conflicts": []
+        }
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "raven-weave",
+      "slug": "raven-weave",
+      "type": "weaveMod",
+      "name": "RavenWeave",
+      "summary": "A Raven B++ cheat-client fork ported to Weave.",
+      "description": "A Raven B++ cheat-client fork ported to Weave.",
+      "localizations": {
+        "en": {
+          "name": "RavenWeave",
+          "summary": "A Raven B++ cheat-client fork ported to Weave.",
+          "description": "A Raven B++ cheat-client fork ported to Weave.",
+          "warnings": [
+            "Upstream describes this as a cheat, ghost, hacked, or mainly blatant client. Server rules may prohibit it; Moonrise does not bundle it."
+          ],
+          "changelog": "Upstream release."
+        },
+        "ru": {
+          "name": "RavenWeave",
+          "summary": "Портированный на Weave форк чит-клиента Raven B++.",
+          "description": "Портированный на Weave форк чит-клиента Raven B++.",
+          "warnings": [
+            "Вышестоящий проект описывает это как чит-, ghost-, hacked- или преимущественно blatant-клиент. Правила сервера могут запрещать его; Moonrise не включает его в поставку."
+          ],
+          "changelog": "Релиз вышестоящего проекта."
+        }
+      },
+      "authors": [
+        {
+          "name": "PianoPenguin471",
+          "url": "https://github.com/PianoPenguin471"
+        }
+      ],
+      "homepage": "https://github.com/PianoPenguin471/RavenWeave/releases/tag/latest",
+      "repository": "https://github.com/PianoPenguin471/RavenWeave",
+      "license": {
+        "name": "GPL-3.0-only",
+        "url": "https://github.com/PianoPenguin471/RavenWeave/blob/main/LICENSE"
+      },
+      "tags": [
+        "restricted"
+      ],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/restricted.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [
+        "1.8.9"
+      ],
+      "supportedClientVersions": [],
+      "archived": true,
+      "riskLevel": "cheatClient",
+      "installPolicy": "externalDownload",
+      "restricted": true,
+      "featured": false,
+      "recommended": false,
+      "releases": [
+        {
+          "version": "1.1.5-Beta",
+          "publishedAt": "2024-01-18T21:04:51Z",
+          "changelog": "Upstream release.",
+          "localizedChangelog": {
+            "en": "Upstream release.",
+            "ru": "Релиз вышестоящего проекта."
+          },
+          "artifact": {
+            "downloadMode": "externalPage",
+            "assetUrl": "https://github.com/PianoPenguin471/RavenWeave/releases/download/latest/RavenWeave-1.1.5-Beta.jar",
+            "upstreamReleaseUrl": "https://github.com/PianoPenguin471/RavenWeave/releases/tag/latest",
+            "fileName": "RavenWeave-1.1.5-Beta.jar",
+            "fileSize": 1517226,
+            "sha256": "49d67205492837d600f923c08181379fb3dc4077cecbf1849d38b9a8fc712d69",
+            "javaVersion": null,
+            "weaveLoaderRange": null,
+            "minecraftVersions": [
+              "1.8.9"
+            ]
+          },
+          "dependencies": [],
+          "conflicts": []
+        }
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [
+        {
+          "code": "restricted-client",
+          "message": "Upstream describes this as a cheat, ghost, hacked, or mainly blatant client. Server rules may prohibit it; Moonrise does not bundle it.",
+          "localizedMessage": {
+            "en": "Upstream describes this as a cheat, ghost, hacked, or mainly blatant client. Server rules may prohibit it; Moonrise does not bundle it.",
+            "ru": "Вышестоящий проект описывает это как чит-, ghost-, hacked- или преимущественно blatant-клиент. Правила сервера могут запрещать его; Moonrise не включает его в поставку."
+          }
+        }
+      ],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "remove-plus",
+      "slug": "remove-plus",
+      "type": "javaAgent",
+      "name": "RemovePlus",
+      "summary": "Removes the Lunar+ marker from the client icon.",
+      "description": "Removes the Lunar+ marker from the client icon.",
+      "localizations": {
+        "en": {
+          "name": "RemovePlus",
+          "summary": "Removes the Lunar+ marker from the client icon.",
+          "description": "Removes the Lunar+ marker from the client icon.",
+          "warnings": [],
+          "changelog": "Release v1.2.0."
+        },
+        "ru": {
+          "name": "RemovePlus",
+          "summary": "Удаляет отметку Lunar+ со значка клиента.",
+          "description": "Удаляет отметку Lunar+ со значка клиента.",
+          "warnings": [],
+          "changelog": "Релиз v1.2.0."
+        }
+      },
+      "authors": [
+        {
+          "name": "Nilsen84",
+          "url": "https://github.com/Nilsen84"
+        }
+      ],
+      "homepage": "https://github.com/Nilsen84/lunar-client-agents/releases",
+      "repository": "https://github.com/Nilsen84/lunar-client-agents",
+      "license": {
+        "name": "GPL-3.0-only",
+        "url": "https://github.com/Nilsen84/lunar-client-agents/blob/master/LICENSE"
+      },
+      "tags": [],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/java-agent.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [],
+      "supportedClientVersions": [
+        "Lunar Client"
+      ],
+      "archived": false,
+      "riskLevel": "normal",
+      "installPolicy": "oneClick",
+      "restricted": false,
+      "featured": false,
+      "recommended": false,
+      "releases": [
+        {
+          "version": "1.2.0",
+          "publishedAt": "2022-07-20T17:45:58Z",
+          "changelog": "Release v1.2.0.",
+          "localizedChangelog": {
+            "en": "Release v1.2.0.",
+            "ru": "Релиз v1.2.0."
+          },
+          "artifact": {
+            "downloadMode": "githubRelease",
+            "assetUrl": "https://github.com/Nilsen84/lunar-client-agents/releases/download/v1.2.0/RemovePlus.jar",
+            "upstreamReleaseUrl": "https://github.com/Nilsen84/lunar-client-agents/releases",
+            "fileName": "RemovePlus.jar",
+            "fileSize": 178167,
+            "sha256": "b2191e0b2a39940178287344a2a5a135e357bffd62de7c3facb6c1cfcc18853e",
+            "javaVersion": null,
+            "weaveLoaderRange": null,
+            "minecraftVersions": []
+          },
+          "dependencies": [],
+          "conflicts": []
+        }
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "seraph",
+      "slug": "seraph",
+      "type": "weaveMod",
+      "name": "Seraph",
+      "summary": "An upstream-discontinued Hypixel statistics mod for Weave.",
+      "description": "An upstream-discontinued Hypixel statistics mod for Weave.",
+      "localizations": {
+        "en": {
+          "name": "Seraph",
+          "summary": "An upstream-discontinued Hypixel statistics mod for Weave.",
+          "description": "An upstream-discontinued Hypixel statistics mod for Weave.",
+          "warnings": [
+            "No clear upstream license was found. Moonrise does not redistribute this binary."
+          ],
+          "changelog": ""
+        },
+        "ru": {
+          "name": "Seraph",
+          "summary": "Прекращённый автором мод статистики Hypixel для Weave.",
+          "description": "Прекращённый автором мод статистики Hypixel для Weave.",
+          "warnings": [
+            "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл."
+          ],
+          "changelog": ""
+        }
+      },
+      "authors": [
+        {
+          "name": "exejar",
+          "url": "https://github.com/exejar"
+        }
+      ],
+      "homepage": "https://github.com/exejar/Seraph",
+      "repository": "https://github.com/exejar/Seraph",
+      "license": null,
+      "tags": [],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/source-only.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [],
+      "supportedClientVersions": [],
+      "archived": false,
+      "riskLevel": "experimental",
+      "installPolicy": "sourceOnly",
+      "restricted": false,
+      "featured": false,
+      "recommended": false,
+      "releases": [],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [
+        {
+          "code": "missing-license",
+          "message": "No clear upstream license was found. Moonrise does not redistribute this binary.",
+          "localizedMessage": {
+            "en": "No clear upstream license was found. Moonrise does not redistribute this binary.",
+            "ru": "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл."
+          }
+        }
+      ],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "spooky-sky",
+      "slug": "spooky-sky",
+      "type": "javaAgent",
+      "name": "SpookySky",
+      "summary": "A source-only Java-agent Minecraft hacked client.",
+      "description": "A source-only Java-agent Minecraft hacked client.",
+      "localizations": {
+        "en": {
+          "name": "SpookySky",
+          "summary": "A source-only Java-agent Minecraft hacked client.",
+          "description": "A source-only Java-agent Minecraft hacked client.",
+          "warnings": [
+            "Upstream describes this as a cheat, ghost, hacked, or mainly blatant client. Server rules may prohibit it; Moonrise does not bundle it.",
+            "No clear upstream license was found. Moonrise does not redistribute this binary."
+          ],
+          "changelog": ""
+        },
+        "ru": {
+          "name": "SpookySky",
+          "summary": "Доступный только в исходниках hacked-клиент Minecraft в виде Java-агента.",
+          "description": "Доступный только в исходниках hacked-клиент Minecraft в виде Java-агента.",
+          "warnings": [
+            "Вышестоящий проект описывает это как чит-, ghost-, hacked- или преимущественно blatant-клиент. Правила сервера могут запрещать его; Moonrise не включает его в поставку.",
+            "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл."
+          ],
+          "changelog": ""
+        }
+      },
+      "authors": [
+        {
+          "name": "fan87",
+          "url": "https://github.com/fan87"
+        }
+      ],
+      "homepage": "https://github.com/fan87/SpookySky",
+      "repository": "https://github.com/fan87/SpookySky",
+      "license": null,
+      "tags": [
+        "restricted"
+      ],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/restricted.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [],
+      "supportedClientVersions": [],
+      "archived": false,
+      "riskLevel": "cheatClient",
+      "installPolicy": "sourceOnly",
+      "restricted": true,
+      "featured": false,
+      "recommended": false,
+      "releases": [],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [
+        {
+          "code": "restricted-client",
+          "message": "Upstream describes this as a cheat, ghost, hacked, or mainly blatant client. Server rules may prohibit it; Moonrise does not bundle it.",
+          "localizedMessage": {
+            "en": "Upstream describes this as a cheat, ghost, hacked, or mainly blatant client. Server rules may prohibit it; Moonrise does not bundle it.",
+            "ru": "Вышестоящий проект описывает это как чит-, ghost-, hacked- или преимущественно blatant-клиент. Правила сервера могут запрещать его; Moonrise не включает его в поставку."
+          }
+        },
+        {
+          "code": "missing-license",
+          "message": "No clear upstream license was found. Moonrise does not redistribute this binary.",
+          "localizedMessage": {
+            "en": "No clear upstream license was found. Moonrise does not redistribute this binary.",
+            "ru": "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл."
+          }
+        }
+      ],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "staff-enable",
+      "slug": "staff-enable",
+      "type": "javaAgent",
+      "name": "StaffEnable",
+      "summary": "Enables Lunar Client staff-only mods; upstream explicitly cites the built-in xray.",
+      "description": "Enables Lunar Client staff-only mods; upstream explicitly cites the built-in xray.",
+      "localizations": {
+        "en": {
+          "name": "StaffEnable",
+          "summary": "Enables Lunar Client staff-only mods; upstream explicitly cites the built-in xray.",
+          "description": "Enables Lunar Client staff-only mods; upstream explicitly cites the built-in xray.",
+          "warnings": [
+            "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+            "Upstream explicitly states that this enables Lunar Client's staff-only xray."
+          ],
+          "changelog": "Release v1.2.0."
+        },
+        "ru": {
+          "name": "StaffEnable",
+          "summary": "Включает служебные моды Lunar Client; автор прямо указывает встроенный xray.",
+          "description": "Включает служебные моды Lunar Client; автор прямо указывает встроенный xray.",
+          "warnings": [
+            "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера.",
+            "Автор прямо указывает, что пакет включает служебный xray Lunar Client."
+          ],
+          "changelog": "Релиз v1.2.0."
+        }
+      },
+      "authors": [
+        {
+          "name": "Nilsen84",
+          "url": "https://github.com/Nilsen84"
+        }
+      ],
+      "homepage": "https://github.com/Nilsen84/lunar-client-agents/releases",
+      "repository": "https://github.com/Nilsen84/lunar-client-agents",
+      "license": {
+        "name": "GPL-3.0-only",
+        "url": "https://github.com/Nilsen84/lunar-client-agents/blob/master/LICENSE"
+      },
+      "tags": [
+        "restricted"
+      ],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/restricted.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [],
+      "supportedClientVersions": [
+        "Lunar Client"
+      ],
+      "archived": false,
+      "riskLevel": "unfairAdvantage",
+      "installPolicy": "confirmationRequired",
+      "restricted": true,
+      "featured": false,
+      "recommended": false,
+      "releases": [
+        {
+          "version": "1.2.0",
+          "publishedAt": "2022-07-20T17:45:58Z",
+          "changelog": "Release v1.2.0.",
+          "localizedChangelog": {
+            "en": "Release v1.2.0.",
+            "ru": "Релиз v1.2.0."
+          },
+          "artifact": {
+            "downloadMode": "githubRelease",
+            "assetUrl": "https://github.com/Nilsen84/lunar-client-agents/releases/download/v1.2.0/StaffEnable.jar",
+            "upstreamReleaseUrl": "https://github.com/Nilsen84/lunar-client-agents/releases",
+            "fileName": "StaffEnable.jar",
+            "fileSize": 179239,
+            "sha256": "e2d91265cb56afcf6d4ac691fbea68c8daeaf50d6d37ed6717fc2bd4d6ab74f2",
+            "javaVersion": null,
+            "weaveLoaderRange": null,
+            "minecraftVersions": []
+          },
+          "dependencies": [],
+          "conflicts": []
+        }
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [
+        {
+          "code": "server-rules",
+          "message": "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+          "localizedMessage": {
+            "en": "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+            "ru": "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера."
+          }
+        },
+        {
+          "code": "xray",
+          "message": "Upstream explicitly states that this enables Lunar Client's staff-only xray.",
+          "localizedMessage": {
+            "en": "Upstream explicitly states that this enables Lunar Client's staff-only xray.",
+            "ru": "Автор прямо указывает, что пакет включает служебный xray Lunar Client."
+          }
+        }
+      ],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "stormy",
+      "slug": "stormy",
+      "type": "weaveMod",
+      "name": "Stormy",
+      "summary": "An archived, delisted Weave cheat client described upstream as mainly blatant.",
+      "description": "An archived, delisted Weave cheat client described upstream as mainly blatant.",
+      "localizations": {
+        "en": {
+          "name": "Stormy",
+          "summary": "An archived, delisted Weave cheat client described upstream as mainly blatant.",
+          "description": "An archived, delisted Weave cheat client described upstream as mainly blatant.",
+          "warnings": [
+            "Upstream describes this as a cheat, ghost, hacked, or mainly blatant client. Server rules may prohibit it; Moonrise does not bundle it.",
+            "No clear upstream license was found. Moonrise does not redistribute this binary."
+          ],
+          "changelog": "Upstream release."
+        },
+        "ru": {
+          "name": "Stormy",
+          "summary": "Архивный снятый с публикации чит-клиент Weave, описанный автором как преимущественно blatant.",
+          "description": "Архивный снятый с публикации чит-клиент Weave, описанный автором как преимущественно blatant.",
+          "warnings": [
+            "Вышестоящий проект описывает это как чит-, ghost-, hacked- или преимущественно blatant-клиент. Правила сервера могут запрещать его; Moonrise не включает его в поставку.",
+            "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл."
+          ],
+          "changelog": "Релиз вышестоящего проекта."
+        }
+      },
+      "authors": [
+        {
+          "name": "Tryflle",
+          "url": "https://github.com/Tryflle"
+        }
+      ],
+      "homepage": "https://github.com/Tryflle/stormy/releases/tag/latest",
+      "repository": "https://github.com/Tryflle/stormy",
+      "license": null,
+      "tags": [
+        "restricted"
+      ],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/restricted.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [
+        "1.8.9"
+      ],
+      "supportedClientVersions": [],
+      "archived": true,
+      "riskLevel": "cheatClient",
+      "installPolicy": "externalDownload",
+      "restricted": true,
+      "featured": false,
+      "recommended": false,
+      "releases": [
+        {
+          "version": "1.0",
+          "publishedAt": "2024-02-07T23:38:25Z",
+          "changelog": "Upstream release.",
+          "localizedChangelog": {
+            "en": "Upstream release.",
+            "ru": "Релиз вышестоящего проекта."
+          },
+          "artifact": {
+            "downloadMode": "externalPage",
+            "assetUrl": "https://github.com/Tryflle/stormy/releases/download/latest/Stormy-1.0.jar",
+            "upstreamReleaseUrl": "https://github.com/Tryflle/stormy/releases/tag/latest",
+            "fileName": "Stormy-1.0.jar",
+            "fileSize": 212361,
+            "sha256": "52ed9da4c4f570fd43b32671e0d94fa5fc9e441168645d2e3de054169374b021",
+            "javaVersion": null,
+            "weaveLoaderRange": null,
+            "minecraftVersions": [
+              "1.8.9"
+            ]
+          },
+          "dependencies": [],
+          "conflicts": []
+        }
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [
+        {
+          "code": "restricted-client",
+          "message": "Upstream describes this as a cheat, ghost, hacked, or mainly blatant client. Server rules may prohibit it; Moonrise does not bundle it.",
+          "localizedMessage": {
+            "en": "Upstream describes this as a cheat, ghost, hacked, or mainly blatant client. Server rules may prohibit it; Moonrise does not bundle it.",
+            "ru": "Вышестоящий проект описывает это как чит-, ghost-, hacked- или преимущественно blatant-клиент. Правила сервера могут запрещать его; Moonrise не включает его в поставку."
+          }
+        },
+        {
+          "code": "missing-license",
+          "message": "No clear upstream license was found. Moonrise does not redistribute this binary.",
+          "localizedMessage": {
+            "en": "No clear upstream license was found. Moonrise does not redistribute this binary.",
+            "ru": "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл."
+          }
+        }
+      ],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "teams-auto-gg",
+      "slug": "teams-auto-gg",
+      "type": "javaAgent",
+      "name": "TeamsAutoGG",
+      "summary": "Makes Lunar Client AutoGG work in team duels according to upstream.",
+      "description": "Makes Lunar Client AutoGG work in team duels according to upstream.",
+      "localizations": {
+        "en": {
+          "name": "TeamsAutoGG",
+          "summary": "Makes Lunar Client AutoGG work in team duels according to upstream.",
+          "description": "Makes Lunar Client AutoGG work in team duels according to upstream.",
+          "warnings": [],
+          "changelog": "Release v1.2.0."
+        },
+        "ru": {
+          "name": "TeamsAutoGG",
+          "summary": "Обеспечивает работу AutoGG Lunar Client в командных дуэлях согласно описанию автора.",
+          "description": "Обеспечивает работу AutoGG Lunar Client в командных дуэлях согласно описанию автора.",
+          "warnings": [],
+          "changelog": "Релиз v1.2.0."
+        }
+      },
+      "authors": [
+        {
+          "name": "Nilsen84",
+          "url": "https://github.com/Nilsen84"
+        }
+      ],
+      "homepage": "https://github.com/Nilsen84/lunar-client-agents/releases",
+      "repository": "https://github.com/Nilsen84/lunar-client-agents",
+      "license": {
+        "name": "GPL-3.0-only",
+        "url": "https://github.com/Nilsen84/lunar-client-agents/blob/master/LICENSE"
+      },
+      "tags": [],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/java-agent.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [],
+      "supportedClientVersions": [
+        "Lunar Client"
+      ],
+      "archived": false,
+      "riskLevel": "normal",
+      "installPolicy": "oneClick",
+      "restricted": false,
+      "featured": false,
+      "recommended": false,
+      "releases": [
+        {
+          "version": "1.2.0",
+          "publishedAt": "2022-07-20T17:45:58Z",
+          "changelog": "Release v1.2.0.",
+          "localizedChangelog": {
+            "en": "Release v1.2.0.",
+            "ru": "Релиз v1.2.0."
+          },
+          "artifact": {
+            "downloadMode": "githubRelease",
+            "assetUrl": "https://github.com/Nilsen84/lunar-client-agents/releases/download/v1.2.0/TeamsAutoGG.jar",
+            "upstreamReleaseUrl": "https://github.com/Nilsen84/lunar-client-agents/releases",
+            "fileName": "TeamsAutoGG.jar",
+            "fileSize": 179248,
+            "sha256": "42368242a5c39bda7978c643439fa97eda44d1eecdeb26150533f69d54e20cd2",
+            "javaVersion": null,
+            "weaveLoaderRange": null,
+            "minecraftVersions": []
+          },
+          "dependencies": [],
+          "conflicts": []
+        }
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "unlock-cosmetics",
+      "slug": "unlock-cosmetics",
+      "type": "javaAgent",
+      "name": "UnlockCosmetics",
+      "summary": "A Java agent committed in the original Lunar Client Qt repository to unlock client cosmetics.",
+      "description": "A Java agent committed in the original Lunar Client Qt repository to unlock client cosmetics.",
+      "localizations": {
+        "en": {
+          "name": "UnlockCosmetics",
+          "summary": "A Java agent committed in the original Lunar Client Qt repository to unlock client cosmetics.",
+          "description": "A Java agent committed in the original Lunar Client Qt repository to unlock client cosmetics.",
+          "warnings": [
+            "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+            "No clear upstream license was found. Moonrise does not redistribute this binary.",
+            "The package name and launcher context indicate cosmetic entitlement unlocking; Moonrise does not bundle it."
+          ],
+          "changelog": ""
+        },
+        "ru": {
+          "name": "UnlockCosmetics",
+          "summary": "Java-агент из исходного Lunar Client Qt для разблокировки косметики клиента.",
+          "description": "Java-агент из исходного Lunar Client Qt для разблокировки косметики клиента.",
+          "warnings": [
+            "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера.",
+            "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл.",
+            "Название и контекст лаунчера указывают на разблокировку прав на косметику; Moonrise не включает пакет."
+          ],
+          "changelog": ""
+        }
+      },
+      "authors": [
+        {
+          "name": "Nilsen84",
+          "url": "https://github.com/Nilsen84"
+        }
+      ],
+      "homepage": "https://github.com/Nilsen84/lunar-client-qt/blob/master/java/agents/UnlockCosmetics.jar",
+      "repository": "https://github.com/Nilsen84/lunar-client-qt",
+      "license": null,
+      "tags": [
+        "restricted"
+      ],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/restricted.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [],
+      "supportedClientVersions": [],
+      "archived": false,
+      "riskLevel": "unfairAdvantage",
+      "installPolicy": "externalDownload",
+      "restricted": true,
+      "featured": false,
+      "recommended": false,
+      "releases": [],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [
+        {
+          "code": "server-rules",
+          "message": "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+          "localizedMessage": {
+            "en": "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+            "ru": "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера."
+          }
+        },
+        {
+          "code": "missing-license",
+          "message": "No clear upstream license was found. Moonrise does not redistribute this binary.",
+          "localizedMessage": {
+            "en": "No clear upstream license was found. Moonrise does not redistribute this binary.",
+            "ru": "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл."
+          }
+        },
+        {
+          "code": "entitlement-bypass",
+          "message": "The package name and launcher context indicate cosmetic entitlement unlocking; Moonrise does not bundle it.",
+          "localizedMessage": {
+            "en": "The package name and launcher context indicate cosmetic entitlement unlocking; Moonrise does not bundle it.",
+            "ru": "Название и контекст лаунчера указывают на разблокировку прав на косметику; Moonrise не включает пакет."
+          }
+        }
+      ],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "unrestricted",
+      "slug": "unrestricted",
+      "type": "weaveMod",
+      "name": "Unrestricted",
+      "summary": "Re-enables restricted Lunar features, staff mods, texture packs, and reach/polling displays.",
+      "description": "Re-enables restricted Lunar features, staff mods, texture packs, and reach/polling displays.",
+      "localizations": {
+        "en": {
+          "name": "Unrestricted",
+          "summary": "Re-enables restricted Lunar features, staff mods, texture packs, and reach/polling displays.",
+          "description": "Re-enables restricted Lunar features, staff mods, texture packs, and reach/polling displays.",
+          "warnings": [
+            "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+            "No clear upstream license was found. Moonrise does not redistribute this binary."
+          ],
+          "changelog": "Upstream release."
+        },
+        "ru": {
+          "name": "Unrestricted",
+          "summary": "Повторно включает ограниченные функции Lunar, служебные моды, текстурпаки и отображение дистанции/частоты опроса.",
+          "description": "Повторно включает ограниченные функции Lunar, служебные моды, текстурпаки и отображение дистанции/частоты опроса.",
+          "warnings": [
+            "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера.",
+            "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл."
+          ],
+          "changelog": "Релиз вышестоящего проекта."
+        }
+      },
+      "authors": [
+        {
+          "name": "Youded-byte",
+          "url": "https://github.com/Youded-byte"
+        }
+      ],
+      "homepage": "https://github.com/Youded-byte/unrestricted/releases/tag/v1.0",
+      "repository": "https://github.com/Youded-byte/unrestricted",
+      "license": null,
+      "tags": [
+        "restricted"
+      ],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/restricted.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [
+        "1.8.9"
+      ],
+      "supportedClientVersions": [],
+      "archived": false,
+      "riskLevel": "unfairAdvantage",
+      "installPolicy": "externalDownload",
+      "restricted": true,
+      "featured": false,
+      "recommended": false,
+      "releases": [
+        {
+          "version": "1.0",
+          "publishedAt": "2023-11-29T00:06:42Z",
+          "changelog": "Upstream release.",
+          "localizedChangelog": {
+            "en": "Upstream release.",
+            "ru": "Релиз вышестоящего проекта."
+          },
+          "artifact": {
+            "downloadMode": "externalPage",
+            "assetUrl": "https://github.com/Youded-byte/unrestricted/releases/download/v1.0/unrestricted.jar",
+            "upstreamReleaseUrl": "https://github.com/Youded-byte/unrestricted/releases/tag/v1.0",
+            "fileName": "unrestricted.jar",
+            "fileSize": 10565,
+            "sha256": "c9c9dc9e75e37291e2992ca7fbd0ff6eb851b811391d9c938dec14ab73315c05",
+            "javaVersion": null,
+            "weaveLoaderRange": null,
+            "minecraftVersions": [
+              "1.8.9"
+            ]
+          },
+          "dependencies": [],
+          "conflicts": []
+        }
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [
+        {
+          "code": "server-rules",
+          "message": "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+          "localizedMessage": {
+            "en": "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+            "ru": "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера."
+          }
+        },
+        {
+          "code": "missing-license",
+          "message": "No clear upstream license was found. Moonrise does not redistribute this binary.",
+          "localizedMessage": {
+            "en": "No clear upstream license was found. Moonrise does not redistribute this binary.",
+            "ru": "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл."
+          }
+        }
+      ],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "weave-basic-flight",
+      "slug": "weave-basic-flight",
+      "type": "weaveMod",
+      "name": "WeaveBasicFlight",
+      "summary": "Adds a command that toggles vanilla flight.",
+      "description": "Adds a command that toggles vanilla flight.",
+      "localizations": {
+        "en": {
+          "name": "WeaveBasicFlight",
+          "summary": "Adds a command that toggles vanilla flight.",
+          "description": "Adds a command that toggles vanilla flight.",
+          "warnings": [
+            "This behavior may provide an unfair advantage and may be prohibited by server rules."
+          ],
+          "changelog": "Upstream release."
+        },
+        "ru": {
+          "name": "WeaveBasicFlight",
+          "summary": "Добавляет команду для включения и выключения ванильного полёта.",
+          "description": "Добавляет команду для включения и выключения ванильного полёта.",
+          "warnings": [
+            "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера."
+          ],
+          "changelog": "Релиз вышестоящего проекта."
+        }
+      },
+      "authors": [
+        {
+          "name": "Tryflle",
+          "url": "https://github.com/Tryflle"
+        }
+      ],
+      "homepage": "https://github.com/Tryflle/weavebasicflight/releases",
+      "repository": "https://github.com/Tryflle/weavebasicflight",
+      "license": {
+        "name": "GPL-3.0-only",
+        "url": "https://github.com/Tryflle/weavebasicflight/blob/main/LICENSE"
+      },
+      "tags": [
+        "restricted"
+      ],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/restricted.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [
+        "1.8.9"
+      ],
+      "supportedClientVersions": [],
+      "archived": false,
+      "riskLevel": "unfairAdvantage",
+      "installPolicy": "confirmationRequired",
+      "restricted": true,
+      "featured": false,
+      "recommended": false,
+      "releases": [
+        {
+          "version": "2.0",
+          "publishedAt": "2023-09-23T03:54:40Z",
+          "changelog": "Upstream release.",
+          "localizedChangelog": {
+            "en": "Upstream release.",
+            "ru": "Релиз вышестоящего проекта."
+          },
+          "artifact": {
+            "downloadMode": "githubRelease",
+            "assetUrl": "https://github.com/Tryflle/weavebasicflight/releases/download/2.0/WeaveBasicFlight-2.0.jar",
+            "upstreamReleaseUrl": "https://github.com/Tryflle/weavebasicflight/releases",
+            "fileName": "WeaveBasicFlight-2.0.jar",
+            "fileSize": 4556,
+            "sha256": "fa68f01a865afb66632ffc163a308a7e0b25284cb0a420f6f8a0bc9a10849931",
+            "javaVersion": null,
+            "weaveLoaderRange": null,
+            "minecraftVersions": [
+              "1.8.9"
+            ]
+          },
+          "dependencies": [],
+          "conflicts": []
+        }
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [
+        {
+          "code": "server-rules",
+          "message": "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+          "localizedMessage": {
+            "en": "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+            "ru": "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера."
+          }
+        }
+      ],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "weave-loader",
+      "slug": "weave-loader",
+      "type": "javaAgent",
+      "name": "Weave Loader",
+      "summary": "The universal Weave mod loader distributed as a Java premain agent.",
+      "description": "The universal Weave mod loader distributed as a Java premain agent.",
+      "localizations": {
+        "en": {
+          "name": "Weave Loader",
+          "summary": "The universal Weave mod loader distributed as a Java premain agent.",
+          "description": "The universal Weave mod loader distributed as a Java premain agent.",
+          "warnings": [],
+          "changelog": "Fixed Forge on 1.8 and updated diagnostics/system properties."
+        },
+        "ru": {
+          "name": "Weave Loader",
+          "summary": "Универсальный загрузчик модов Weave, распространяемый как Java premain-агент.",
+          "description": "Универсальный загрузчик модов Weave, распространяемый как Java premain-агент.",
+          "warnings": [],
+          "changelog": "Исправлена работа Forge на 1.8 и обновлены диагностика/системные свойства."
+        }
+      },
+      "authors": [
+        {
+          "name": "Weave-MC",
+          "url": "https://github.com/Weave-MC"
+        }
+      ],
+      "homepage": "https://github.com/Weave-MC/Weave-Loader/releases",
+      "repository": "https://github.com/Weave-MC/Weave-Loader",
+      "license": {
+        "name": "GPL-3.0-only",
+        "url": "https://github.com/Weave-MC/Weave-Loader/blob/master/LICENSE"
+      },
+      "tags": [],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/java-agent.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [
+        "1.7.x",
+        "1.8.x",
+        "1.12.x",
+        "1.21.x"
+      ],
+      "supportedClientVersions": [
+        "Lunar Client",
+        "Vanilla",
+        "Forge"
+      ],
+      "archived": false,
+      "riskLevel": "normal",
+      "installPolicy": "oneClick",
+      "restricted": false,
+      "featured": false,
+      "recommended": false,
+      "releases": [
+        {
+          "version": "1.3.4",
+          "publishedAt": "2026-07-23T16:34:00Z",
+          "changelog": "Fixed Forge on 1.8 and updated diagnostics/system properties.",
+          "localizedChangelog": {
+            "en": "Fixed Forge on 1.8 and updated diagnostics/system properties.",
+            "ru": "Исправлена работа Forge на 1.8 и обновлены диагностика/системные свойства."
+          },
+          "artifact": {
+            "downloadMode": "githubRelease",
+            "assetUrl": "https://github.com/Weave-MC/Weave-Loader/releases/download/1.3.4/Weave-Loader-Agent-1.3.4.jar",
+            "upstreamReleaseUrl": "https://github.com/Weave-MC/Weave-Loader/releases",
+            "fileName": "Weave-Loader-Agent-1.3.4.jar",
+            "fileSize": 10846268,
+            "sha256": "013b7b9a4ca01a473a1ffc0b031c843c70fe61616e9048fb326e03794c8457b7",
+            "javaVersion": null,
+            "weaveLoaderRange": null,
+            "minecraftVersions": [
+              "1.7.x",
+              "1.8.x",
+              "1.12.x",
+              "1.21.x"
+            ]
+          },
+          "dependencies": [],
+          "conflicts": []
+        }
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "weave-no-hit-delay",
+      "slug": "weave-no-hit-delay",
+      "type": "weaveMod",
+      "name": "WeaveNoHitDelay",
+      "summary": "Removes the 1.8 hit delay through a Weave hook.",
+      "description": "Removes the 1.8 hit delay through a Weave hook.",
+      "localizations": {
+        "en": {
+          "name": "WeaveNoHitDelay",
+          "summary": "Removes the 1.8 hit delay through a Weave hook.",
+          "description": "Removes the 1.8 hit delay through a Weave hook.",
+          "warnings": [
+            "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+            "No clear upstream license was found. Moonrise does not redistribute this binary."
+          ],
+          "changelog": "Upstream release."
+        },
+        "ru": {
+          "name": "WeaveNoHitDelay",
+          "summary": "Убирает задержку удара 1.8 с помощью hook Weave.",
+          "description": "Убирает задержку удара 1.8 с помощью hook Weave.",
+          "warnings": [
+            "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера.",
+            "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл."
+          ],
+          "changelog": "Релиз вышестоящего проекта."
+        }
+      },
+      "authors": [
+        {
+          "name": "Nilsen84",
+          "url": "https://github.com/Nilsen84"
+        }
+      ],
+      "homepage": "https://github.com/Nilsen84/WeaveNoHitDelay/releases/tag/v2.0",
+      "repository": "https://github.com/Nilsen84/WeaveNoHitDelay",
+      "license": null,
+      "tags": [
+        "restricted"
+      ],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/restricted.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [
+        "1.8.9"
+      ],
+      "supportedClientVersions": [],
+      "archived": false,
+      "riskLevel": "unfairAdvantage",
+      "installPolicy": "externalDownload",
+      "restricted": true,
+      "featured": false,
+      "recommended": false,
+      "releases": [
+        {
+          "version": "2.0",
+          "publishedAt": "2023-05-27T18:13:15Z",
+          "changelog": "Upstream release.",
+          "localizedChangelog": {
+            "en": "Upstream release.",
+            "ru": "Релиз вышестоящего проекта."
+          },
+          "artifact": {
+            "downloadMode": "externalPage",
+            "assetUrl": "https://github.com/Nilsen84/WeaveNoHitDelay/releases/download/v2.0/WeaveNoHitDelay-2.0.jar",
+            "upstreamReleaseUrl": "https://github.com/Nilsen84/WeaveNoHitDelay/releases/tag/v2.0",
+            "fileName": "WeaveNoHitDelay-2.0.jar",
+            "fileSize": 3734,
+            "sha256": "a61bbfeafa8939c1ffa7bca2d9d4afb8e12df716f3c9e804da433bb543d4ff02",
+            "javaVersion": null,
+            "weaveLoaderRange": null,
+            "minecraftVersions": [
+              "1.8.9"
+            ]
+          },
+          "dependencies": [],
+          "conflicts": []
+        }
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [
+        {
+          "code": "server-rules",
+          "message": "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+          "localizedMessage": {
+            "en": "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+            "ru": "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера."
+          }
+        },
+        {
+          "code": "missing-license",
+          "message": "No clear upstream license was found. Moonrise does not redistribute this binary.",
+          "localizedMessage": {
+            "en": "No clear upstream license was found. Moonrise does not redistribute this binary.",
+            "ru": "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл."
+          }
+        }
+      ],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "weave-optifine-url",
+      "slug": "weave-optifine-url",
+      "type": "weaveMod",
+      "name": "Weave OptiFine URL",
+      "summary": "Lets users configure a replacement URL for the OptiFine cape server.",
+      "description": "Lets users configure a replacement URL for the OptiFine cape server.",
+      "localizations": {
+        "en": {
+          "name": "Weave OptiFine URL",
+          "summary": "Lets users configure a replacement URL for the OptiFine cape server.",
+          "description": "Lets users configure a replacement URL for the OptiFine cape server.",
+          "warnings": [],
+          "changelog": "Upstream release."
+        },
+        "ru": {
+          "name": "Weave OptiFine URL",
+          "summary": "Позволяет задать другой URL сервера плащей OptiFine.",
+          "description": "Позволяет задать другой URL сервера плащей OptiFine.",
+          "warnings": [],
+          "changelog": "Релиз вышестоящего проекта."
+        }
+      },
+      "authors": [
+        {
+          "name": "770grappenmaker",
+          "url": "https://github.com/770grappenmaker"
+        }
+      ],
+      "homepage": "https://github.com/770grappenmaker/weave-optifine-url/releases",
+      "repository": "https://github.com/770grappenmaker/weave-optifine-url",
+      "license": {
+        "name": "Unlicense",
+        "url": "https://github.com/770grappenmaker/weave-optifine-url/blob/main/LICENSE.md"
+      },
+      "tags": [],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/weave-mod.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [
+        "1.8.9"
+      ],
+      "supportedClientVersions": [],
+      "archived": false,
+      "riskLevel": "normal",
+      "installPolicy": "oneClick",
+      "restricted": false,
+      "featured": false,
+      "recommended": false,
+      "releases": [
+        {
+          "version": "0.2",
+          "publishedAt": "2023-10-06T16:51:35Z",
+          "changelog": "Upstream release.",
+          "localizedChangelog": {
+            "en": "Upstream release.",
+            "ru": "Релиз вышестоящего проекта."
+          },
+          "artifact": {
+            "downloadMode": "githubRelease",
+            "assetUrl": "https://github.com/770grappenmaker/weave-optifine-url/releases/download/v0.2/weave-optifine-url-0.2.jar",
+            "upstreamReleaseUrl": "https://github.com/770grappenmaker/weave-optifine-url/releases",
+            "fileName": "weave-optifine-url-0.2.jar",
+            "fileSize": 14440,
+            "sha256": "d7bbd1239ddd664615ad696fc2b5a2fc9204dc4a4f4890100aef604b90f1f6a2",
+            "javaVersion": null,
+            "weaveLoaderRange": null,
+            "minecraftVersions": [
+              "1.8.9"
+            ]
+          },
+          "dependencies": [],
+          "conflicts": []
+        }
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    },
+    {
+      "id": "weave-slow-mining",
+      "slug": "weave-slow-mining",
+      "type": "weaveMod",
+      "name": "WeaveSlowMining",
+      "summary": "Lets the user slow or configure the mining and swing animation.",
+      "description": "Lets the user slow or configure the mining and swing animation.",
+      "localizations": {
+        "en": {
+          "name": "WeaveSlowMining",
+          "summary": "Lets the user slow or configure the mining and swing animation.",
+          "description": "Lets the user slow or configure the mining and swing animation.",
+          "warnings": [],
+          "changelog": "Upstream release."
+        },
+        "ru": {
+          "name": "WeaveSlowMining",
+          "summary": "Позволяет замедлять или настраивать анимацию добычи и взмаха.",
+          "description": "Позволяет замедлять или настраивать анимацию добычи и взмаха.",
+          "warnings": [],
+          "changelog": "Релиз вышестоящего проекта."
+        }
+      },
+      "authors": [
+        {
+          "name": "Tryflle",
+          "url": "https://github.com/Tryflle"
+        }
+      ],
+      "homepage": "https://github.com/Tryflle/WeaveSlowMining/releases",
+      "repository": "https://github.com/Tryflle/WeaveSlowMining",
+      "license": {
+        "name": "GPL-3.0-only",
+        "url": "https://github.com/Tryflle/WeaveSlowMining/blob/main/LICENSE"
+      },
+      "tags": [],
+      "icon": "https://zoongg.github.io/Moonrise-Catalog/assets/packages/weave-mod.svg",
+      "screenshots": [],
+      "supportedMinecraftVersions": [
+        "1.8.9"
+      ],
+      "supportedClientVersions": [],
+      "archived": false,
+      "riskLevel": "normal",
+      "installPolicy": "oneClick",
+      "restricted": false,
+      "featured": false,
+      "recommended": false,
+      "releases": [
+        {
+          "version": "2.0",
+          "publishedAt": "2023-07-30T17:55:36Z",
+          "changelog": "Upstream release.",
+          "localizedChangelog": {
+            "en": "Upstream release.",
+            "ru": "Релиз вышестоящего проекта."
+          },
+          "artifact": {
+            "downloadMode": "githubRelease",
+            "assetUrl": "https://github.com/Tryflle/WeaveSlowMining/releases/download/2.0/WeaveSlowMining-2.0.jar",
+            "upstreamReleaseUrl": "https://github.com/Tryflle/WeaveSlowMining/releases",
+            "fileName": "WeaveSlowMining-2.0.jar",
+            "fileSize": 5101,
+            "sha256": "4a639da4b3a464483871f6e40c1ab0aa3125ad4b1f9f0f09e4f121de995ee4e9",
+            "javaVersion": null,
+            "weaveLoaderRange": null,
+            "minecraftVersions": [
+              "1.8.9"
+            ]
+          },
+          "dependencies": [],
+          "conflicts": []
+        }
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "warnings": [],
+      "statistics": {
+        "downloads": null,
+        "moonriseInstalls": 0
+      }
+    }
+  ]
+}

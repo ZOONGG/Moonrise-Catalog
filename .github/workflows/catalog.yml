@@ -1,0 +1,63 @@
+name: Validate and publish catalog
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements-dev.txt
+      - run: pip install -r requirements-dev.txt
+      - run: python scripts/catalog.py generate
+      - run: python scripts/catalog.py validate --network --artifacts
+      - name: Confirm generated files are current
+        run: git diff --exit-code
+      - name: Sign when the production secret is configured
+        env:
+          MOONRISE_CATALOG_ED25519_PRIVATE_KEY: ${{ secrets.MOONRISE_CATALOG_ED25519_PRIVATE_KEY }}
+        run: python scripts/sign_catalog.py
+      - name: Assemble static site
+        run: |
+          cp -R assets dist/assets
+          cp README.md dist/index.md
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - uses: actions/upload-artifact@v7
+        with:
+          name: moonrise-catalog
+          path: |
+            catalog/index.json
+            catalog/index.json.sig
+            catalog/index.json.pub
+          if-no-files-found: warn
+
+  deploy:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: validate
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

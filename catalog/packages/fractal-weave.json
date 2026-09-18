@@ -1,0 +1,103 @@
+{
+  "manifestVersion": 1,
+  "id": "fractal-weave",
+  "slug": "fractal-weave",
+  "type": "weave-mod",
+  "name": "Fractal Weave",
+  "summary": "An upstream-described open-source Lunar cheat client built as a Weave mod.",
+  "description": "An upstream-described open-source Lunar cheat client built as a Weave mod.",
+  "authors": [
+    {
+      "name": "Hzqkii",
+      "url": "https://github.com/Hzqkii"
+    }
+  ],
+  "source": {
+    "repository": "https://github.com/Hzqkii/Fractal-Weave",
+    "archived": false,
+    "license": "CC BY-NC-SA (version not stated)",
+    "licenseUrl": "https://github.com/Hzqkii/Fractal-Weave/blob/main/LICENSE",
+    "latestCommit": {
+      "sha": "2e6be4ea8d4d03b2667d7a58b191599ecdbbc3f2",
+      "date": "2023-09-18T18:56:49+10:00"
+    },
+    "automaticRedistributionPermitted": false,
+    "notes": ""
+  },
+  "localizations": {
+    "en": {
+      "name": "Fractal Weave",
+      "summary": "An upstream-described open-source Lunar cheat client built as a Weave mod.",
+      "description": "An upstream-described open-source Lunar cheat client built as a Weave mod.",
+      "warnings": [
+        "Upstream describes this as a cheat, ghost, hacked, or mainly blatant client. Server rules may prohibit it; Moonrise does not bundle it.",
+        "The repository license is non-commercial and does not state a clear version in its text."
+      ],
+      "changelog": "Upstream release."
+    },
+    "ru": {
+      "name": "Fractal Weave",
+      "summary": "Описанный автором открытый чит-клиент Lunar в форме мода Weave.",
+      "description": "Описанный автором открытый чит-клиент Lunar в форме мода Weave.",
+      "warnings": [
+        "Вышестоящий проект описывает это как чит-, ghost-, hacked- или преимущественно blatant-клиент. Правила сервера могут запрещать его; Moonrise не включает его в поставку.",
+        "Лицензия репозитория запрещает коммерческое использование и не указывает ясную версию в тексте."
+      ],
+      "changelog": "Релиз вышестоящего проекта."
+    }
+  },
+  "supportedMinecraftVersions": [
+    "1.8.9"
+  ],
+  "supportedClientVersions": [],
+  "compatibilityNotes": "The project build and source target the Weave 1.8.9 environment.",
+  "riskLevel": "cheat-client",
+  "installPolicy": "external-download",
+  "restricted": true,
+  "featured": false,
+  "recommended": false,
+  "distribution": {
+    "mode": "external-page",
+    "url": "https://github.com/Hzqkii/Fractal-Weave/releases/tag/1.2",
+    "reason": ""
+  },
+  "releases": [
+    {
+      "version": "1.2",
+      "publishedAt": "2023-09-18T08:59:32Z",
+      "changelog": {
+        "en": "Upstream release.",
+        "ru": "Релиз вышестоящего проекта."
+      },
+      "asset": {
+        "url": "https://github.com/Hzqkii/Fractal-Weave/releases/download/1.2/fractal-weave-1.2.jar",
+        "fileName": "fractal-weave-1.2.jar",
+        "fileSize": 3525099,
+        "sha256": "f05c74fec2305e64e58ccb1fed7d6b7b31be2444876c59bf7ba7eff7e404a6b4"
+      }
+    }
+  ],
+  "warnings": [
+    {
+      "code": "restricted-client",
+      "en": "Upstream describes this as a cheat, ghost, hacked, or mainly blatant client. Server rules may prohibit it; Moonrise does not bundle it.",
+      "ru": "Вышестоящий проект описывает это как чит-, ghost-, hacked- или преимущественно blatant-клиент. Правила сервера могут запрещать его; Moonrise не включает его в поставку."
+    },
+    {
+      "code": "noncommercial-license",
+      "en": "The repository license is non-commercial and does not state a clear version in its text.",
+      "ru": "Лицензия репозитория запрещает коммерческое использование и не указывает ясную версию в тексте."
+    }
+  ],
+  "inspection": {
+    "manifestType": "weave.mod.json",
+    "entryPoints": [
+      "xyz.flapjack.fractal.Fractal"
+    ],
+    "observedFileName": null,
+    "observedSha256": null,
+    "observedSize": null,
+    "notes": ""
+  },
+  "todos": []
+}

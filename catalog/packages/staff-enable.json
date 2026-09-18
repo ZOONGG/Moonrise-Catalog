@@ -1,0 +1,103 @@
+{
+  "manifestVersion": 1,
+  "id": "staff-enable",
+  "slug": "staff-enable",
+  "type": "java-agent",
+  "name": "StaffEnable",
+  "summary": "Enables Lunar Client staff-only mods; upstream explicitly cites the built-in xray.",
+  "description": "Enables Lunar Client staff-only mods; upstream explicitly cites the built-in xray.",
+  "authors": [
+    {
+      "name": "Nilsen84",
+      "url": "https://github.com/Nilsen84"
+    }
+  ],
+  "source": {
+    "repository": "https://github.com/Nilsen84/lunar-client-agents",
+    "archived": false,
+    "license": "GPL-3.0-only",
+    "licenseUrl": "https://github.com/Nilsen84/lunar-client-agents/blob/master/LICENSE",
+    "latestCommit": {
+      "sha": "9169a0dd9959cb41f21ebd6ede3b26e3c6fd16ce",
+      "date": "2022-07-20T19:44:24+02:00"
+    },
+    "automaticRedistributionPermitted": true,
+    "notes": ""
+  },
+  "localizations": {
+    "en": {
+      "name": "StaffEnable",
+      "summary": "Enables Lunar Client staff-only mods; upstream explicitly cites the built-in xray.",
+      "description": "Enables Lunar Client staff-only mods; upstream explicitly cites the built-in xray.",
+      "warnings": [
+        "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+        "Upstream explicitly states that this enables Lunar Client's staff-only xray."
+      ],
+      "changelog": "Release v1.2.0."
+    },
+    "ru": {
+      "name": "StaffEnable",
+      "summary": "Включает служебные моды Lunar Client; автор прямо указывает встроенный xray.",
+      "description": "Включает служебные моды Lunar Client; автор прямо указывает встроенный xray.",
+      "warnings": [
+        "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера.",
+        "Автор прямо указывает, что пакет включает служебный xray Lunar Client."
+      ],
+      "changelog": "Релиз v1.2.0."
+    }
+  },
+  "supportedMinecraftVersions": [],
+  "supportedClientVersions": [
+    "Lunar Client"
+  ],
+  "compatibilityNotes": "Designed for Lunar Client via a Java premain agent; the upstream repository does not declare a stable Lunar build range.",
+  "riskLevel": "unfair-advantage",
+  "installPolicy": "confirmation-required",
+  "restricted": true,
+  "featured": false,
+  "recommended": false,
+  "distribution": {
+    "mode": "github-release",
+    "url": "https://github.com/Nilsen84/lunar-client-agents/releases",
+    "reason": ""
+  },
+  "releases": [
+    {
+      "version": "1.2.0",
+      "publishedAt": "2022-07-20T17:45:58Z",
+      "changelog": {
+        "en": "Release v1.2.0.",
+        "ru": "Релиз v1.2.0."
+      },
+      "asset": {
+        "url": "https://github.com/Nilsen84/lunar-client-agents/releases/download/v1.2.0/StaffEnable.jar",
+        "fileName": "StaffEnable.jar",
+        "fileSize": 179239,
+        "sha256": "e2d91265cb56afcf6d4ac691fbea68c8daeaf50d6d37ed6717fc2bd4d6ab74f2"
+      }
+    }
+  ],
+  "warnings": [
+    {
+      "code": "server-rules",
+      "en": "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+      "ru": "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера."
+    },
+    {
+      "code": "xray",
+      "en": "Upstream explicitly states that this enables Lunar Client's staff-only xray.",
+      "ru": "Автор прямо указывает, что пакет включает служебный xray Lunar Client."
+    }
+  ],
+  "inspection": {
+    "manifestType": "java-agent",
+    "entryPoints": [
+      "me.onils.staffenable.Agent"
+    ],
+    "observedFileName": null,
+    "observedSha256": null,
+    "observedSize": null,
+    "notes": ""
+  },
+  "todos": []
+}

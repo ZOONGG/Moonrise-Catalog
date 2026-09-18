@@ -1,0 +1,91 @@
+{
+  "manifestVersion": 1,
+  "id": "local-stormy-patched",
+  "slug": "local-stormy-patched",
+  "type": "weave-mod",
+  "name": "Stormy (local patched artifact)",
+  "summary": "A locally patched Stormy JAR whose bytes differ from the archived upstream release.",
+  "description": "A locally patched Stormy JAR whose bytes differ from the archived upstream release.",
+  "authors": [
+    {
+      "name": "Tryflle",
+      "url": "https://github.com/Tryflle"
+    }
+  ],
+  "source": {
+    "repository": "https://github.com/Tryflle/stormy",
+    "archived": true,
+    "license": null,
+    "licenseUrl": null,
+    "latestCommit": {
+      "sha": "932bcce4244ab4c076ac0f8a20429811ea3faf0d",
+      "date": "2024-02-07T18:36:50-05:00"
+    },
+    "automaticRedistributionPermitted": false,
+    "notes": ""
+  },
+  "localizations": {
+    "en": {
+      "name": "Stormy (local patched artifact)",
+      "summary": "A locally patched Stormy JAR whose bytes differ from the archived upstream release.",
+      "description": "A locally patched Stormy JAR whose bytes differ from the archived upstream release.",
+      "warnings": [
+        "Upstream describes this as a cheat, ghost, hacked, or mainly blatant client. Server rules may prohibit it; Moonrise does not bundle it.",
+        "This locally inspected artifact is not published or uploaded by the catalog."
+      ],
+      "changelog": ""
+    },
+    "ru": {
+      "name": "Stormy (local patched artifact)",
+      "summary": "Локально пропатченный JAR Stormy, байты которого отличаются от архивного релиза автора.",
+      "description": "Локально пропатченный JAR Stormy, байты которого отличаются от архивного релиза автора.",
+      "warnings": [
+        "Вышестоящий проект описывает это как чит-, ghost-, hacked- или преимущественно blatant-клиент. Правила сервера могут запрещать его; Moonrise не включает его в поставку.",
+        "Этот локально проверенный артефакт не публикуется и не загружается каталогом."
+      ],
+      "changelog": ""
+    }
+  },
+  "supportedMinecraftVersions": [
+    "1.8.9"
+  ],
+  "supportedClientVersions": [],
+  "compatibilityNotes": "The inspected local weave.mod.json declares compiledFor 1.8.9.",
+  "riskLevel": "cheat-client",
+  "installPolicy": "unavailable",
+  "restricted": true,
+  "featured": false,
+  "recommended": false,
+  "distribution": {
+    "mode": "unavailable",
+    "url": "https://github.com/Tryflle/stormy/releases",
+    "reason": "The local patched bytes have no authorized public release."
+  },
+  "releases": [],
+  "warnings": [
+    {
+      "code": "restricted-client",
+      "en": "Upstream describes this as a cheat, ghost, hacked, or mainly blatant client. Server rules may prohibit it; Moonrise does not bundle it.",
+      "ru": "Вышестоящий проект описывает это как чит-, ghost-, hacked- или преимущественно blatant-клиент. Правила сервера могут запрещать его; Moonrise не включает его в поставку."
+    },
+    {
+      "code": "local-artifact",
+      "en": "This locally inspected artifact is not published or uploaded by the catalog.",
+      "ru": "Этот локально проверенный артефакт не публикуется и не загружается каталогом."
+    }
+  ],
+  "inspection": {
+    "manifestType": "weave.mod.json",
+    "entryPoints": [
+      "lunarweavebridge.compat.StormyPreInitBridge",
+      "me.tryfle.stormy.hooks.CPSHook"
+    ],
+    "observedFileName": "Stormy-1.0.jar",
+    "observedSha256": "64a8118a2b05c33b73bd852b58ec92401e92896e1c859c5c7be291807e447ac5",
+    "observedSize": 233561,
+    "notes": ""
+  },
+  "todos": [
+    "Publish the patch source and an authorized release, with the upstream license clarified."
+  ]
+}

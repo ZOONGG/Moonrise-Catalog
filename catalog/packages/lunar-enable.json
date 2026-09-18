@@ -1,0 +1,96 @@
+{
+  "manifestVersion": 1,
+  "id": "lunar-enable",
+  "slug": "lunar-enable",
+  "type": "java-agent",
+  "name": "LunarEnable",
+  "summary": "Re-enables Lunar Client mods that the client or server disabled.",
+  "description": "Re-enables Lunar Client mods that the client or server disabled.",
+  "authors": [
+    {
+      "name": "Nilsen84",
+      "url": "https://github.com/Nilsen84"
+    }
+  ],
+  "source": {
+    "repository": "https://github.com/Nilsen84/lunar-client-agents",
+    "archived": false,
+    "license": "GPL-3.0-only",
+    "licenseUrl": "https://github.com/Nilsen84/lunar-client-agents/blob/master/LICENSE",
+    "latestCommit": {
+      "sha": "9169a0dd9959cb41f21ebd6ede3b26e3c6fd16ce",
+      "date": "2022-07-20T19:44:24+02:00"
+    },
+    "automaticRedistributionPermitted": true,
+    "notes": ""
+  },
+  "localizations": {
+    "en": {
+      "name": "LunarEnable",
+      "summary": "Re-enables Lunar Client mods that the client or server disabled.",
+      "description": "Re-enables Lunar Client mods that the client or server disabled.",
+      "warnings": [
+        "This behavior may provide an unfair advantage and may be prohibited by server rules."
+      ],
+      "changelog": "Release v1.2.0."
+    },
+    "ru": {
+      "name": "LunarEnable",
+      "summary": "Повторно включает моды Lunar Client, отключённые клиентом или сервером.",
+      "description": "Повторно включает моды Lunar Client, отключённые клиентом или сервером.",
+      "warnings": [
+        "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера."
+      ],
+      "changelog": "Релиз v1.2.0."
+    }
+  },
+  "supportedMinecraftVersions": [],
+  "supportedClientVersions": [
+    "Lunar Client"
+  ],
+  "compatibilityNotes": "Designed for Lunar Client via a Java premain agent; the upstream repository does not declare a stable Lunar build range.",
+  "riskLevel": "unfair-advantage",
+  "installPolicy": "confirmation-required",
+  "restricted": true,
+  "featured": false,
+  "recommended": false,
+  "distribution": {
+    "mode": "github-release",
+    "url": "https://github.com/Nilsen84/lunar-client-agents/releases",
+    "reason": ""
+  },
+  "releases": [
+    {
+      "version": "1.2.0",
+      "publishedAt": "2022-07-20T17:45:58Z",
+      "changelog": {
+        "en": "Release v1.2.0.",
+        "ru": "Релиз v1.2.0."
+      },
+      "asset": {
+        "url": "https://github.com/Nilsen84/lunar-client-agents/releases/download/v1.2.0/LunarEnable.jar",
+        "fileName": "LunarEnable.jar",
+        "fileSize": 179809,
+        "sha256": "165ff2a25d6756521c5613442a29dc599e3e9ed2f0ef3a58c28b2bdcb38bf888"
+      }
+    }
+  ],
+  "warnings": [
+    {
+      "code": "server-rules",
+      "en": "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+      "ru": "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера."
+    }
+  ],
+  "inspection": {
+    "manifestType": "java-agent",
+    "entryPoints": [
+      "me.onils.lunarenable.Agent"
+    ],
+    "observedFileName": null,
+    "observedSha256": null,
+    "observedSize": null,
+    "notes": ""
+  },
+  "todos": []
+}

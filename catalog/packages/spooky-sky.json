@@ -1,0 +1,88 @@
+{
+  "manifestVersion": 1,
+  "id": "spooky-sky",
+  "slug": "spooky-sky",
+  "type": "java-agent",
+  "name": "SpookySky",
+  "summary": "A source-only Java-agent Minecraft hacked client.",
+  "description": "A source-only Java-agent Minecraft hacked client.",
+  "authors": [
+    {
+      "name": "fan87",
+      "url": "https://github.com/fan87"
+    }
+  ],
+  "source": {
+    "repository": "https://github.com/fan87/SpookySky",
+    "archived": false,
+    "license": null,
+    "licenseUrl": null,
+    "latestCommit": {
+      "sha": "a94c899246189b972b87ca4206293a7ebd57385d",
+      "date": "2022-07-02T18:08:55+08:00"
+    },
+    "automaticRedistributionPermitted": "unknown",
+    "notes": ""
+  },
+  "localizations": {
+    "en": {
+      "name": "SpookySky",
+      "summary": "A source-only Java-agent Minecraft hacked client.",
+      "description": "A source-only Java-agent Minecraft hacked client.",
+      "warnings": [
+        "Upstream describes this as a cheat, ghost, hacked, or mainly blatant client. Server rules may prohibit it; Moonrise does not bundle it.",
+        "No clear upstream license was found. Moonrise does not redistribute this binary."
+      ],
+      "changelog": ""
+    },
+    "ru": {
+      "name": "SpookySky",
+      "summary": "Доступный только в исходниках hacked-клиент Minecraft в виде Java-агента.",
+      "description": "Доступный только в исходниках hacked-клиент Minecraft в виде Java-агента.",
+      "warnings": [
+        "Вышестоящий проект описывает это как чит-, ghost-, hacked- или преимущественно blatant-клиент. Правила сервера могут запрещать его; Moonrise не включает его в поставку.",
+        "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл."
+      ],
+      "changelog": ""
+    }
+  },
+  "supportedMinecraftVersions": [],
+  "supportedClientVersions": [],
+  "compatibilityNotes": "Build scripts exercise Minecraft 1.8, but upstream does not publish a supported version range.",
+  "riskLevel": "cheat-client",
+  "installPolicy": "source-only",
+  "restricted": true,
+  "featured": false,
+  "recommended": false,
+  "distribution": {
+    "mode": "source-only",
+    "url": "https://github.com/fan87/SpookySky",
+    "reason": ""
+  },
+  "releases": [],
+  "warnings": [
+    {
+      "code": "restricted-client",
+      "en": "Upstream describes this as a cheat, ghost, hacked, or mainly blatant client. Server rules may prohibit it; Moonrise does not bundle it.",
+      "ru": "Вышестоящий проект описывает это как чит-, ghost-, hacked- или преимущественно blatant-клиент. Правила сервера могут запрещать его; Moonrise не включает его в поставку."
+    },
+    {
+      "code": "missing-license",
+      "en": "No clear upstream license was found. Moonrise does not redistribute this binary.",
+      "ru": "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл."
+    }
+  ],
+  "inspection": {
+    "manifestType": "java-agent",
+    "entryPoints": [
+      "me.fan87.spookysky.loader.Main"
+    ],
+    "observedFileName": null,
+    "observedSha256": null,
+    "observedSize": null,
+    "notes": ""
+  },
+  "todos": [
+    "No GitHub release asset exists; keep source-only unless upstream publishes a licensed artifact."
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "manifestVersion": 1,
+  "id": "fast-place",
+  "slug": "fast-place",
+  "type": "java-agent",
+  "name": "FastPlace",
+  "summary": "Sets the block-placement delay to zero so an action can occur every tick.",
+  "description": "Sets the block-placement delay to zero so an action can occur every tick.",
+  "authors": [
+    {
+      "name": "Youded-byte",
+      "url": "https://github.com/Youded-byte"
+    }
+  ],
+  "source": {
+    "repository": "https://github.com/Youded-byte/FastPlace-Agent",
+    "archived": false,
+    "license": "GPL-2.0-only",
+    "licenseUrl": "https://github.com/Youded-byte/FastPlace-Agent/blob/main/LICENSE",
+    "latestCommit": {
+      "sha": "5784de44f5ee30e70fa02b0e54a57b5cbe6fb7bd",
+      "date": "2022-03-07T10:21:48+01:00"
+    },
+    "automaticRedistributionPermitted": true,
+    "notes": ""
+  },
+  "localizations": {
+    "en": {
+      "name": "FastPlace",
+      "summary": "Sets the block-placement delay to zero so an action can occur every tick.",
+      "description": "Sets the block-placement delay to zero so an action can occur every tick.",
+      "warnings": [
+        "This behavior may provide an unfair advantage and may be prohibited by server rules."
+      ],
+      "changelog": "Upstream release."
+    },
+    "ru": {
+      "name": "FastPlace",
+      "summary": "Устанавливает задержку размещения блоков в ноль, позволяя действовать каждый тик.",
+      "description": "Устанавливает задержку размещения блоков в ноль, позволяя действовать каждый тик.",
+      "warnings": [
+        "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера."
+      ],
+      "changelog": "Релиз вышестоящего проекта."
+    }
+  },
+  "supportedMinecraftVersions": [],
+  "supportedClientVersions": [
+    "Lunar Client"
+  ],
+  "compatibilityNotes": "Upstream does not declare a verified compatibility range.",
+  "riskLevel": "unfair-advantage",
+  "installPolicy": "confirmation-required",
+  "restricted": true,
+  "featured": false,
+  "recommended": false,
+  "distribution": {
+    "mode": "github-release",
+    "url": "https://github.com/Youded-byte/FastPlace-Agent/releases",
+    "reason": ""
+  },
+  "releases": [
+    {
+      "version": "1.0.0",
+      "publishedAt": "2022-03-07T09:25:20Z",
+      "changelog": {
+        "en": "Upstream release.",
+        "ru": "Релиз вышестоящего проекта."
+      },
+      "asset": {
+        "url": "https://github.com/Youded-byte/FastPlace-Agent/releases/download/v1.0.0/FastPlace-Dependencies.jar",
+        "fileName": "FastPlace-Dependencies.jar",
+        "fileSize": 174814,
+        "sha256": "d13c9406a3dbee273f1bbdb6fd4a70cd0c285078179b308a649dff87ac858b87"
+      }
+    }
+  ],
+  "warnings": [
+    {
+      "code": "server-rules",
+      "en": "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+      "ru": "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера."
+    }
+  ],
+  "inspection": {
+    "manifestType": "java-agent",
+    "entryPoints": [
+      "me.youded.fastplace.Agent"
+    ],
+    "observedFileName": null,
+    "observedSha256": null,
+    "observedSize": null,
+    "notes": ""
+  },
+  "todos": []
+}

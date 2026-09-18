@@ -1,0 +1,103 @@
+{
+  "manifestVersion": 1,
+  "id": "weave-no-hit-delay",
+  "slug": "weave-no-hit-delay",
+  "type": "weave-mod",
+  "name": "WeaveNoHitDelay",
+  "summary": "Removes the 1.8 hit delay through a Weave hook.",
+  "description": "Removes the 1.8 hit delay through a Weave hook.",
+  "authors": [
+    {
+      "name": "Nilsen84",
+      "url": "https://github.com/Nilsen84"
+    }
+  ],
+  "source": {
+    "repository": "https://github.com/Nilsen84/WeaveNoHitDelay",
+    "archived": false,
+    "license": null,
+    "licenseUrl": null,
+    "latestCommit": {
+      "sha": "2f06c10467db29d690cd9384c522bf8de1d5e937",
+      "date": "2023-08-06T20:24:45+02:00"
+    },
+    "automaticRedistributionPermitted": "unknown",
+    "notes": ""
+  },
+  "localizations": {
+    "en": {
+      "name": "WeaveNoHitDelay",
+      "summary": "Removes the 1.8 hit delay through a Weave hook.",
+      "description": "Removes the 1.8 hit delay through a Weave hook.",
+      "warnings": [
+        "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+        "No clear upstream license was found. Moonrise does not redistribute this binary."
+      ],
+      "changelog": "Upstream release."
+    },
+    "ru": {
+      "name": "WeaveNoHitDelay",
+      "summary": "Убирает задержку удара 1.8 с помощью hook Weave.",
+      "description": "Убирает задержку удара 1.8 с помощью hook Weave.",
+      "warnings": [
+        "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера.",
+        "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл."
+      ],
+      "changelog": "Релиз вышестоящего проекта."
+    }
+  },
+  "supportedMinecraftVersions": [
+    "1.8.9"
+  ],
+  "supportedClientVersions": [],
+  "compatibilityNotes": "Upstream describes NoHitDelay for Lunar Client using Weave; source targets 1.8.9 mappings.",
+  "riskLevel": "unfair-advantage",
+  "installPolicy": "external-download",
+  "restricted": true,
+  "featured": false,
+  "recommended": false,
+  "distribution": {
+    "mode": "external-page",
+    "url": "https://github.com/Nilsen84/WeaveNoHitDelay/releases/tag/v2.0",
+    "reason": ""
+  },
+  "releases": [
+    {
+      "version": "2.0",
+      "publishedAt": "2023-05-27T18:13:15Z",
+      "changelog": {
+        "en": "Upstream release.",
+        "ru": "Релиз вышестоящего проекта."
+      },
+      "asset": {
+        "url": "https://github.com/Nilsen84/WeaveNoHitDelay/releases/download/v2.0/WeaveNoHitDelay-2.0.jar",
+        "fileName": "WeaveNoHitDelay-2.0.jar",
+        "fileSize": 3734,
+        "sha256": "a61bbfeafa8939c1ffa7bca2d9d4afb8e12df716f3c9e804da433bb543d4ff02"
+      }
+    }
+  ],
+  "warnings": [
+    {
+      "code": "server-rules",
+      "en": "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+      "ru": "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера."
+    },
+    {
+      "code": "missing-license",
+      "en": "No clear upstream license was found. Moonrise does not redistribute this binary.",
+      "ru": "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл."
+    }
+  ],
+  "inspection": {
+    "manifestType": "weave.mod.json",
+    "entryPoints": [
+      "io.github.nilsen84.nohitdelay.MinecraftHook"
+    ],
+    "observedFileName": null,
+    "observedSha256": null,
+    "observedSize": null,
+    "notes": ""
+  },
+  "todos": []
+}

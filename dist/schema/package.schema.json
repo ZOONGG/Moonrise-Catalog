@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://zoongg.github.io/Moonrise-Catalog/schema/package.schema.json",
+  "title": "Moonrise package manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["manifestVersion", "id", "slug", "type", "name", "summary", "description", "authors", "source", "localizations", "supportedMinecraftVersions", "supportedClientVersions", "compatibilityNotes", "riskLevel", "installPolicy", "restricted", "featured", "recommended", "distribution", "releases", "warnings", "inspection", "todos"],
+  "properties": {
+    "manifestVersion": {"const": 1},
+    "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9._-]*$"},
+    "slug": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
+    "type": {"enum": ["weave-mod", "java-agent"]},
+    "name": {"type": "string", "minLength": 1},
+    "summary": {"type": "string", "minLength": 1},
+    "description": {"type": "string"},
+    "authors": {"type": "array", "minItems": 1, "items": {"type": "object", "additionalProperties": false, "required": ["name"], "properties": {"name": {"type": "string", "minLength": 1}, "url": {"type": ["string", "null"], "format": "uri"}}}},
+    "source": {"type": "object", "additionalProperties": false, "required": ["repository", "archived", "license", "latestCommit", "automaticRedistributionPermitted"], "properties": {"repository": {"type": ["string", "null"], "format": "uri"}, "archived": {"type": "boolean"}, "license": {"type": ["string", "null"]}, "licenseUrl": {"type": ["string", "null"], "format": "uri"}, "latestCommit": {"type": ["object", "null"], "additionalProperties": false, "required": ["sha", "date"], "properties": {"sha": {"type": "string", "pattern": "^[0-9a-f]{40}$"}, "date": {"type": "string", "format": "date-time"}}}, "automaticRedistributionPermitted": {"enum": [true, false, "unknown"]}, "notes": {"type": "string"}}},
+    "localizations": {"type": "object", "additionalProperties": false, "required": ["en", "ru"], "properties": {"en": {"$ref": "#/$defs/localizedText"}, "ru": {"$ref": "#/$defs/localizedText"}}},
+    "supportedMinecraftVersions": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+    "supportedClientVersions": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+    "compatibilityNotes": {"type": "string"},
+    "riskLevel": {"enum": ["normal", "experimental", "server-dependent", "unfair-advantage", "cheat-client", "unknown"]},
+    "installPolicy": {"enum": ["one-click", "confirmation-required", "source-only", "external-download", "unavailable"]},
+    "restricted": {"type": "boolean"},
+    "featured": {"type": "boolean"},
+    "recommended": {"type": "boolean"},
+    "distribution": {"type": "object", "additionalProperties": false, "required": ["mode"], "properties": {"mode": {"enum": ["github-release", "upstream-direct", "upstream-raw", "moonrise-reproducible-build", "source-only", "external-page", "unavailable"]}, "url": {"type": ["string", "null"], "format": "uri"}, "reason": {"type": "string"}}},
+    "releases": {"type": "array", "items": {"$ref": "#/$defs/release"}},
+    "warnings": {"type": "array", "items": {"$ref": "#/$defs/localizedWarning"}},
+    "inspection": {"type": "object", "additionalProperties": false, "required": ["manifestType", "entryPoints"], "properties": {"manifestType": {"enum": ["java-agent", "weave.mod.json", "weave-legacy-manifest", "none", "unavailable"]}, "entryPoints": {"type": "array", "items": {"type": "string"}}, "observedFileName": {"type": ["string", "null"]}, "observedSha256": {"type": ["string", "null"], "pattern": "^[0-9a-f]{64}$"}, "observedSize": {"type": ["integer", "null"], "minimum": 1}, "notes": {"type": "string"}}},
+    "todos": {"type": "array", "items": {"type": "string", "minLength": 1}}
+  },
+  "$defs": {
+    "localizedText": {"type": "object", "additionalProperties": false, "required": ["name", "summary", "description", "warnings", "changelog"], "properties": {"name": {"type": "string"}, "summary": {"type": "string"}, "description": {"type": "string"}, "warnings": {"type": "array", "items": {"type": "string"}}, "changelog": {"type": "string"}}},
+    "localizedWarning": {"type": "object", "additionalProperties": false, "required": ["code", "en", "ru"], "properties": {"code": {"type": "string", "pattern": "^[a-z0-9-]+$"}, "en": {"type": "string", "minLength": 1}, "ru": {"type": "string", "minLength": 1}}},
+    "release": {"type": "object", "additionalProperties": false, "required": ["version", "publishedAt", "changelog", "asset"], "properties": {"version": {"type": "string", "minLength": 1}, "publishedAt": {"type": "string", "format": "date-time"}, "changelog": {"type": "object", "additionalProperties": false, "required": ["en", "ru"], "properties": {"en": {"type": "string"}, "ru": {"type": "string"}}}, "asset": {"type": "object", "additionalProperties": false, "required": ["url", "fileName", "fileSize", "sha256"], "properties": {"url": {"type": "string", "format": "uri"}, "fileName": {"type": "string", "pattern": "^[^/\\\\]+\\.jar$"}, "fileSize": {"type": "integer", "minimum": 1, "maximum": 536870912}, "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}, "javaVersion": {"type": ["integer", "null"], "minimum": 8}, "weaveLoaderRange": {"type": ["string", "null"]}}}}}
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "manifestVersion": 1,
+  "id": "lunar-agent-legacy",
+  "slug": "lunar-agent-legacy",
+  "type": "java-agent",
+  "name": "Lunar-Agent",
+  "summary": "A source-only Lunar Client agent with BedWars tools, AutoDodge, ESP, and tracers.",
+  "description": "A source-only Lunar Client agent with BedWars tools, AutoDodge, ESP, and tracers.",
+  "authors": [
+    {
+      "name": "Monmcgt",
+      "url": "https://github.com/Monmcgt"
+    }
+  ],
+  "source": {
+    "repository": "https://github.com/Monmcgt/Lunar-Agent",
+    "archived": false,
+    "license": null,
+    "licenseUrl": null,
+    "latestCommit": {
+      "sha": "68775d599f94d0aee940ed64d8b181d899dda18b",
+      "date": "2023-03-15T04:07:28+07:00"
+    },
+    "automaticRedistributionPermitted": "unknown",
+    "notes": ""
+  },
+  "localizations": {
+    "en": {
+      "name": "Lunar-Agent",
+      "summary": "A source-only Lunar Client agent with BedWars tools, AutoDodge, ESP, and tracers.",
+      "description": "A source-only Lunar Client agent with BedWars tools, AutoDodge, ESP, and tracers.",
+      "warnings": [
+        "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+        "No clear upstream license was found. Moonrise does not redistribute this binary.",
+        "Upstream explicitly lists ESP, tracers, and a bannable AutoDodge feature."
+      ],
+      "changelog": ""
+    },
+    "ru": {
+      "name": "Lunar-Agent",
+      "summary": "Java-агент Lunar Client только в исходниках с инструментами BedWars, AutoDodge, ESP и tracers.",
+      "description": "Java-агент Lunar Client только в исходниках с инструментами BedWars, AutoDodge, ESP и tracers.",
+      "warnings": [
+        "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера.",
+        "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл.",
+        "Автор прямо указывает ESP, tracers и банящийся AutoDodge."
+      ],
+      "changelog": ""
+    }
+  },
+  "supportedMinecraftVersions": [
+    "1.8.9"
+  ],
+  "supportedClientVersions": [
+    "Lunar Client 1.8.9-b4db1c9/master"
+  ],
+  "compatibilityNotes": "README explicitly says it only works with Lunar Client version 1.8.9-b4db1c9/master.",
+  "riskLevel": "unfair-advantage",
+  "installPolicy": "source-only",
+  "restricted": true,
+  "featured": false,
+  "recommended": false,
+  "distribution": {
+    "mode": "source-only",
+    "url": "https://github.com/Monmcgt/Lunar-Agent",
+    "reason": ""
+  },
+  "releases": [],
+  "warnings": [
+    {
+      "code": "server-rules",
+      "en": "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+      "ru": "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера."
+    },
+    {
+      "code": "missing-license",
+      "en": "No clear upstream license was found. Moonrise does not redistribute this binary.",
+      "ru": "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл."
+    },
+    {
+      "code": "esp",
+      "en": "Upstream explicitly lists ESP, tracers, and a bannable AutoDodge feature.",
+      "ru": "Автор прямо указывает ESP, tracers и банящийся AutoDodge."
+    }
+  ],
+  "inspection": {
+    "manifestType": "java-agent",
+    "entryPoints": [],
+    "observedFileName": null,
+    "observedSha256": null,
+    "observedSize": null,
+    "notes": ""
+  },
+  "todos": [
+    "No public release asset or license was found."
+  ]
+}

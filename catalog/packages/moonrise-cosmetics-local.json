@@ -1,0 +1,80 @@
+{
+  "manifestVersion": 1,
+  "id": "moonrise-cosmetics-local",
+  "slug": "moonrise-cosmetics-local",
+  "type": "java-agent",
+  "name": "Moonrise Cosmetics (local draft)",
+  "summary": "A locally built Moonrise Cosmetics Java agent draft with no catalog release URL.",
+  "description": "A locally built Moonrise Cosmetics Java agent draft with no catalog release URL.",
+  "authors": [
+    {
+      "name": "Moonrise contributors",
+      "url": "https://github.com/ZOONGG/Moonrise"
+    }
+  ],
+  "source": {
+    "repository": "https://github.com/ZOONGG/Moonrise",
+    "archived": false,
+    "license": "MIT",
+    "licenseUrl": "https://github.com/ZOONGG/Moonrise/blob/main/LICENSE",
+    "latestCommit": null,
+    "automaticRedistributionPermitted": true,
+    "notes": ""
+  },
+  "localizations": {
+    "en": {
+      "name": "Moonrise Cosmetics (local draft)",
+      "summary": "A locally built Moonrise Cosmetics Java agent draft with no catalog release URL.",
+      "description": "A locally built Moonrise Cosmetics Java agent draft with no catalog release URL.",
+      "warnings": [
+        "This locally inspected artifact is not published or uploaded by the catalog."
+      ],
+      "changelog": ""
+    },
+    "ru": {
+      "name": "Moonrise Cosmetics (local draft)",
+      "summary": "Локальная черновая сборка Java-агента Moonrise Cosmetics без URL релиза каталога.",
+      "description": "Локальная черновая сборка Java-агента Moonrise Cosmetics без URL релиза каталога.",
+      "warnings": [
+        "Этот локально проверенный артефакт не публикуется и не загружается каталогом."
+      ],
+      "changelog": ""
+    }
+  },
+  "supportedMinecraftVersions": [],
+  "supportedClientVersions": [
+    "Lunar Client"
+  ],
+  "compatibilityNotes": "The JAR manifest declares Implementation-Version 1.1.0 and Moonrise-Clients lunar; no Lunar build range is declared.",
+  "riskLevel": "experimental",
+  "installPolicy": "unavailable",
+  "restricted": false,
+  "featured": false,
+  "recommended": false,
+  "distribution": {
+    "mode": "unavailable",
+    "url": "https://github.com/ZOONGG/Moonrise/releases",
+    "reason": "No authorized public package release URL exists."
+  },
+  "releases": [],
+  "warnings": [
+    {
+      "code": "local-artifact",
+      "en": "This locally inspected artifact is not published or uploaded by the catalog.",
+      "ru": "Этот локально проверенный артефакт не публикуется и не загружается каталогом."
+    }
+  ],
+  "inspection": {
+    "manifestType": "java-agent",
+    "entryPoints": [
+      "moonrise.cosmetics.CosmeticsAgent"
+    ],
+    "observedFileName": "Moonrise-Cosmetics.jar",
+    "observedSha256": "fd8008d5b6f5a478af56f70e33a397cea5f50eb84731699bfc50dd66a511930c",
+    "observedSize": 17991,
+    "notes": ""
+  },
+  "todos": [
+    "Publish a source-tagged Moonrise release for version 1.1.0 and document reproducible build inputs before enabling distribution."
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "manifestVersion": 1,
+  "id": "custom-auto-gg",
+  "slug": "custom-auto-gg",
+  "type": "java-agent",
+  "name": "CustomAutoGG",
+  "summary": "Replaces Lunar Client's AutoGG chat message with an agent option supplied by the user.",
+  "description": "Replaces Lunar Client's AutoGG chat message with an agent option supplied by the user.",
+  "authors": [
+    {
+      "name": "Nilsen84",
+      "url": "https://github.com/Nilsen84"
+    }
+  ],
+  "source": {
+    "repository": "https://github.com/Nilsen84/lunar-client-agents",
+    "archived": false,
+    "license": "GPL-3.0-only",
+    "licenseUrl": "https://github.com/Nilsen84/lunar-client-agents/blob/master/LICENSE",
+    "latestCommit": {
+      "sha": "9169a0dd9959cb41f21ebd6ede3b26e3c6fd16ce",
+      "date": "2022-07-20T19:44:24+02:00"
+    },
+    "automaticRedistributionPermitted": true,
+    "notes": ""
+  },
+  "localizations": {
+    "en": {
+      "name": "CustomAutoGG",
+      "summary": "Replaces Lunar Client's AutoGG chat message with an agent option supplied by the user.",
+      "description": "Replaces Lunar Client's AutoGG chat message with an agent option supplied by the user.",
+      "warnings": [],
+      "changelog": "Release v1.2.0."
+    },
+    "ru": {
+      "name": "CustomAutoGG",
+      "summary": "Заменяет сообщение AutoGG в Lunar Client на текст из параметра агента.",
+      "description": "Заменяет сообщение AutoGG в Lunar Client на текст из параметра агента.",
+      "warnings": [],
+      "changelog": "Релиз v1.2.0."
+    }
+  },
+  "supportedMinecraftVersions": [],
+  "supportedClientVersions": [
+    "Lunar Client"
+  ],
+  "compatibilityNotes": "Designed for Lunar Client via a Java premain agent; the upstream repository does not declare a stable Lunar build range.",
+  "riskLevel": "normal",
+  "installPolicy": "one-click",
+  "restricted": false,
+  "featured": false,
+  "recommended": false,
+  "distribution": {
+    "mode": "github-release",
+    "url": "https://github.com/Nilsen84/lunar-client-agents/releases",
+    "reason": ""
+  },
+  "releases": [
+    {
+      "version": "1.2.0",
+      "publishedAt": "2022-07-20T17:45:58Z",
+      "changelog": {
+        "en": "Release v1.2.0.",
+        "ru": "Релиз v1.2.0."
+      },
+      "asset": {
+        "url": "https://github.com/Nilsen84/lunar-client-agents/releases/download/v1.2.0/CustomAutoGG.jar",
+        "fileName": "CustomAutoGG.jar",
+        "fileSize": 177718,
+        "sha256": "d6db746986aeb17bee3d9a4cdf48c5579b0d5a7e7474e95f718601665e5a21dd"
+      }
+    }
+  ],
+  "warnings": [],
+  "inspection": {
+    "manifestType": "java-agent",
+    "entryPoints": [
+      "me.onils.customautogg.Agent"
+    ],
+    "observedFileName": null,
+    "observedSha256": null,
+    "observedSize": null,
+    "notes": ""
+  },
+  "todos": []
+}

@@ -1,0 +1,76 @@
+{
+  "manifestVersion": 1,
+  "id": "anti-shuffle",
+  "slug": "anti-shuffle",
+  "type": "weave-mod",
+  "name": "AntiShuffle",
+  "summary": "Required source was named as a Weave community project but is no longer publicly accessible.",
+  "description": "Required source was named as a Weave community project but is no longer publicly accessible.",
+  "authors": [
+    {
+      "name": "ballmc",
+      "url": "https://github.com/ballmc"
+    }
+  ],
+  "source": {
+    "repository": "https://github.com/ballmc/AntiShuffle",
+    "archived": false,
+    "license": null,
+    "licenseUrl": null,
+    "latestCommit": null,
+    "automaticRedistributionPermitted": "unknown",
+    "notes": ""
+  },
+  "localizations": {
+    "en": {
+      "name": "AntiShuffle",
+      "summary": "Required source was named as a Weave community project but is no longer publicly accessible.",
+      "description": "Required source was named as a Weave community project but is no longer publicly accessible.",
+      "warnings": [
+        "The upstream repository returned 404; no metadata or binary could be verified."
+      ],
+      "changelog": ""
+    },
+    "ru": {
+      "name": "AntiShuffle",
+      "summary": "Указанный в задании проект сообщества Weave больше не доступен публично.",
+      "description": "Указанный в задании проект сообщества Weave больше не доступен публично.",
+      "warnings": [
+        "Репозиторий автора вернул 404; метаданные и бинарный файл проверить не удалось."
+      ],
+      "changelog": ""
+    }
+  },
+  "supportedMinecraftVersions": [],
+  "supportedClientVersions": [],
+  "compatibilityNotes": "Unavailable: the upstream repository returned 404.",
+  "riskLevel": "unknown",
+  "installPolicy": "unavailable",
+  "restricted": false,
+  "featured": false,
+  "recommended": false,
+  "distribution": {
+    "mode": "unavailable",
+    "url": "https://github.com/ballmc/AntiShuffle",
+    "reason": "GitHub returned 404 during the 2026-07-27 audit."
+  },
+  "releases": [],
+  "warnings": [
+    {
+      "code": "missing-repository",
+      "en": "The upstream repository returned 404; no metadata or binary could be verified.",
+      "ru": "Репозиторий автора вернул 404; метаданные и бинарный файл проверить не удалось."
+    }
+  ],
+  "inspection": {
+    "manifestType": "unavailable",
+    "entryPoints": [],
+    "observedFileName": null,
+    "observedSha256": null,
+    "observedSize": null,
+    "notes": ""
+  },
+  "todos": [
+    "Locate an authorized public source or confirm that the project was removed."
+  ]
+}

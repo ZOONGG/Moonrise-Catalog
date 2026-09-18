@@ -1,0 +1,96 @@
+{
+  "manifestVersion": 1,
+  "id": "raven-weave",
+  "slug": "raven-weave",
+  "type": "weave-mod",
+  "name": "RavenWeave",
+  "summary": "A Raven B++ cheat-client fork ported to Weave.",
+  "description": "A Raven B++ cheat-client fork ported to Weave.",
+  "authors": [
+    {
+      "name": "PianoPenguin471",
+      "url": "https://github.com/PianoPenguin471"
+    }
+  ],
+  "source": {
+    "repository": "https://github.com/PianoPenguin471/RavenWeave",
+    "archived": true,
+    "license": "GPL-3.0-only",
+    "licenseUrl": "https://github.com/PianoPenguin471/RavenWeave/blob/main/LICENSE",
+    "latestCommit": {
+      "sha": "7018bfdae2b87ea491ad0af06922cf44cccb6f85",
+      "date": "2024-04-29T18:14:16-07:00"
+    },
+    "automaticRedistributionPermitted": true,
+    "notes": ""
+  },
+  "localizations": {
+    "en": {
+      "name": "RavenWeave",
+      "summary": "A Raven B++ cheat-client fork ported to Weave.",
+      "description": "A Raven B++ cheat-client fork ported to Weave.",
+      "warnings": [
+        "Upstream describes this as a cheat, ghost, hacked, or mainly blatant client. Server rules may prohibit it; Moonrise does not bundle it."
+      ],
+      "changelog": "Upstream release."
+    },
+    "ru": {
+      "name": "RavenWeave",
+      "summary": "Портированный на Weave форк чит-клиента Raven B++.",
+      "description": "Портированный на Weave форк чит-клиента Raven B++.",
+      "warnings": [
+        "Вышестоящий проект описывает это как чит-, ghost-, hacked- или преимущественно blatant-клиент. Правила сервера могут запрещать его; Moonrise не включает его в поставку."
+      ],
+      "changelog": "Релиз вышестоящего проекта."
+    }
+  },
+  "supportedMinecraftVersions": [
+    "1.8.9"
+  ],
+  "supportedClientVersions": [],
+  "compatibilityNotes": "Build configuration explicitly targets Minecraft 1.8.9.",
+  "riskLevel": "cheat-client",
+  "installPolicy": "external-download",
+  "restricted": true,
+  "featured": false,
+  "recommended": false,
+  "distribution": {
+    "mode": "external-page",
+    "url": "https://github.com/PianoPenguin471/RavenWeave/releases/tag/latest",
+    "reason": ""
+  },
+  "releases": [
+    {
+      "version": "1.1.5-Beta",
+      "publishedAt": "2024-01-18T21:04:51Z",
+      "changelog": {
+        "en": "Upstream release.",
+        "ru": "Релиз вышестоящего проекта."
+      },
+      "asset": {
+        "url": "https://github.com/PianoPenguin471/RavenWeave/releases/download/latest/RavenWeave-1.1.5-Beta.jar",
+        "fileName": "RavenWeave-1.1.5-Beta.jar",
+        "fileSize": 1517226,
+        "sha256": "49d67205492837d600f923c08181379fb3dc4077cecbf1849d38b9a8fc712d69"
+      }
+    }
+  ],
+  "warnings": [
+    {
+      "code": "restricted-client",
+      "en": "Upstream describes this as a cheat, ghost, hacked, or mainly blatant client. Server rules may prohibit it; Moonrise does not bundle it.",
+      "ru": "Вышестоящий проект описывает это как чит-, ghost-, hacked- или преимущественно blatant-клиент. Правила сервера могут запрещать его; Moonrise не включает его в поставку."
+    }
+  ],
+  "inspection": {
+    "manifestType": "weave.mod.json",
+    "entryPoints": [
+      "me.pianopenguin471.RavenWeave"
+    ],
+    "observedFileName": null,
+    "observedSha256": null,
+    "observedSize": null,
+    "notes": ""
+  },
+  "todos": []
+}

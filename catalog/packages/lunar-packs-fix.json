@@ -1,0 +1,86 @@
+{
+  "manifestVersion": 1,
+  "id": "lunar-packs-fix",
+  "slug": "lunar-packs-fix",
+  "type": "java-agent",
+  "name": "LunarPacksFix",
+  "summary": "Restores use of Lunar texture overlays according to upstream.",
+  "description": "Restores use of Lunar texture overlays according to upstream.",
+  "authors": [
+    {
+      "name": "Nilsen84",
+      "url": "https://github.com/Nilsen84"
+    }
+  ],
+  "source": {
+    "repository": "https://github.com/Nilsen84/lunar-client-agents",
+    "archived": false,
+    "license": "GPL-3.0-only",
+    "licenseUrl": "https://github.com/Nilsen84/lunar-client-agents/blob/master/LICENSE",
+    "latestCommit": {
+      "sha": "9169a0dd9959cb41f21ebd6ede3b26e3c6fd16ce",
+      "date": "2022-07-20T19:44:24+02:00"
+    },
+    "automaticRedistributionPermitted": true,
+    "notes": ""
+  },
+  "localizations": {
+    "en": {
+      "name": "LunarPacksFix",
+      "summary": "Restores use of Lunar texture overlays according to upstream.",
+      "description": "Restores use of Lunar texture overlays according to upstream.",
+      "warnings": [],
+      "changelog": "Release v1.2.0."
+    },
+    "ru": {
+      "name": "LunarPacksFix",
+      "summary": "Восстанавливает использование оверлеев текстур Lunar согласно описанию автора.",
+      "description": "Восстанавливает использование оверлеев текстур Lunar согласно описанию автора.",
+      "warnings": [],
+      "changelog": "Релиз v1.2.0."
+    }
+  },
+  "supportedMinecraftVersions": [],
+  "supportedClientVersions": [
+    "Lunar Client"
+  ],
+  "compatibilityNotes": "Designed for Lunar Client via a Java premain agent; the upstream repository does not declare a stable Lunar build range.",
+  "riskLevel": "normal",
+  "installPolicy": "one-click",
+  "restricted": false,
+  "featured": false,
+  "recommended": false,
+  "distribution": {
+    "mode": "github-release",
+    "url": "https://github.com/Nilsen84/lunar-client-agents/releases",
+    "reason": ""
+  },
+  "releases": [
+    {
+      "version": "1.2.0",
+      "publishedAt": "2022-07-20T17:45:58Z",
+      "changelog": {
+        "en": "Release v1.2.0.",
+        "ru": "Релиз v1.2.0."
+      },
+      "asset": {
+        "url": "https://github.com/Nilsen84/lunar-client-agents/releases/download/v1.2.0/LunarPacksFix.jar",
+        "fileName": "LunarPacksFix.jar",
+        "fileSize": 178130,
+        "sha256": "d0df08099cc79738cee0410d14046751964883b5d60659a51fba841bc954fd38"
+      }
+    }
+  ],
+  "warnings": [],
+  "inspection": {
+    "manifestType": "java-agent",
+    "entryPoints": [
+      "me.onils.lunarpacksfix.Agent"
+    ],
+    "observedFileName": null,
+    "observedSha256": null,
+    "observedSize": null,
+    "notes": ""
+  },
+  "todos": []
+}

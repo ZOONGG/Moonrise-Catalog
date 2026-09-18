@@ -1,0 +1,95 @@
+{
+  "manifestVersion": 1,
+  "id": "local-unrestricted-patched",
+  "slug": "local-unrestricted-patched",
+  "type": "weave-mod",
+  "name": "Unrestricted (local patched artifact)",
+  "summary": "A locally patched Unrestricted JAR with a native-freelook bridge and no authorized release for these bytes.",
+  "description": "A locally patched Unrestricted JAR with a native-freelook bridge and no authorized release for these bytes.",
+  "authors": [
+    {
+      "name": "Youded-byte",
+      "url": "https://github.com/Youded-byte"
+    }
+  ],
+  "source": {
+    "repository": "https://github.com/Youded-byte/unrestricted",
+    "archived": false,
+    "license": null,
+    "licenseUrl": null,
+    "latestCommit": {
+      "sha": "252ef96ccd8c6b0d16a7c09001ffb9866b0409f6",
+      "date": "2023-11-29T01:59:28+02:00"
+    },
+    "automaticRedistributionPermitted": false,
+    "notes": ""
+  },
+  "localizations": {
+    "en": {
+      "name": "Unrestricted (local patched artifact)",
+      "summary": "A locally patched Unrestricted JAR with a native-freelook bridge and no authorized release for these bytes.",
+      "description": "A locally patched Unrestricted JAR with a native-freelook bridge and no authorized release for these bytes.",
+      "warnings": [
+        "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+        "This locally inspected artifact is not published or uploaded by the catalog."
+      ],
+      "changelog": ""
+    },
+    "ru": {
+      "name": "Unrestricted (local patched artifact)",
+      "summary": "Локально пропатченный JAR Unrestricted с мостом native freelook без авторизованного релиза этих байтов.",
+      "description": "Локально пропатченный JAR Unrestricted с мостом native freelook без авторизованного релиза этих байтов.",
+      "warnings": [
+        "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера.",
+        "Этот локально проверенный артефакт не публикуется и не загружается каталогом."
+      ],
+      "changelog": ""
+    }
+  },
+  "supportedMinecraftVersions": [
+    "1.8.9"
+  ],
+  "supportedClientVersions": [],
+  "compatibilityNotes": "The inspected local weave.mod.json declares compiledFor 1.8.9.",
+  "riskLevel": "unfair-advantage",
+  "installPolicy": "unavailable",
+  "restricted": true,
+  "featured": false,
+  "recommended": false,
+  "distribution": {
+    "mode": "unavailable",
+    "url": "https://github.com/Youded-byte/unrestricted/releases",
+    "reason": "The local patched bytes have no authorized public release."
+  },
+  "releases": [],
+  "warnings": [
+    {
+      "code": "server-rules",
+      "en": "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+      "ru": "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера."
+    },
+    {
+      "code": "local-artifact",
+      "en": "This locally inspected artifact is not published or uploaded by the catalog.",
+      "ru": "Этот локально проверенный артефакт не публикуется и не загружается каталогом."
+    }
+  ],
+  "inspection": {
+    "manifestType": "weave.mod.json",
+    "entryPoints": [
+      "lunarweavebridge.compat.FreelookPreInitBridge",
+      "me.youded.unrestricted.hooks.StaffEnableHook",
+      "me.youded.unrestricted.hooks.BlacklistEnableHook",
+      "me.youded.unrestricted.hooks.ReachUnrestrictHook",
+      "me.youded.unrestricted.hooks.PollingrateUnrestrictHook",
+      "me.youded.unrestricted.hooks.TexturePackUnrestrictHook"
+    ],
+    "observedFileName": "unrestricted.jar",
+    "observedSha256": "adb858f75da30eace656d380021dca0fd0a047ed6aabdaaa68f758f7965a4833",
+    "observedSize": 23188,
+    "notes": ""
+  },
+  "todos": [
+    "Publish the exact patch source, license, attribution, and authorized release URL."
+  ]
+}

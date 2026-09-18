@@ -1,0 +1,85 @@
+{
+  "manifestVersion": 1,
+  "id": "local-bedwars-helper-patched",
+  "slug": "local-bedwars-helper-patched",
+  "type": "weave-mod",
+  "name": "BedWars Helper (local patched artifact)",
+  "summary": "A locally inspected patched BedWars Helper JAR with no authorized public source for these exact bytes.",
+  "description": "A locally inspected patched BedWars Helper JAR with no authorized public source for these exact bytes.",
+  "authors": [
+    {
+      "name": "Unknown upstream author",
+      "url": null
+    }
+  ],
+  "source": {
+    "repository": null,
+    "archived": false,
+    "license": null,
+    "licenseUrl": null,
+    "latestCommit": null,
+    "automaticRedistributionPermitted": false,
+    "notes": ""
+  },
+  "localizations": {
+    "en": {
+      "name": "BedWars Helper (local patched artifact)",
+      "summary": "A locally inspected patched BedWars Helper JAR with no authorized public source for these exact bytes.",
+      "description": "A locally inspected patched BedWars Helper JAR with no authorized public source for these exact bytes.",
+      "warnings": [
+        "This locally inspected artifact is not published or uploaded by the catalog."
+      ],
+      "changelog": ""
+    },
+    "ru": {
+      "name": "BedWars Helper (local patched artifact)",
+      "summary": "Локально проверенный патч BedWars Helper без авторизованного публичного источника именно этих байтов.",
+      "description": "Локально проверенный патч BedWars Helper без авторизованного публичного источника именно этих байтов.",
+      "warnings": [
+        "Этот локально проверенный артефакт не публикуется и не загружается каталогом."
+      ],
+      "changelog": ""
+    }
+  },
+  "supportedMinecraftVersions": [
+    "1.8.9"
+  ],
+  "supportedClientVersions": [],
+  "compatibilityNotes": "The inspected weave.mod.json declares compiledFor 1.8.9; runtime compatibility is not independently verified.",
+  "riskLevel": "unknown",
+  "installPolicy": "unavailable",
+  "restricted": false,
+  "featured": false,
+  "recommended": false,
+  "distribution": {
+    "mode": "unavailable",
+    "url": null,
+    "reason": "No authorized public release/source URL exists for the inspected patched artifact."
+  },
+  "releases": [],
+  "warnings": [
+    {
+      "code": "local-artifact",
+      "en": "This locally inspected artifact is not published or uploaded by the catalog.",
+      "ru": "Этот локально проверенный артефакт не публикуется и не загружается каталогом."
+    }
+  ],
+  "inspection": {
+    "manifestType": "weave.mod.json",
+    "entryPoints": [
+      "lunarweavebridge.compat.BwhPreInitBridge",
+      "lunarweavebridge.compat.BwhChatSentHook",
+      "xyz.mangal.bwhelper.asm.WorldTransformer",
+      "xyz.mangal.bwhelper.asm.ItemBucketMilkTransformer",
+      "xyz.mangal.bwhelper.asm.MinecraftTransformer2",
+      "xyz.mangal.bwhelper.asm.GuiChatTransformer"
+    ],
+    "observedFileName": "bwh-march-14-weave-patched-v2-api.jar",
+    "observedSha256": "6da5b2a67e05e07deae2779b4aa3d1b70e5028ded227c41487ff783f5d609a57",
+    "observedSize": 15433066,
+    "notes": ""
+  },
+  "todos": [
+    "Provide the exact public upstream repository, license, author attribution, patch source, and authorized release URL."
+  ]
+}

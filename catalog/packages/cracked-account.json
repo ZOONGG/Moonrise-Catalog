@@ -1,0 +1,103 @@
+{
+  "manifestVersion": 1,
+  "id": "cracked-account",
+  "slug": "cracked-account",
+  "type": "java-agent",
+  "name": "CrackedAccount",
+  "summary": "Changes Lunar Client account behavior for single-player and offline-mode servers.",
+  "description": "Changes Lunar Client account behavior for single-player and offline-mode servers.",
+  "authors": [
+    {
+      "name": "Nilsen84",
+      "url": "https://github.com/Nilsen84"
+    }
+  ],
+  "source": {
+    "repository": "https://github.com/Nilsen84/lunar-client-agents",
+    "archived": false,
+    "license": "GPL-3.0-only",
+    "licenseUrl": "https://github.com/Nilsen84/lunar-client-agents/blob/master/LICENSE",
+    "latestCommit": {
+      "sha": "9169a0dd9959cb41f21ebd6ede3b26e3c6fd16ce",
+      "date": "2022-07-20T19:44:24+02:00"
+    },
+    "automaticRedistributionPermitted": true,
+    "notes": ""
+  },
+  "localizations": {
+    "en": {
+      "name": "CrackedAccount",
+      "summary": "Changes Lunar Client account behavior for single-player and offline-mode servers.",
+      "description": "Changes Lunar Client account behavior for single-player and offline-mode servers.",
+      "warnings": [
+        "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+        "Moonrise never supplies, reads, or modifies Lunar account credentials; authentication remains in the official Lunar Launcher."
+      ],
+      "changelog": "Release v1.2.0."
+    },
+    "ru": {
+      "name": "CrackedAccount",
+      "summary": "Изменяет поведение учётной записи Lunar Client для одиночной игры и серверов в offline mode.",
+      "description": "Изменяет поведение учётной записи Lunar Client для одиночной игры и серверов в offline mode.",
+      "warnings": [
+        "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера.",
+        "Moonrise не передаёт, не читает и не изменяет данные учётной записи Lunar; аутентификация остаётся в официальном Lunar Launcher."
+      ],
+      "changelog": "Релиз v1.2.0."
+    }
+  },
+  "supportedMinecraftVersions": [],
+  "supportedClientVersions": [
+    "Lunar Client"
+  ],
+  "compatibilityNotes": "Designed for Lunar Client via a Java premain agent; the upstream repository does not declare a stable Lunar build range.",
+  "riskLevel": "server-dependent",
+  "installPolicy": "confirmation-required",
+  "restricted": true,
+  "featured": false,
+  "recommended": false,
+  "distribution": {
+    "mode": "github-release",
+    "url": "https://github.com/Nilsen84/lunar-client-agents/releases",
+    "reason": ""
+  },
+  "releases": [
+    {
+      "version": "1.2.0",
+      "publishedAt": "2022-07-20T17:45:58Z",
+      "changelog": {
+        "en": "Release v1.2.0.",
+        "ru": "Релиз v1.2.0."
+      },
+      "asset": {
+        "url": "https://github.com/Nilsen84/lunar-client-agents/releases/download/v1.2.0/CrackedAccount.jar",
+        "fileName": "CrackedAccount.jar",
+        "fileSize": 182017,
+        "sha256": "70daeaddc1d7ceafa95f0f1e1043b2cf10881b294ba443543296963445645b82"
+      }
+    }
+  ],
+  "warnings": [
+    {
+      "code": "server-rules",
+      "en": "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+      "ru": "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера."
+    },
+    {
+      "code": "authentication-boundary",
+      "en": "Moonrise never supplies, reads, or modifies Lunar account credentials; authentication remains in the official Lunar Launcher.",
+      "ru": "Moonrise не передаёт, не читает и не изменяет данные учётной записи Lunar; аутентификация остаётся в официальном Lunar Launcher."
+    }
+  ],
+  "inspection": {
+    "manifestType": "java-agent",
+    "entryPoints": [
+      "me.onils.crackedaccount.Agent"
+    ],
+    "observedFileName": null,
+    "observedSha256": null,
+    "observedSize": null,
+    "notes": ""
+  },
+  "todos": []
+}

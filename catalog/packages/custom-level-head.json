@@ -1,0 +1,86 @@
+{
+  "manifestVersion": 1,
+  "id": "custom-level-head",
+  "slug": "custom-level-head",
+  "type": "java-agent",
+  "name": "CustomLevelHead",
+  "summary": "Replaces the LevelHead label text with a value supplied through the agent option.",
+  "description": "Replaces the LevelHead label text with a value supplied through the agent option.",
+  "authors": [
+    {
+      "name": "Nilsen84",
+      "url": "https://github.com/Nilsen84"
+    }
+  ],
+  "source": {
+    "repository": "https://github.com/Nilsen84/lunar-client-agents",
+    "archived": false,
+    "license": "GPL-3.0-only",
+    "licenseUrl": "https://github.com/Nilsen84/lunar-client-agents/blob/master/LICENSE",
+    "latestCommit": {
+      "sha": "9169a0dd9959cb41f21ebd6ede3b26e3c6fd16ce",
+      "date": "2022-07-20T19:44:24+02:00"
+    },
+    "automaticRedistributionPermitted": true,
+    "notes": ""
+  },
+  "localizations": {
+    "en": {
+      "name": "CustomLevelHead",
+      "summary": "Replaces the LevelHead label text with a value supplied through the agent option.",
+      "description": "Replaces the LevelHead label text with a value supplied through the agent option.",
+      "warnings": [],
+      "changelog": "Release v1.2.0."
+    },
+    "ru": {
+      "name": "CustomLevelHead",
+      "summary": "Заменяет текст метки LevelHead значением из параметра агента.",
+      "description": "Заменяет текст метки LevelHead значением из параметра агента.",
+      "warnings": [],
+      "changelog": "Релиз v1.2.0."
+    }
+  },
+  "supportedMinecraftVersions": [],
+  "supportedClientVersions": [
+    "Lunar Client"
+  ],
+  "compatibilityNotes": "Designed for Lunar Client via a Java premain agent; the upstream repository does not declare a stable Lunar build range.",
+  "riskLevel": "normal",
+  "installPolicy": "one-click",
+  "restricted": false,
+  "featured": false,
+  "recommended": false,
+  "distribution": {
+    "mode": "github-release",
+    "url": "https://github.com/Nilsen84/lunar-client-agents/releases",
+    "reason": ""
+  },
+  "releases": [
+    {
+      "version": "1.2.0",
+      "publishedAt": "2022-07-20T17:45:58Z",
+      "changelog": {
+        "en": "Release v1.2.0.",
+        "ru": "Релиз v1.2.0."
+      },
+      "asset": {
+        "url": "https://github.com/Nilsen84/lunar-client-agents/releases/download/v1.2.0/CustomLevelHead.jar",
+        "fileName": "CustomLevelHead.jar",
+        "fileSize": 177606,
+        "sha256": "465fabf60b61ec2a6d1554e51d72db5ad9bb3ab54c9a0f237968323f7ef37927"
+      }
+    }
+  ],
+  "warnings": [],
+  "inspection": {
+    "manifestType": "java-agent",
+    "entryPoints": [
+      "me.onils.customlevelhead.Agent"
+    ],
+    "observedFileName": null,
+    "observedSha256": null,
+    "observedSize": null,
+    "notes": ""
+  },
+  "todos": []
+}

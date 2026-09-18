@@ -1,0 +1,95 @@
+{
+  "manifestVersion": 1,
+  "id": "unlock-cosmetics",
+  "slug": "unlock-cosmetics",
+  "type": "java-agent",
+  "name": "UnlockCosmetics",
+  "summary": "A Java agent committed in the original Lunar Client Qt repository to unlock client cosmetics.",
+  "description": "A Java agent committed in the original Lunar Client Qt repository to unlock client cosmetics.",
+  "authors": [
+    {
+      "name": "Nilsen84",
+      "url": "https://github.com/Nilsen84"
+    }
+  ],
+  "source": {
+    "repository": "https://github.com/Nilsen84/lunar-client-qt",
+    "archived": false,
+    "license": null,
+    "licenseUrl": null,
+    "latestCommit": {
+      "sha": "7c71733e320f851c4418860f7a10a953d5f7c998",
+      "date": "2023-08-01T23:43:28+02:00"
+    },
+    "automaticRedistributionPermitted": "unknown",
+    "notes": ""
+  },
+  "localizations": {
+    "en": {
+      "name": "UnlockCosmetics",
+      "summary": "A Java agent committed in the original Lunar Client Qt repository to unlock client cosmetics.",
+      "description": "A Java agent committed in the original Lunar Client Qt repository to unlock client cosmetics.",
+      "warnings": [
+        "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+        "No clear upstream license was found. Moonrise does not redistribute this binary.",
+        "The package name and launcher context indicate cosmetic entitlement unlocking; Moonrise does not bundle it."
+      ],
+      "changelog": ""
+    },
+    "ru": {
+      "name": "UnlockCosmetics",
+      "summary": "Java-агент из исходного Lunar Client Qt для разблокировки косметики клиента.",
+      "description": "Java-агент из исходного Lunar Client Qt для разблокировки косметики клиента.",
+      "warnings": [
+        "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера.",
+        "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл.",
+        "Название и контекст лаунчера указывают на разблокировку прав на косметику; Moonrise не включает пакет."
+      ],
+      "changelog": ""
+    }
+  },
+  "supportedMinecraftVersions": [],
+  "supportedClientVersions": [],
+  "compatibilityNotes": "Bundled in the archived original Lunar Client Qt; no supported Lunar build range is declared.",
+  "riskLevel": "unfair-advantage",
+  "installPolicy": "external-download",
+  "restricted": true,
+  "featured": false,
+  "recommended": false,
+  "distribution": {
+    "mode": "external-page",
+    "url": "https://github.com/Nilsen84/lunar-client-qt/blob/master/java/agents/UnlockCosmetics.jar",
+    "reason": ""
+  },
+  "releases": [],
+  "warnings": [
+    {
+      "code": "server-rules",
+      "en": "This behavior may provide an unfair advantage and may be prohibited by server rules.",
+      "ru": "Эта функция может давать нечестное преимущество и может быть запрещена правилами сервера."
+    },
+    {
+      "code": "missing-license",
+      "en": "No clear upstream license was found. Moonrise does not redistribute this binary.",
+      "ru": "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл."
+    },
+    {
+      "code": "entitlement-bypass",
+      "en": "The package name and launcher context indicate cosmetic entitlement unlocking; Moonrise does not bundle it.",
+      "ru": "Название и контекст лаунчера указывают на разблокировку прав на косметику; Moonrise не включает пакет."
+    }
+  ],
+  "inspection": {
+    "manifestType": "java-agent",
+    "entryPoints": [
+      "unlocker.n"
+    ],
+    "observedFileName": "UnlockCosmetics.jar",
+    "observedSha256": "cd24b33057f1fa4da6deb971a5ce50a479716672119d5a1fd6d6a0de89fe5318",
+    "observedSize": 577487,
+    "notes": ""
+  },
+  "todos": [
+    "Locate corresponding source and explicit redistribution permission."
+  ]
+}

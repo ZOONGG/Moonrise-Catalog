@@ -1,0 +1,103 @@
+{
+  "manifestVersion": 1,
+  "id": "stormy",
+  "slug": "stormy",
+  "type": "weave-mod",
+  "name": "Stormy",
+  "summary": "An archived, delisted Weave cheat client described upstream as mainly blatant.",
+  "description": "An archived, delisted Weave cheat client described upstream as mainly blatant.",
+  "authors": [
+    {
+      "name": "Tryflle",
+      "url": "https://github.com/Tryflle"
+    }
+  ],
+  "source": {
+    "repository": "https://github.com/Tryflle/stormy",
+    "archived": true,
+    "license": null,
+    "licenseUrl": null,
+    "latestCommit": {
+      "sha": "932bcce4244ab4c076ac0f8a20429811ea3faf0d",
+      "date": "2024-02-07T18:36:50-05:00"
+    },
+    "automaticRedistributionPermitted": "unknown",
+    "notes": ""
+  },
+  "localizations": {
+    "en": {
+      "name": "Stormy",
+      "summary": "An archived, delisted Weave cheat client described upstream as mainly blatant.",
+      "description": "An archived, delisted Weave cheat client described upstream as mainly blatant.",
+      "warnings": [
+        "Upstream describes this as a cheat, ghost, hacked, or mainly blatant client. Server rules may prohibit it; Moonrise does not bundle it.",
+        "No clear upstream license was found. Moonrise does not redistribute this binary."
+      ],
+      "changelog": "Upstream release."
+    },
+    "ru": {
+      "name": "Stormy",
+      "summary": "Архивный снятый с публикации чит-клиент Weave, описанный автором как преимущественно blatant.",
+      "description": "Архивный снятый с публикации чит-клиент Weave, описанный автором как преимущественно blatant.",
+      "warnings": [
+        "Вышестоящий проект описывает это как чит-, ghost-, hacked- или преимущественно blatant-клиент. Правила сервера могут запрещать его; Moonrise не включает его в поставку.",
+        "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл."
+      ],
+      "changelog": "Релиз вышестоящего проекта."
+    }
+  },
+  "supportedMinecraftVersions": [
+    "1.8.9"
+  ],
+  "supportedClientVersions": [],
+  "compatibilityNotes": "The archived project targets Weave 1.8.9.",
+  "riskLevel": "cheat-client",
+  "installPolicy": "external-download",
+  "restricted": true,
+  "featured": false,
+  "recommended": false,
+  "distribution": {
+    "mode": "external-page",
+    "url": "https://github.com/Tryflle/stormy/releases/tag/latest",
+    "reason": ""
+  },
+  "releases": [
+    {
+      "version": "1.0",
+      "publishedAt": "2024-02-07T23:38:25Z",
+      "changelog": {
+        "en": "Upstream release.",
+        "ru": "Релиз вышестоящего проекта."
+      },
+      "asset": {
+        "url": "https://github.com/Tryflle/stormy/releases/download/latest/Stormy-1.0.jar",
+        "fileName": "Stormy-1.0.jar",
+        "fileSize": 212361,
+        "sha256": "52ed9da4c4f570fd43b32671e0d94fa5fc9e441168645d2e3de054169374b021"
+      }
+    }
+  ],
+  "warnings": [
+    {
+      "code": "restricted-client",
+      "en": "Upstream describes this as a cheat, ghost, hacked, or mainly blatant client. Server rules may prohibit it; Moonrise does not bundle it.",
+      "ru": "Вышестоящий проект описывает это как чит-, ghost-, hacked- или преимущественно blatant-клиент. Правила сервера могут запрещать его; Moonrise не включает его в поставку."
+    },
+    {
+      "code": "missing-license",
+      "en": "No clear upstream license was found. Moonrise does not redistribute this binary.",
+      "ru": "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл."
+    }
+  ],
+  "inspection": {
+    "manifestType": "weave.mod.json",
+    "entryPoints": [
+      "me.tryfle.stormy.Main"
+    ],
+    "observedFileName": null,
+    "observedSha256": null,
+    "observedSize": null,
+    "notes": ""
+  },
+  "todos": []
+}

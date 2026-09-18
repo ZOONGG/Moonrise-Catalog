@@ -1,0 +1,96 @@
+{
+  "manifestVersion": 1,
+  "id": "nemui",
+  "slug": "nemui",
+  "type": "weave-mod",
+  "name": "Nemui",
+  "summary": "A Weave ghost client whose upstream description emphasizes bypassing servers.",
+  "description": "A Weave ghost client whose upstream description emphasizes bypassing servers.",
+  "authors": [
+    {
+      "name": "SleepyFish-YT",
+      "url": "https://github.com/SleepyFish-YT"
+    }
+  ],
+  "source": {
+    "repository": "https://github.com/SleepyFish-YT/Nemui",
+    "archived": false,
+    "license": "MIT",
+    "licenseUrl": "https://github.com/SleepyFish-YT/Nemui/blob/main/LICENSE",
+    "latestCommit": {
+      "sha": "90afc4afdd48fd713bea39afe64c3a52775771e4",
+      "date": "2025-01-25T00:06:10+01:00"
+    },
+    "automaticRedistributionPermitted": true,
+    "notes": ""
+  },
+  "localizations": {
+    "en": {
+      "name": "Nemui",
+      "summary": "A Weave ghost client whose upstream description emphasizes bypassing servers.",
+      "description": "A Weave ghost client whose upstream description emphasizes bypassing servers.",
+      "warnings": [
+        "Upstream describes this as a cheat, ghost, hacked, or mainly blatant client. Server rules may prohibit it; Moonrise does not bundle it."
+      ],
+      "changelog": "Upstream release."
+    },
+    "ru": {
+      "name": "Nemui",
+      "summary": "Ghost-клиент для Weave, в описании которого автор подчёркивает обход серверных проверок.",
+      "description": "Ghost-клиент для Weave, в описании которого автор подчёркивает обход серверных проверок.",
+      "warnings": [
+        "Вышестоящий проект описывает это как чит-, ghost-, hacked- или преимущественно blatant-клиент. Правила сервера могут запрещать его; Moonrise не включает его в поставку."
+      ],
+      "changelog": "Релиз вышестоящего проекта."
+    }
+  },
+  "supportedMinecraftVersions": [
+    "1.8.9"
+  ],
+  "supportedClientVersions": [],
+  "compatibilityNotes": "The inspected weave.mod.json explicitly declares compiledFor 1.8.9. The separate 1.5 Forge release is not indexed as a Weave artifact.",
+  "riskLevel": "cheat-client",
+  "installPolicy": "external-download",
+  "restricted": true,
+  "featured": false,
+  "recommended": false,
+  "distribution": {
+    "mode": "external-page",
+    "url": "https://github.com/SleepyFish-YT/Nemui/releases/tag/v1.5",
+    "reason": ""
+  },
+  "releases": [
+    {
+      "version": "1.5",
+      "publishedAt": "2025-01-24T23:05:48Z",
+      "changelog": {
+        "en": "Upstream release.",
+        "ru": "Релиз вышестоящего проекта."
+      },
+      "asset": {
+        "url": "https://github.com/SleepyFish-YT/Nemui/releases/download/v1.5/Nemui-v1.5.jar",
+        "fileName": "Nemui-v1.5.jar",
+        "fileSize": 593719,
+        "sha256": "ed91773852c7bd94969e3df8138a1b2491d9af01c70c386fe900cd95dc152d14"
+      }
+    }
+  ],
+  "warnings": [
+    {
+      "code": "restricted-client",
+      "en": "Upstream describes this as a cheat, ghost, hacked, or mainly blatant client. Server rules may prohibit it; Moonrise does not bundle it.",
+      "ru": "Вышестоящий проект описывает это как чит-, ghost-, hacked- или преимущественно blatant-клиент. Правила сервера могут запрещать его; Moonrise не включает его в поставку."
+    }
+  ],
+  "inspection": {
+    "manifestType": "weave.mod.json",
+    "entryPoints": [
+      "me.sleepyfish.nemui.client.Entrypoint"
+    ],
+    "observedFileName": null,
+    "observedSha256": null,
+    "observedSize": null,
+    "notes": ""
+  },
+  "todos": []
+}

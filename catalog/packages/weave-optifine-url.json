@@ -1,0 +1,86 @@
+{
+  "manifestVersion": 1,
+  "id": "weave-optifine-url",
+  "slug": "weave-optifine-url",
+  "type": "weave-mod",
+  "name": "Weave OptiFine URL",
+  "summary": "Lets users configure a replacement URL for the OptiFine cape server.",
+  "description": "Lets users configure a replacement URL for the OptiFine cape server.",
+  "authors": [
+    {
+      "name": "770grappenmaker",
+      "url": "https://github.com/770grappenmaker"
+    }
+  ],
+  "source": {
+    "repository": "https://github.com/770grappenmaker/weave-optifine-url",
+    "archived": false,
+    "license": "Unlicense",
+    "licenseUrl": "https://github.com/770grappenmaker/weave-optifine-url/blob/main/LICENSE.md",
+    "latestCommit": {
+      "sha": "db02af4b74d237eb7eab861baddb040ba6db1ee9",
+      "date": "2023-10-06T18:48:57+02:00"
+    },
+    "automaticRedistributionPermitted": true,
+    "notes": ""
+  },
+  "localizations": {
+    "en": {
+      "name": "Weave OptiFine URL",
+      "summary": "Lets users configure a replacement URL for the OptiFine cape server.",
+      "description": "Lets users configure a replacement URL for the OptiFine cape server.",
+      "warnings": [],
+      "changelog": "Upstream release."
+    },
+    "ru": {
+      "name": "Weave OptiFine URL",
+      "summary": "Позволяет задать другой URL сервера плащей OptiFine.",
+      "description": "Позволяет задать другой URL сервера плащей OptiFine.",
+      "warnings": [],
+      "changelog": "Релиз вышестоящего проекта."
+    }
+  },
+  "supportedMinecraftVersions": [
+    "1.8.9"
+  ],
+  "supportedClientVersions": [],
+  "compatibilityNotes": "README explicitly assumes Minecraft 1.8.9 and does not assume a specific client.",
+  "riskLevel": "normal",
+  "installPolicy": "one-click",
+  "restricted": false,
+  "featured": false,
+  "recommended": false,
+  "distribution": {
+    "mode": "github-release",
+    "url": "https://github.com/770grappenmaker/weave-optifine-url/releases",
+    "reason": ""
+  },
+  "releases": [
+    {
+      "version": "0.2",
+      "publishedAt": "2023-10-06T16:51:35Z",
+      "changelog": {
+        "en": "Upstream release.",
+        "ru": "Релиз вышестоящего проекта."
+      },
+      "asset": {
+        "url": "https://github.com/770grappenmaker/weave-optifine-url/releases/download/v0.2/weave-optifine-url-0.2.jar",
+        "fileName": "weave-optifine-url-0.2.jar",
+        "fileSize": 14440,
+        "sha256": "d7bbd1239ddd664615ad696fc2b5a2fc9204dc4a4f4890100aef604b90f1f6a2"
+      }
+    }
+  ],
+  "warnings": [],
+  "inspection": {
+    "manifestType": "weave.mod.json",
+    "entryPoints": [
+      "com.grappenmaker.optifineweave.WeaveOptifineURL"
+    ],
+    "observedFileName": null,
+    "observedSha256": null,
+    "observedSize": null,
+    "notes": ""
+  },
+  "todos": []
+}

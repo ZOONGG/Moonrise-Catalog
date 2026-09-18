@@ -1,0 +1,192 @@
+[
+  {
+    "repository": "https://github.com/Nilsen84/lunar-client-agents",
+    "result": "cataloged",
+    "reason": "Eleven Java-agent subprojects found and indexed."
+  },
+  {
+    "repository": "https://github.com/Youded-byte/youded-lunar-client-agents",
+    "result": "cataloged",
+    "reason": "Three committed/released Java agents found and indexed."
+  },
+  {
+    "repository": "https://github.com/Youded-byte/LunarBetterHurtCam",
+    "result": "cataloged",
+    "reason": "Archived Java agent with release assets."
+  },
+  {
+    "repository": "https://github.com/Youded-byte/FastPlace-Agent",
+    "result": "cataloged",
+    "reason": "Java agent; restricted due to zero placement delay."
+  },
+  {
+    "repository": "https://github.com/Youded-byte/NeverHurtCam",
+    "result": "cataloged",
+    "reason": "Java agent with upstream release."
+  },
+  {
+    "repository": "https://github.com/Youded-byte/unrestricted",
+    "result": "cataloged",
+    "reason": "Weave mod; missing license and restricted features."
+  },
+  {
+    "repository": "https://github.com/exejar/Seraph",
+    "result": "cataloged",
+    "reason": "Weave mod source; no release or license."
+  },
+  {
+    "repository": "https://github.com/alextyhwang/ATWs-Levelhead",
+    "result": "cataloged",
+    "reason": "Weave 1.8.9 package with release asset; no license."
+  },
+  {
+    "repository": "https://github.com/Monmcgt/LunarAgent-Weave",
+    "result": "cataloged",
+    "reason": "GitHub release wrapper points to Celestial source on GitLab."
+  },
+  {
+    "repository": "https://gitlab.com/Candicey/lunar-agent",
+    "result": "cataloged",
+    "reason": "Direct Celestial source inspected."
+  },
+  {
+    "repository": "https://github.com/770grappenmaker/weave-optifine-url",
+    "result": "cataloged",
+    "reason": "Weave 1.8.9 package with licensed release."
+  },
+  {
+    "repository": "https://github.com/thaYt/oofmod",
+    "result": "cataloged",
+    "reason": "Weave mod with GPL release."
+  },
+  {
+    "repository": "https://github.com/Tryflle/WeaveSlowMining",
+    "result": "cataloged",
+    "reason": "Weave mod with GPL release."
+  },
+  {
+    "repository": "https://github.com/Tryflle/weavebasicflight",
+    "result": "cataloged",
+    "reason": "Weave flight mod, restricted."
+  },
+  {
+    "repository": "https://github.com/imyanice/mm-utils",
+    "result": "cataloged",
+    "reason": "Murder Mystery utility with role detection and ESP; restricted."
+  },
+  {
+    "repository": "https://github.com/Nilsen84/WeaveNoHitDelay",
+    "result": "cataloged",
+    "reason": "NoHitDelay Weave mod; missing license and restricted."
+  },
+  {
+    "repository": "https://github.com/ballmc/AntiShuffle",
+    "result": "unavailable",
+    "reason": "GitHub returned 404; retained as unavailable catalog entry."
+  },
+  {
+    "repository": "https://github.com/Tryflle/stormy",
+    "result": "cataloged",
+    "reason": "Archived/delisted cheat client; restricted."
+  },
+  {
+    "repository": "https://github.com/PianoPenguin471/RavenWeave",
+    "result": "cataloged",
+    "reason": "Archived Weave cheat client; restricted."
+  },
+  {
+    "repository": "https://github.com/SleepyFish-YT/Nemui",
+    "result": "cataloged",
+    "reason": "Weave ghost client; restricted."
+  },
+  {
+    "repository": "https://github.com/Hzqkii/Fractal-Weave",
+    "result": "cataloged",
+    "reason": "Weave cheat client with non-commercial license; restricted."
+  },
+  {
+    "repository": "https://github.com/fan87/SpookySky",
+    "result": "cataloged",
+    "reason": "Java-agent hacked client with no release; source-only and restricted."
+  },
+  {
+    "repository": "https://github.com/Youded-byte/lunar-client-qt",
+    "result": "reference/cataloged",
+    "reason": "Launcher source inspected; five committed agent JARs found, including two unique helpers."
+  },
+  {
+    "repository": "https://github.com/Nilsen84/lunar-client-qt",
+    "result": "reference/cataloged",
+    "reason": "Original launcher inspected; unique UnlockCosmetics agent found."
+  },
+  {
+    "repository": "https://github.com/Monmcgt/Lunar-Agent",
+    "result": "cataloged",
+    "reason": "Legacy Java agent with ESP/tracers; source-only and restricted."
+  },
+  {
+    "repository": "https://github.com/Weave-MC/Weave-Loader",
+    "result": "cataloged",
+    "reason": "Loader itself is a released Java agent and was indexed."
+  },
+  {
+    "repository": "https://github.com/Weave-MC/ExampleMod",
+    "result": "rejected",
+    "reason": "Development template, not a distributable end-user package."
+  },
+  {
+    "repository": "https://github.com/Weave-MC/ExampleMod-Kotlin",
+    "result": "rejected",
+    "reason": "Development template, not a distributable end-user package."
+  },
+  {
+    "repository": "https://github.com/Weave-MC/Weave-Manager",
+    "result": "rejected",
+    "reason": "Launcher/manager application, not a Weave mod or Java agent package."
+  },
+  {
+    "repository": "https://github.com/Weave-MC/weavemc.net",
+    "result": "rejected",
+    "reason": "Empty website repository; no package manifests or binaries."
+  },
+  {
+    "repository": "https://github.com/Weave-MC/Weave-Gradle",
+    "result": "rejected",
+    "reason": "Build plugin, not an end-user mod or Java agent."
+  },
+  {
+    "repository": "https://github.com/Weave-MC/Weave-Internals",
+    "result": "rejected",
+    "reason": "Archived loader internals library, not a standalone end-user package."
+  },
+  {
+    "repository": "https://github.com/Weave-MC/mappings-util",
+    "result": "rejected",
+    "reason": "Mappings library, not a standalone mod or Java agent."
+  },
+  {
+    "repository": "https://github.com/Weave-MC/.github",
+    "result": "rejected",
+    "reason": "Organization profile repository."
+  },
+  {
+    "repository": "https://github.com/ZOONGG/Moonrise",
+    "result": "integration",
+    "reason": "Moonrise application integration target; local package artifacts were inspected but not committed."
+  },
+  {
+    "repository": "https://github.com/ZOONGG/Moonrise-Catalog",
+    "result": "catalog",
+    "reason": "Target catalog repository."
+  },
+  {
+    "repository": "https://gist.github.com/Scherso/6cb3c1e435cc2c7e22ab4066e5c76779",
+    "result": "reference",
+    "reason": "Launch script references Weave Loader only; no unique package discovered."
+  },
+  {
+    "repository": "https://github.com/topics/lunarclient",
+    "result": "research",
+    "reason": "Public topic listing was examined; unrelated launchers/Fabric projects were rejected."
+  }
+]

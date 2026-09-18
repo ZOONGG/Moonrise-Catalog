@@ -1,0 +1,93 @@
+{
+  "manifestVersion": 1,
+  "id": "weave-loader",
+  "slug": "weave-loader",
+  "type": "java-agent",
+  "name": "Weave Loader",
+  "summary": "The universal Weave mod loader distributed as a Java premain agent.",
+  "description": "The universal Weave mod loader distributed as a Java premain agent.",
+  "authors": [
+    {
+      "name": "Weave-MC",
+      "url": "https://github.com/Weave-MC"
+    }
+  ],
+  "source": {
+    "repository": "https://github.com/Weave-MC/Weave-Loader",
+    "archived": false,
+    "license": "GPL-3.0-only",
+    "licenseUrl": "https://github.com/Weave-MC/Weave-Loader/blob/master/LICENSE",
+    "latestCommit": {
+      "sha": "e7d18d2b4ce3585acb86c364e262457036b474d8",
+      "date": "2026-07-27T03:11:52+07:00"
+    },
+    "automaticRedistributionPermitted": true,
+    "notes": ""
+  },
+  "localizations": {
+    "en": {
+      "name": "Weave Loader",
+      "summary": "The universal Weave mod loader distributed as a Java premain agent.",
+      "description": "The universal Weave mod loader distributed as a Java premain agent.",
+      "warnings": [],
+      "changelog": "Fixed Forge on 1.8 and updated diagnostics/system properties."
+    },
+    "ru": {
+      "name": "Weave Loader",
+      "summary": "Универсальный загрузчик модов Weave, распространяемый как Java premain-агент.",
+      "description": "Универсальный загрузчик модов Weave, распространяемый как Java premain-агент.",
+      "warnings": [],
+      "changelog": "Исправлена работа Forge на 1.8 и обновлены диагностика/системные свойства."
+    }
+  },
+  "supportedMinecraftVersions": [
+    "1.7.x",
+    "1.8.x",
+    "1.12.x",
+    "1.21.x"
+  ],
+  "supportedClientVersions": [
+    "Lunar Client",
+    "Vanilla",
+    "Forge"
+  ],
+  "compatibilityNotes": "The upstream compatibility table lists Lunar Client and Minecraft 1.7, 1.8, 1.12, and 1.21; Forge 1.7 is explicitly unsupported.",
+  "riskLevel": "normal",
+  "installPolicy": "one-click",
+  "restricted": false,
+  "featured": false,
+  "recommended": false,
+  "distribution": {
+    "mode": "github-release",
+    "url": "https://github.com/Weave-MC/Weave-Loader/releases",
+    "reason": ""
+  },
+  "releases": [
+    {
+      "version": "1.3.4",
+      "publishedAt": "2026-07-23T16:34:00Z",
+      "changelog": {
+        "en": "Fixed Forge on 1.8 and updated diagnostics/system properties.",
+        "ru": "Исправлена работа Forge на 1.8 и обновлены диагностика/системные свойства."
+      },
+      "asset": {
+        "url": "https://github.com/Weave-MC/Weave-Loader/releases/download/1.3.4/Weave-Loader-Agent-1.3.4.jar",
+        "fileName": "Weave-Loader-Agent-1.3.4.jar",
+        "fileSize": 10846268,
+        "sha256": "013b7b9a4ca01a473a1ffc0b031c843c70fe61616e9048fb326e03794c8457b7"
+      }
+    }
+  ],
+  "warnings": [],
+  "inspection": {
+    "manifestType": "java-agent",
+    "entryPoints": [
+      "net.weavemc.loader.impl.bootstrap.AgentKt"
+    ],
+    "observedFileName": null,
+    "observedSha256": null,
+    "observedSize": null,
+    "notes": ""
+  },
+  "todos": []
+}

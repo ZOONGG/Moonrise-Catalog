@@ -1,0 +1,96 @@
+{
+  "manifestVersion": 1,
+  "id": "lunar-performance",
+  "slug": "lunar-performance",
+  "type": "java-agent",
+  "name": "LunarPerformance",
+  "summary": "Applies upstream performance patches to Minecraft and surrounding mods.",
+  "description": "Applies upstream performance patches to Minecraft and surrounding mods.",
+  "authors": [
+    {
+      "name": "Youded-byte",
+      "url": "https://github.com/Youded-byte"
+    }
+  ],
+  "source": {
+    "repository": "https://github.com/Youded-byte/youded-lunar-client-agents",
+    "archived": false,
+    "license": "GPL-2.0-only",
+    "licenseUrl": "https://github.com/Youded-byte/youded-lunar-client-agents/blob/main/LICENSE",
+    "latestCommit": {
+      "sha": "2a6453c0de29849eaca48dff4eb45d407ebb9941",
+      "date": "2022-05-18T20:59:25+02:00"
+    },
+    "automaticRedistributionPermitted": true,
+    "notes": ""
+  },
+  "localizations": {
+    "en": {
+      "name": "LunarPerformance",
+      "summary": "Applies upstream performance patches to Minecraft and surrounding mods.",
+      "description": "Applies upstream performance patches to Minecraft and surrounding mods.",
+      "warnings": [
+        "Bytecode performance patches can be sensitive to Lunar Client updates."
+      ],
+      "changelog": "Release v1.1."
+    },
+    "ru": {
+      "name": "LunarPerformance",
+      "summary": "Применяет патчи производительности автора к Minecraft и связанным модам.",
+      "description": "Применяет патчи производительности автора к Minecraft и связанным модам.",
+      "warnings": [
+        "Патчи байткода для производительности могут зависеть от обновлений Lunar Client."
+      ],
+      "changelog": "Релиз v1.1."
+    }
+  },
+  "supportedMinecraftVersions": [],
+  "supportedClientVersions": [
+    "Lunar Client"
+  ],
+  "compatibilityNotes": "Designed for Lunar Client via a Java premain agent; no stable Lunar build range is declared.",
+  "riskLevel": "experimental",
+  "installPolicy": "confirmation-required",
+  "restricted": false,
+  "featured": false,
+  "recommended": false,
+  "distribution": {
+    "mode": "github-release",
+    "url": "https://github.com/Youded-byte/youded-lunar-client-agents/releases",
+    "reason": ""
+  },
+  "releases": [
+    {
+      "version": "1.1",
+      "publishedAt": "2022-05-18T18:58:42Z",
+      "changelog": {
+        "en": "Release v1.1.",
+        "ru": "Релиз v1.1."
+      },
+      "asset": {
+        "url": "https://github.com/Youded-byte/youded-lunar-client-agents/releases/download/v1.1/LunarPerformance.jar",
+        "fileName": "LunarPerformance.jar",
+        "fileSize": 4558,
+        "sha256": "a60e3f4014ec8e6c2b853aada490b6ee27196129e8791a847557f50e388910ae"
+      }
+    }
+  ],
+  "warnings": [
+    {
+      "code": "experimental-patches",
+      "en": "Bytecode performance patches can be sensitive to Lunar Client updates.",
+      "ru": "Патчи байткода для производительности могут зависеть от обновлений Lunar Client."
+    }
+  ],
+  "inspection": {
+    "manifestType": "java-agent",
+    "entryPoints": [
+      "me.youded.LunarPerformance.Agent"
+    ],
+    "observedFileName": null,
+    "observedSha256": null,
+    "observedSize": null,
+    "notes": ""
+  },
+  "todos": []
+}

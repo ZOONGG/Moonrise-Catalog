@@ -1,0 +1,86 @@
+{
+  "manifestVersion": 1,
+  "id": "teams-auto-gg",
+  "slug": "teams-auto-gg",
+  "type": "java-agent",
+  "name": "TeamsAutoGG",
+  "summary": "Makes Lunar Client AutoGG work in team duels according to upstream.",
+  "description": "Makes Lunar Client AutoGG work in team duels according to upstream.",
+  "authors": [
+    {
+      "name": "Nilsen84",
+      "url": "https://github.com/Nilsen84"
+    }
+  ],
+  "source": {
+    "repository": "https://github.com/Nilsen84/lunar-client-agents",
+    "archived": false,
+    "license": "GPL-3.0-only",
+    "licenseUrl": "https://github.com/Nilsen84/lunar-client-agents/blob/master/LICENSE",
+    "latestCommit": {
+      "sha": "9169a0dd9959cb41f21ebd6ede3b26e3c6fd16ce",
+      "date": "2022-07-20T19:44:24+02:00"
+    },
+    "automaticRedistributionPermitted": true,
+    "notes": ""
+  },
+  "localizations": {
+    "en": {
+      "name": "TeamsAutoGG",
+      "summary": "Makes Lunar Client AutoGG work in team duels according to upstream.",
+      "description": "Makes Lunar Client AutoGG work in team duels according to upstream.",
+      "warnings": [],
+      "changelog": "Release v1.2.0."
+    },
+    "ru": {
+      "name": "TeamsAutoGG",
+      "summary": "Обеспечивает работу AutoGG Lunar Client в командных дуэлях согласно описанию автора.",
+      "description": "Обеспечивает работу AutoGG Lunar Client в командных дуэлях согласно описанию автора.",
+      "warnings": [],
+      "changelog": "Релиз v1.2.0."
+    }
+  },
+  "supportedMinecraftVersions": [],
+  "supportedClientVersions": [
+    "Lunar Client"
+  ],
+  "compatibilityNotes": "Designed for Lunar Client via a Java premain agent; the upstream repository does not declare a stable Lunar build range.",
+  "riskLevel": "normal",
+  "installPolicy": "one-click",
+  "restricted": false,
+  "featured": false,
+  "recommended": false,
+  "distribution": {
+    "mode": "github-release",
+    "url": "https://github.com/Nilsen84/lunar-client-agents/releases",
+    "reason": ""
+  },
+  "releases": [
+    {
+      "version": "1.2.0",
+      "publishedAt": "2022-07-20T17:45:58Z",
+      "changelog": {
+        "en": "Release v1.2.0.",
+        "ru": "Релиз v1.2.0."
+      },
+      "asset": {
+        "url": "https://github.com/Nilsen84/lunar-client-agents/releases/download/v1.2.0/TeamsAutoGG.jar",
+        "fileName": "TeamsAutoGG.jar",
+        "fileSize": 179248,
+        "sha256": "42368242a5c39bda7978c643439fa97eda44d1eecdeb26150533f69d54e20cd2"
+      }
+    }
+  ],
+  "warnings": [],
+  "inspection": {
+    "manifestType": "java-agent",
+    "entryPoints": [
+      "me.onils.teamsautogg.Agent"
+    ],
+    "observedFileName": null,
+    "observedSha256": null,
+    "observedSize": null,
+    "notes": ""
+  },
+  "todos": []
+}

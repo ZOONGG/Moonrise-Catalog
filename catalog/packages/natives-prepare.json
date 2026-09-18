@@ -1,0 +1,88 @@
+{
+  "manifestVersion": 1,
+  "id": "natives-prepare",
+  "slug": "natives-prepare",
+  "type": "java-agent",
+  "name": "NativesPrepare",
+  "summary": "A Lunar Client Qt helper agent used to prepare the native library path before launch.",
+  "description": "A Lunar Client Qt helper agent used to prepare the native library path before launch.",
+  "authors": [
+    {
+      "name": "Youded-byte",
+      "url": "https://github.com/Youded-byte"
+    }
+  ],
+  "source": {
+    "repository": "https://github.com/Youded-byte/lunar-client-qt",
+    "archived": false,
+    "license": null,
+    "licenseUrl": null,
+    "latestCommit": {
+      "sha": "8a5a8f9a12a9d620301cf0428154ef8551e0650b",
+      "date": "2024-02-27T21:47:12+02:00"
+    },
+    "automaticRedistributionPermitted": "unknown",
+    "notes": ""
+  },
+  "localizations": {
+    "en": {
+      "name": "NativesPrepare",
+      "summary": "A Lunar Client Qt helper agent used to prepare the native library path before launch.",
+      "description": "A Lunar Client Qt helper agent used to prepare the native library path before launch.",
+      "warnings": [
+        "No clear upstream license was found. Moonrise does not redistribute this binary.",
+        "This is a launcher implementation helper, not a general-purpose user mod."
+      ],
+      "changelog": ""
+    },
+    "ru": {
+      "name": "NativesPrepare",
+      "summary": "Служебный агент Lunar Client Qt для подготовки пути нативных библиотек перед запуском.",
+      "description": "Служебный агент Lunar Client Qt для подготовки пути нативных библиотек перед запуском.",
+      "warnings": [
+        "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл.",
+        "Это служебный компонент лаунчера, а не пользовательский мод общего назначения."
+      ],
+      "changelog": ""
+    }
+  },
+  "supportedMinecraftVersions": [],
+  "supportedClientVersions": [],
+  "compatibilityNotes": "Used internally by Lunar Client Qt; independent installation is not documented.",
+  "riskLevel": "experimental",
+  "installPolicy": "unavailable",
+  "restricted": false,
+  "featured": false,
+  "recommended": false,
+  "distribution": {
+    "mode": "external-page",
+    "url": "https://github.com/Youded-byte/lunar-client-qt/blob/master/java/agents/NativesPrepare.jar",
+    "reason": ""
+  },
+  "releases": [],
+  "warnings": [
+    {
+      "code": "missing-license",
+      "en": "No clear upstream license was found. Moonrise does not redistribute this binary.",
+      "ru": "Явная лицензия вышестоящего проекта не найдена. Moonrise не распространяет этот бинарный файл."
+    },
+    {
+      "code": "launcher-helper",
+      "en": "This is a launcher implementation helper, not a general-purpose user mod.",
+      "ru": "Это служебный компонент лаунчера, а не пользовательский мод общего назначения."
+    }
+  ],
+  "inspection": {
+    "manifestType": "java-agent",
+    "entryPoints": [
+      "me.youded.NativesPrepare.Agent"
+    ],
+    "observedFileName": "NativesPrepare.jar",
+    "observedSha256": "cd52fecebd4c5a1cc29f6978b3366daeabdfaa0d5a080304e39caa0272fd993d",
+    "observedSize": 3156,
+    "notes": ""
+  },
+  "todos": [
+    "Identify source and supported launch environments before making this installable."
+  ]
+}
